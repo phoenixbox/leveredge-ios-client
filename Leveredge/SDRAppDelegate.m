@@ -7,6 +7,7 @@
 //
 
 #import "SDRAppDelegate.h"
+#import "SDRLoginViewController.h"
 
 @implementation SDRAppDelegate
 
@@ -14,6 +15,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    SDRLoginViewController *loginViewController = [[SDRLoginViewController alloc]init];
+    
+    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:loginViewController];
+    
+    [[self window] setRootViewController:navController];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

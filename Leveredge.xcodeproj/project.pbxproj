@@ -19,6 +19,7 @@
 		CBE3D501189594B600BB0671 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E9189594B600BB0671 /* UIKit.framework */; };
 		CBE3D509189594B600BB0671 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBE3D507189594B600BB0671 /* InfoPlist.strings */; };
 		CBE3D50B189594B600BB0671 /* LeveredgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE3D50A189594B600BB0671 /* LeveredgeTests.m */; };
+		CBE3D5171895961300BB0671 /* SDRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE3D5161895961300BB0671 /* SDRLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		CBE3D506189594B600BB0671 /* LeveredgeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeveredgeTests-Info.plist"; sourceTree = "<group>"; };
 		CBE3D508189594B600BB0671 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBE3D50A189594B600BB0671 /* LeveredgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeveredgeTests.m; sourceTree = "<group>"; };
+		CBE3D5151895961300BB0671 /* SDRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRLoginViewController.h; sourceTree = "<group>"; };
+		CBE3D5161895961300BB0671 /* SDRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		CBE3D4EB189594B600BB0671 /* Leveredge */ = {
 			isa = PBXGroup;
 			children = (
+				CBE3D5141895957D00BB0671 /* ViewControllers */,
 				CBE3D4F4189594B600BB0671 /* SDRAppDelegate.h */,
 				CBE3D4F5189594B600BB0671 /* SDRAppDelegate.m */,
 				CBE3D4F7189594B600BB0671 /* Images.xcassets */,
@@ -142,6 +146,15 @@
 				CBE3D507189594B600BB0671 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBE3D5141895957D00BB0671 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBE3D5151895961300BB0671 /* SDRLoginViewController.h */,
+				CBE3D5161895961300BB0671 /* SDRLoginViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBE3D4F6189594B600BB0671 /* SDRAppDelegate.m in Sources */,
+				CBE3D5171895961300BB0671 /* SDRLoginViewController.m in Sources */,
 				CBE3D4F2189594B600BB0671 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
