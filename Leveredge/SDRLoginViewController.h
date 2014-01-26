@@ -10,11 +10,12 @@
 
 @interface SDRLoginViewController : UIViewController <UITextFieldDelegate>
 
-@property (strong, nonatomic)UILabel *logoLabel;
+@property (nonatomic, strong) UILabel *logoLabel;
 
-@property (strong, nonatomic)UITextField *emailField;
-@property (strong, nonatomic)UITextField *passwordField;
+@property (nonatomic, strong)UIScrollView *scrollView;
+@property (nonatomic, strong)UITextField *emailField;
+@property (nonatomic, strong)UITextField *passwordField;
 
-@property (strong, nonatomic)UIButton *loginButton;
+@property (nonatomic, strong)UIButton *loginButton;
 
 @end
