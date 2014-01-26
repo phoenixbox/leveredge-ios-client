@@ -51,6 +51,7 @@
 		CBE3D50A189594B600BB0671 /* LeveredgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeveredgeTests.m; sourceTree = "<group>"; };
 		CBE3D5151895961300BB0671 /* SDRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRLoginViewController.h; sourceTree = "<group>"; };
 		CBE3D5161895961300BB0671 /* SDRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRLoginViewController.m; sourceTree = "<group>"; };
+		CBE3D5191895A4D100BB0671 /* SDRViewConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDRViewConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 		CBE3D4EB189594B600BB0671 /* Leveredge */ = {
 			isa = PBXGroup;
 			children = (
+				CBE3D5181895A4B300BB0671 /* View Constants */,
 				CBE3D5141895957D00BB0671 /* ViewControllers */,
 				CBE3D4F4189594B600BB0671 /* SDRAppDelegate.h */,
 				CBE3D4F5189594B600BB0671 /* SDRAppDelegate.m */,
@@ -155,6 +157,14 @@
 				CBE3D5161895961300BB0671 /* SDRLoginViewController.m */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CBE3D5181895A4B300BB0671 /* View Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CBE3D5191895A4D100BB0671 /* SDRViewConstants.h */,
+			);
+			name = "View Constants";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,6 +468,7 @@
 				CBE3D510189594B600BB0671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE3D511189594B600BB0671 /* Build configuration list for PBXNativeTarget "LeveredgeTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +477,7 @@
 				CBE3D513189594B600BB0671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

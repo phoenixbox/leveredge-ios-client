@@ -7,6 +7,7 @@
 //
 
 #import "SDRLoginViewController.h"
+#import "SDRViewConstants.h"
 
 @interface SDRLoginViewController ()
 
@@ -41,6 +42,7 @@
 - (void)renderForm {
     [self renderEmailField];
     [self renderPasswordField];
+    [self renderLoginButton];
 }
 
 - (void)renderEmailField {
@@ -52,7 +54,7 @@
     [self formatTextField:self.emailField];
 }
 
--(void)renderPasswordField {
+- (void)renderPasswordField {
     CGRect passwordFieldFrame = self.emailField.frame;
     passwordFieldFrame.origin.y += self.emailField.frame.size.height + 10;
     self.passwordField = [[UITextField alloc] initWithFrame:passwordFieldFrame];
@@ -60,6 +62,24 @@
     self.passwordField.text = @"password";
     
     [self formatTextField:self.passwordField];
+}
+
+- (void)renderLoginButton {
+    CGRect loginButtonFrame = self.passwordField.frame;
+    loginButtonFrame.origin.y += self.passwordField.frame.size.height + 10;
+    self.loginButton = [[UIButton alloc]initWithFrame:loginButtonFrame];
+    [self.loginButton setTitle:@"Login" forState:UIControlStateNormal];
+    [self.loginButton setTitleColor:kPureWhite forState:UIControlStateNormal];
+    self.loginButton.backgroundColor = kLoginButtonColor;
+    
+    [self.loginButton addTarget:self action:@selector(loginButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.scrollView addSubview:self.loginButton];
+}
+
+- (void)loginButtonPressed:(id)paramSender {
+    NSLog(@"Email Field is: %@", self.emailField.text);
+    NSLog(@"Password Field is: %@", self.passwordField.text);
 }
 
 - (void)formatTextField:(UITextField *)textField {
