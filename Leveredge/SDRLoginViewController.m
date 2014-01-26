@@ -40,9 +40,31 @@
 }
 
 - (void)renderForm {
+    [self renderLogoPlaceholderAndSubheader];
     [self renderEmailField];
     [self renderPasswordField];
     [self renderLoginButton];
+}
+
+- (void)renderLogoPlaceholderAndSubheader {
+    //
+    self.logoLabel = [[UILabel alloc]initWithFrame:CGRectMake(0.0f,0.0f, 250.0f, 50.0f)];
+    [self.logoLabel setCenter:CGPointMake(self.view.frame.size.width/2, 100.0f)];
+    [self.logoLabel setText:@"Leveredge"];
+    [self.logoLabel setFont:[UIFont systemFontOfSize:35.0f]];
+    self.logoLabel.textAlignment = NSTextAlignmentCenter;
+    
+    CGRect logoSubheaderFrame = self.logoLabel.frame;
+
+    logoSubheaderFrame.origin.y += self.logoLabel.frame.size.height + 10;
+    self.logoSubHeader = [[UITextView alloc]initWithFrame:logoSubheaderFrame];
+    self.logoSubHeader.contentInset = UIEdgeInsetsMake(10.0f, 0.0f, 0.0f, 0.0f);
+    [self.logoSubHeader setText:@"Don't just realize your purchasing power, Leveredge it"];
+    [self.logoSubHeader setFont:[UIFont systemFontOfSize:12.0f]];
+    self.logoSubHeader.textAlignment = NSTextAlignmentCenter;
+    
+    [self.scrollView addSubview:self.logoLabel];
+    [self.scrollView addSubview:self.logoSubHeader];
 }
 
 - (void)renderEmailField {

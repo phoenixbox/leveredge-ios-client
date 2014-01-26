@@ -11,6 +11,7 @@
 @interface SDRLoginViewController : UIViewController <UITextFieldDelegate>
 
 @property (nonatomic, strong) UILabel *logoLabel;
+@property (nonatomic, strong) UITextView *logoSubHeader;
 
 @property (nonatomic, strong)UIScrollView *scrollView;
 @property (nonatomic, strong)UITextField *emailField;
