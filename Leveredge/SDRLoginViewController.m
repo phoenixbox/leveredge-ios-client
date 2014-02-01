@@ -8,6 +8,7 @@
 
 #import "SDRLoginViewController.h"
 #import "SDRViewConstants.h"
+#import "SDRAppDelegate.h"
 
 @interface SDRLoginViewController ()
 
@@ -56,7 +57,7 @@
     
     CGRect logoSubheaderFrame = self.logoLabel.frame;
 
-    logoSubheaderFrame.origin.y += self.logoLabel.frame.size.height + 10;
+    logoSubheaderFrame.origin.y += logoSubheaderFrame.size.height + 10;
     self.logoSubHeader = [[UITextView alloc]initWithFrame:logoSubheaderFrame];
     self.logoSubHeader.contentInset = UIEdgeInsetsMake(10.0f, 0.0f, 0.0f, 0.0f);
     [self.logoSubHeader setText:@"Don't just realize your purchasing power, Leveredge it"];
@@ -94,14 +95,19 @@
     [self.loginButton setTitleColor:kPureWhite forState:UIControlStateNormal];
     self.loginButton.backgroundColor = kLoginButtonColor;
     
-    [self.loginButton addTarget:self action:@selector(loginButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    [self.loginButton addTarget:self action:@selector(login:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.scrollView addSubview:self.loginButton];
 }
 
-- (void)loginButtonPressed:(id)paramSender {
+- (void)login:(id)paramSender {
+    //    TODO: Success Callback
+    SDRAppDelegate *appDelegate = [[UIApplication sharedApplication]delegate];
+    [appDelegate initializeNavigationController];
+    
     NSLog(@"Email Field is: %@", self.emailField.text);
     NSLog(@"Password Field is: %@", self.passwordField.text);
+    
 }
 
 - (void)formatTextField:(UITextField *)textField {

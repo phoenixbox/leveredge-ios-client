@@ -8,6 +8,7 @@
 
 #import "SDRAppDelegate.h"
 #import "SDRLoginViewController.h"
+#import "SDRVendorsListViewController.h"
 
 @implementation SDRAppDelegate
 
@@ -16,10 +17,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     SDRLoginViewController *loginViewController = [[SDRLoginViewController alloc]init];
-    
-    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:loginViewController];
-    
-    [[self window] setRootViewController:navController];
+    [[self window] setRootViewController:loginViewController];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
@@ -51,6 +49,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)initializeNavigationController{
+    SDRVendorsListViewController *vendorsViewController = [SDRVendorsListViewController new];
+    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:vendorsViewController];
+    [[self window] setRootViewController:navController];
 }
 
 @end
