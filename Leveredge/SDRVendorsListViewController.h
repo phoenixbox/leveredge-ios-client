@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SDRVendorsListViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@class SDRVendorChannel;
+
+@interface SDRVendorsListViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+    SDRVendorChannel *vendorChannel;
+}
 
 @property (nonatomic, strong) UITableView *vendorsTable;
 

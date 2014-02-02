@@ -27,6 +27,13 @@
     return self;
 }
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view.
+    [self fetchVendors];
+}
+
 - (void)initAppearance
 {
     // Set appearance info
@@ -36,6 +43,8 @@
     
     [[UIToolbar appearance] setBarStyle:UIBarStyleBlackOpaque];
     [[UIToolbar appearance] setBarTintColor:kLeveredgeBlue];
+    
+    [[self navigationItem] setTitle:@"Vendors"];
 }
 
 - (void)renderVendorsTable {
@@ -86,10 +95,34 @@
     return kVendorsTableCellHeight;
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view.
+- (void)fetchVendors {
+    // Create an activity indicator and start it spinning in the nav bar
+    [self setActivityIndicator];
+    
+    void(^completionBlock)(SDRVendorChannel *obj, NSError *err)=^(SDRVendorChannel *obj, NSError *err){
+        [[self navigationItem] setTitle:@"Vendors"];
+        if(!err){
+            vendorChannel = obj;
+            [[self vendorsTable]reloadData];
+        } else {
+            [self renderErrorMessage:err];
+        }
+    };
+    
+}
+
+- (void)renderErrorMessage:(NSError *)err {
+    NSString *errorString = [NSString stringWithFormat:@"Fetch failed: %@", [err localizedDescription]];
+    UIAlertView *av = [[UIAlertView alloc]initWithTitle:@"Error" message:errorString delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    
+    [av show];
+}
+
+- (void)setActivityIndicator {
+    UIActivityIndicatorView *aiView = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    [[self navigationItem] setTitleView:aiView];
+    [aiView startAnimating];
+
 }
 
 - (void)didReceiveMemoryWarning

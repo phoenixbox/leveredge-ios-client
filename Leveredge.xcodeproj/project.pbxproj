@@ -10,6 +10,10 @@
 		CB7C04D9189D92C1009CAD15 /* SDRVendorsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04D8189D92C1009CAD15 /* SDRVendorsListViewController.m */; };
 		CB7C04DE189D9AEE009CAD15 /* SDRVendorsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04DD189D9AEE009CAD15 /* SDRVendorsTableCell.m */; };
 		CB7C04E2189DA02F009CAD15 /* littleowl@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB7C04E1189DA02F009CAD15 /* littleowl@2x.jpg */; };
+		CB7C04E6189EC6FD009CAD15 /* SDRVendorChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04E5189EC6FD009CAD15 /* SDRVendorChannel.m */; };
+		CB7C04EB189EC865009CAD15 /* SDRVendor.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04EA189EC865009CAD15 /* SDRVendor.m */; };
+		CB7C04EE189ED32F009CAD15 /* SDRVendorStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04ED189ED32F009CAD15 /* SDRVendorStore.m */; };
+		CB7C04F6189ED5C0009CAD15 /* SDRConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04F5189ED5C0009CAD15 /* SDRConnection.m */; };
 		CBE3D4E6189594B600BB0671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E5189594B600BB0671 /* Foundation.framework */; };
 		CBE3D4E8189594B600BB0671 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */; };
 		CBE3D4EA189594B600BB0671 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E9189594B600BB0671 /* UIKit.framework */; };
@@ -41,6 +45,16 @@
 		CB7C04DC189D9AEE009CAD15 /* SDRVendorsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRVendorsTableCell.h; sourceTree = "<group>"; };
 		CB7C04DD189D9AEE009CAD15 /* SDRVendorsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRVendorsTableCell.m; sourceTree = "<group>"; };
 		CB7C04E1189DA02F009CAD15 /* littleowl@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "littleowl@2x.jpg"; sourceTree = "<group>"; };
+		CB7C04E4189EC6FD009CAD15 /* SDRVendorChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRVendorChannel.h; sourceTree = "<group>"; };
+		CB7C04E5189EC6FD009CAD15 /* SDRVendorChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRVendorChannel.m; sourceTree = "<group>"; };
+		CB7C04E8189EC7D5009CAD15 /* JSONSerializable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONSerializable.h; sourceTree = "<group>"; };
+		CB7C04E9189EC865009CAD15 /* SDRVendor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRVendor.h; sourceTree = "<group>"; };
+		CB7C04EA189EC865009CAD15 /* SDRVendor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRVendor.m; sourceTree = "<group>"; };
+		CB7C04EC189ED32F009CAD15 /* SDRVendorStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRVendorStore.h; sourceTree = "<group>"; };
+		CB7C04ED189ED32F009CAD15 /* SDRVendorStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRVendorStore.m; sourceTree = "<group>"; };
+		CB7C04EF189ED4F1009CAD15 /* SDRAppConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDRAppConstants.h; sourceTree = "<group>"; };
+		CB7C04F4189ED5C0009CAD15 /* SDRConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRConnection.h; sourceTree = "<group>"; };
+		CB7C04F5189ED5C0009CAD15 /* SDRConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRConnection.m; sourceTree = "<group>"; };
 		CBE3D4E2189594B600BB0671 /* Leveredge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leveredge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE3D4E5189594B600BB0671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +142,54 @@
 			name = Vendors;
 			sourceTree = "<group>";
 		};
+		CB7C04E7189EC713009CAD15 /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				CB7C04F3189ED599009CAD15 /* Protocols */,
+				CB7C04F2189ED58F009CAD15 /* Networking */,
+				CB7C04F1189ED589009CAD15 /* Stores */,
+				CB7C04F0189ED583009CAD15 /* Models */,
+			);
+			name = "Data Layer";
+			sourceTree = "<group>";
+		};
+		CB7C04F0189ED583009CAD15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB7C04E4189EC6FD009CAD15 /* SDRVendorChannel.h */,
+				CB7C04E5189EC6FD009CAD15 /* SDRVendorChannel.m */,
+				CB7C04E9189EC865009CAD15 /* SDRVendor.h */,
+				CB7C04EA189EC865009CAD15 /* SDRVendor.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CB7C04F1189ED589009CAD15 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				CB7C04EC189ED32F009CAD15 /* SDRVendorStore.h */,
+				CB7C04ED189ED32F009CAD15 /* SDRVendorStore.m */,
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		CB7C04F2189ED58F009CAD15 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CB7C04F4189ED5C0009CAD15 /* SDRConnection.h */,
+				CB7C04F5189ED5C0009CAD15 /* SDRConnection.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		CB7C04F3189ED599009CAD15 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CB7C04E8189EC7D5009CAD15 /* JSONSerializable.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		CBE3D4D9189594B600BB0671 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +223,7 @@
 		CBE3D4EB189594B600BB0671 /* Leveredge */ = {
 			isa = PBXGroup;
 			children = (
+				CB7C04E7189EC713009CAD15 /* Data Layer */,
 				CB7C04DF189DA014009CAD15 /* Assets */,
 				CB7C04DA189D92CA009CAD15 /* Presentation Layer */,
 				CBE3D5181895A4B300BB0671 /* View Constants */,
@@ -216,6 +279,7 @@
 			isa = PBXGroup;
 			children = (
 				CBE3D5191895A4D100BB0671 /* SDRViewConstants.h */,
+				CB7C04EF189ED4F1009CAD15 /* SDRAppConstants.h */,
 			);
 			name = "View Constants";
 			sourceTree = "<group>";
@@ -317,11 +381,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7C04EB189EC865009CAD15 /* SDRVendor.m in Sources */,
 				CB7C04D9189D92C1009CAD15 /* SDRVendorsListViewController.m in Sources */,
 				CB7C04DE189D9AEE009CAD15 /* SDRVendorsTableCell.m in Sources */,
 				CBE3D4F6189594B600BB0671 /* SDRAppDelegate.m in Sources */,
+				CB7C04F6189ED5C0009CAD15 /* SDRConnection.m in Sources */,
 				CBE3D5171895961300BB0671 /* SDRLoginViewController.m in Sources */,
 				CBE3D4F2189594B600BB0671 /* main.m in Sources */,
+				CB7C04E6189EC6FD009CAD15 /* SDRVendorChannel.m in Sources */,
+				CB7C04EE189ED32F009CAD15 /* SDRVendorStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
