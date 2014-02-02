@@ -9,6 +9,9 @@
 #import "SDRVendorsListViewController.h"
 #import "SDRViewConstants.h"
 #import "SDRVendorsTableCell.h"
+#import "SDRVendorChannel.h"
+#import "SDRVendor.h"
+#import "SDRVendorStore.h"
 
 @interface SDRVendorsListViewController ()
 
@@ -71,19 +74,19 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    return [[vendorChannel vendors] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    SDRVendor *vendor = [[vendorChannel vendors]objectAtIndex:[indexPath row]];
+    
     SDRVendorsTableCell *cell = (SDRVendorsTableCell *)[tableView dequeueReusableCellWithIdentifier:kVendorsTableCellIdentifier];
     
     if([tableView isEqual:self.vendorsTable]){
         cell = [[SDRVendorsTableCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kVendorsTableCellIdentifier];
         
-        //  TODO: Setup attributes setting on cells
-        //        cell.vendorsTitleLabel;
-        //        cell.vendorsDescriptionLabel;
-        //        cell.vendorsThumbnail;
+        [cell.vendorsTitleLabel setText:vendor.title];
+        [cell.vendorsDescriptionLabel setText:vendor.description];
         
         [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     }
@@ -100,6 +103,7 @@
     [self setActivityIndicator];
     
     void(^completionBlock)(SDRVendorChannel *obj, NSError *err)=^(SDRVendorChannel *obj, NSError *err){
+        [[self navigationItem] setTitleView:nil];
         [[self navigationItem] setTitle:@"Vendors"];
         if(!err){
             vendorChannel = obj;
@@ -108,7 +112,7 @@
             [self renderErrorMessage:err];
         }
     };
-    
+    [[SDRVendorStore sharedStore]fetchVendorsWithCompletion:completionBlock];
 }
 
 - (void)renderErrorMessage:(NSError *)err {

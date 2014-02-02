@@ -13,6 +13,7 @@
 
 @interface SDRVendorStore : NSObject
 
++ (SDRVendorStore *)sharedStore;
 - (void)fetchVendorsWithCompletion:(void (^)(SDRVendorChannel *obj, NSError *err))block;
 
 @end

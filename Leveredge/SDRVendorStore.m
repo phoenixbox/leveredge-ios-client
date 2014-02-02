@@ -14,7 +14,7 @@
 
 @implementation SDRVendorStore
 
-+(SDRVendorStore *)sharedStore {
++ (SDRVendorStore *)sharedStore {
     static SDRVendorStore *vendorStore = nil;
     
     if(!vendorStore) {

@@ -10,6 +10,7 @@
 
 @protocol JSONSerializable <NSObject>
 
+- (void)readFromJSONArray:(NSArray *)array;
 - (void)readFromJSONDictionary:(NSDictionary *)d;
 
 @end

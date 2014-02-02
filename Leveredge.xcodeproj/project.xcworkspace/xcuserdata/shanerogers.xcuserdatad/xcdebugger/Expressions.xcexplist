@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[SDRConnection connectionDidFinishLoading:]:SDRConnection.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[self jsonRootObject] readFromJSONDictionary:d];">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRVendor readFromJSONDictionary:]:SDRVendor.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[d objectForKey:@&quot;zip_code&quot;];">
+            </PersistentString>
+            <PersistentString
+               value = "[d objectForKey:@&quot;title&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = " [self setTitle:[d objectForKey:@&quot;zip_code&quot;]];">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRVendorChannel readFromJSONDictionary:]:SDRVendorChannel.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRConnection requestError:]:SDRConnection.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

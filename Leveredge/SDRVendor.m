@@ -10,19 +10,23 @@
 
 @implementation SDRVendor
 
+- (void)readFromJSONArray:(NSArray *)array {
+
+}
+
 - (void)readFromJSONDictionary:(NSDictionary *)d {
     
-    [self setTitle:[[d objectForKey:@"title"] objectForKey:@"title"]];
-    [self setDescription:[[d objectForKey:@"description"] objectForKey:@"description"]];
-    [self setTitle:[[d objectForKey:@"summary"] objectForKey:@"summary"]];
-    [self setTitle:[[d objectForKey:@"vendor_type"] objectForKey:@"vendor_type"]];
-    [self setTitle:[[d objectForKey:@"thumbnail"] objectForKey:@"thumbnail"]];
-    [self setTitle:[[d objectForKey:@"phone_number"] objectForKey:@"phone_number"]];
-    [self setTitle:[[d objectForKey:@"website_url"] objectForKey:@"website_url"]];
-    [self setTitle:[[d objectForKey:@"address"] objectForKey:@"address"]];
-    [self setTitle:[[d objectForKey:@"city"] objectForKey:@"city"]];
-    [self setTitle:[[d objectForKey:@"state"] objectForKey:@"state"]];
-    [self setTitle:[[d objectForKey:@"zip_code"] objectForKey:@"zip_code"]];
+    [self setTitle:[d objectForKey:@"title"]];
+    [self setDescription:[d objectForKey:@"description"]];
+    [self setSummary:[d objectForKey:@"summary"]];
+    [self setVendorType:[d objectForKey:@"vendor_type"]];
+    [self setThumbnail:[d objectForKey:@"thumbnail"]];
+    [self setPhoneNumber:[d objectForKey:@"phone_number"]];
+    [self setWebsiteUrl:[d objectForKey:@"website_url"]];
+    [self setAddress:[d objectForKey:@"address"]];
+    [self setCity:[d objectForKey:@"city"]];
+    [self setState:[d objectForKey:@"state"]];
+    [self setZipCode:[d objectForKey:@"zip_code"]];
 
     // Use SDWebImage library to render web images
     // [self.imageView setImageWithURL:[NSURL URLWithString:@"http://www.domain.com/path/to/image.jpg"] placeholderImage:[UIImage imageNamed:@"placeholder.png"]];

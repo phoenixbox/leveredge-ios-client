@@ -7,6 +7,7 @@
 //
 
 #import "SDRVendorChannel.h"
+#import "SDRVendor.h"
 
 @implementation SDRVendorChannel
 
@@ -22,8 +23,16 @@
     }
     return self;
 }
-- (void)readFromJSONDictionary:(NSDictionary *)d
-{
 
+- (void)readFromJSONDictionary:(NSDictionary *)d {
+}
+
+- (void)readFromJSONArray:(NSArray *)array {
+    for (NSDictionary *dictionary in array) {
+        SDRVendor *vendor = [[SDRVendor alloc] init];
+        // Pass the entry dictionary to the item so it can grab its ivars
+        [vendor readFromJSONDictionary:dictionary];
+        [vendors addObject:vendor];
+    }
 }
 @end
