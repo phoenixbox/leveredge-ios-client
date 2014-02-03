@@ -7,6 +7,7 @@
 //
 
 #import "SDRVendor.h"
+#import "SDRVendorStore.h"
 
 @implementation SDRVendor
 
@@ -27,7 +28,9 @@
     [self setCity:[d objectForKey:@"city"]];
     [self setState:[d objectForKey:@"state"]];
     [self setZipCode:[d objectForKey:@"zip_code"]];
-
+    
+    [[SDRVendorStore sharedStore] addVendor:self];
+    
     // Use SDWebImage library to render web images
     // [self.imageView setImageWithURL:[NSURL URLWithString:@"http://www.domain.com/path/to/image.jpg"] placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
 }

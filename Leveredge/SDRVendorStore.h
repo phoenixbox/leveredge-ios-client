@@ -11,9 +11,13 @@
 @class SDRVendorChannel;
 @class SDRVendor;
 
-@interface SDRVendorStore : NSObject
+@interface SDRVendorStore : NSObject {
+    NSMutableArray *allVendors;
+}
 
 + (SDRVendorStore *)sharedStore;
+- (void)addVendor:(SDRVendor *)vendor;
+- (NSMutableArray *)allVendors;
 - (void)fetchVendorsWithCompletion:(void (^)(SDRVendorChannel *obj, NSError *err))block;
 
 @end

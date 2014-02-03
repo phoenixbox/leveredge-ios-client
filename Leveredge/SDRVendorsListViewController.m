@@ -12,6 +12,7 @@
 #import "SDRVendorChannel.h"
 #import "SDRVendor.h"
 #import "SDRVendorStore.h"
+#import "SDRVendorViewController.h"
 
 @interface SDRVendorsListViewController ()
 
@@ -96,6 +97,19 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return kVendorsTableCellHeight;
+}
+
+// hook into the didSelectRowAtIndexPath to instantiate a DetailViewController and push it atop the stack
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    SDRVendorViewController *vendorViewController = [[SDRVendorViewController alloc]init];
+    
+    NSArray *vendors = [[SDRVendorStore sharedStore] allVendors];
+    SDRVendor *selectedVendor = [vendors objectAtIndex:[indexPath row]];
+    
+    [vendorViewController setViewWithVendor:selectedVendor];
+    
+    [[self navigationController]pushViewController:vendorViewController animated:YES];
 }
 
 - (void)fetchVendors {

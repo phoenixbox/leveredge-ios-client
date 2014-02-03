@@ -23,6 +23,17 @@
     return vendorStore;
 }
 
+- (void)addVendor:(SDRVendor *)vendor {
+    if(!allVendors){
+        allVendors = [NSMutableArray new];
+    }
+    [allVendors addObject:vendor];
+}
+
+- (NSMutableArray *)allVendors {
+    return allVendors;
+}
+
 - (void)fetchVendorsWithCompletion:(void (^)(SDRVendorChannel *, NSError *))block {
     // Prepare the request URL
     NSString *requestString = [NSString stringWithFormat:kAPIVendorsIndex];
