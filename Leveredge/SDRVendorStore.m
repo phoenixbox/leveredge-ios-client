@@ -7,6 +7,7 @@
 //
 
 #import "SDRVendorStore.h"
+#import "SDRAuthStore.h"
 #import "SDRAppConstants.h"
 #import "SDRConnection.h"
 #import "SDRVendorChannel.h"
@@ -36,8 +37,11 @@
 
 - (void)fetchVendorsWithCompletion:(void (^)(SDRVendorChannel *, NSError *))block {
     // Prepare the request URL
-    NSString *requestString = [NSString stringWithFormat:kAPIVendorsIndex];
+    NSString *requestString = [self constructAuthenticatedRequest:kAPIVendorsIndex];
+    
     NSURL *url = [NSURL URLWithString:requestString];
+    
+    //Append the user auth token parameter
     
     // Set the connection
     NSURLRequest *req = [NSURLRequest requestWithURL:url];
@@ -54,6 +58,20 @@
     [connection setJsonRootObject:vendorChannel];
     
     [connection start];
+}
+
+- (NSString *)constructAuthenticatedRequest:(NSString *)endpoint {
+    SDRAuthStore *authStore = [SDRAuthStore sharedStore];
+    NSString *email = authStore.currentUser.email;
+    NSString *token = authStore.currentUser.authenticationToken;
+    
+    NSString *requestString = [NSString stringWithFormat:@"%@",endpoint];
+    requestString = [requestString stringByAppendingString:(@"?email=")];
+    requestString = [requestString stringByAppendingString:email];
+    requestString = [requestString stringByAppendingString:(@"&authentication_token=")];
+    requestString = [requestString stringByAppendingString:token];
+    
+    return requestString;
 }
 
 @end

@@ -13,6 +13,7 @@
 #import "SDRVendor.h"
 #import "SDRVendorStore.h"
 #import "SDRVendorViewController.h"
+#import "SDRAuthStore.h"
 
 @interface SDRVendorsListViewController ()
 
@@ -29,6 +30,12 @@
         [self renderVendorsTable];
     }
     return self;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [[SDRAuthStore sharedStore] addObserver:self forKeyPath:@"loggedIn" options:NSKeyValueObservingOptionNew context:nil];
 }
 
 - (void)viewDidLoad
@@ -148,5 +155,24 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark KVO
+
+- (void)observeValueForKeyPath:(NSString *)keyPath
+                      ofObject:(id)object
+                        change:(NSDictionary *)change
+                       context:(void *)context
+{
+    if ([keyPath isEqualToString:@"loggedIn"]) {
+        NSLog(@"login status changed");
+        
+        if (![SDRAuthStore loggedIn]) {
+            // Handle Login Form Display
+        }        
+    } else {
+        [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
+    }
+}
+
 
 @end

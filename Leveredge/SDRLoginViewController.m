@@ -9,7 +9,7 @@
 #import "SDRLoginViewController.h"
 #import "SDRViewConstants.h"
 #import "SDRAppDelegate.h"
-#import "SDRUserStore.h"
+#import "SDRAuthStore.h"
 #import "SDRUser.h"
 
 @interface SDRLoginViewController ()
@@ -25,6 +25,14 @@
         // Custom initialization
     }
     return self;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    //  TODO: Implement scroll view for login screen
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(handleKeyboardDidShow:) name:UIKeyboardDidShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(handleKeyboardWillHide:) name:UIKeyboardDidShowNotification object:nil];
 }
 
 - (void)viewDidLoad
@@ -113,12 +121,14 @@
     
     void(^completionBlock)(SDRUser *obj, NSError *err)=^(SDRUser *obj, NSError *err){
         if(!err){
-            [[NSUserDefaults standardUserDefaults] setObject: obj.email forKey:@"email"];
+            // Get the app instance and instantiate the navigation controller
+            SDRAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+            [appDelegate initializeNavigationController];
         } else {
             [self renderErrorMessage:err];
         }
     };
-    [[SDRUserStore sharedStore]loginRequest:loginParameters withCompletionBlock:completionBlock];
+    [[SDRAuthStore sharedStore]loginRequest:loginParameters withCompletionBlock:completionBlock];
 }
 
 - (void)renderErrorMessage:(NSError *)err {
@@ -143,6 +153,28 @@
     textField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
     textField.textAlignment = NSTextAlignmentCenter;
     [self.scrollView addSubview:textField];
+}
+
+- (void)handleKeyboardDidShow:(NSNotification *)notification {
+    NSValue *keyboardRectAsObject = [[notification userInfo]objectForKey:UIKeyboardFrameEndUserInfoKey];
+    
+    CGRect keyboardRect = CGRectZero;
+    
+    [keyboardRectAsObject getValue:&keyboardRect];
+    
+    self.scrollView.contentInset = UIEdgeInsetsMake(0.0f,0.0f,keyboardRect.size.height+180,0.0f);
+}
+
+- (void)handleKeyboardWillHide:(NSNotification *)notification {
+    self.scrollView.contentInset = UIEdgeInsetsZero;
+}
+
+#pragma UITextFieldDelegate
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [self.emailField resignFirstResponder];
+    [self.passwordField resignFirstResponder];
+    return YES;
 }
 
 - (void)didReceiveMemoryWarning

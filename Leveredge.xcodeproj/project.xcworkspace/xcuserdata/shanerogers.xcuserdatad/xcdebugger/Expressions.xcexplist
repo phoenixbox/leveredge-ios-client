@@ -31,7 +31,23 @@
          contextName = "-[SDRVendorChannel readFromJSONDictionary:]:SDRVendorChannel.m">
       </ContextState>
       <ContextState
+         contextName = "-[SDRVendorStore constructAuthenticatedRequest:]:SDRVendorStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[SDRAuthStore sharedStore]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[SDRConnection requestError:]:SDRConnection.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRUser readFromNSObject:]:SDRUser.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[object isKindOfClass:[NSDictionary class]]">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
    </ContextStates>
 </VariablesViewState>

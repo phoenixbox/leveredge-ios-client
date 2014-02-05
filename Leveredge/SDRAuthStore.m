@@ -1,27 +1,40 @@
 //
-//  SDRUserStore.m
+//  SDRAuthStore.m
 //  Leveredge
 //
 //  Created by Shane Rogers on 2/3/14.
 //  Copyright (c) 2014 Shane Rogers. All rights reserved.
 //
 
-#import "SDRUserStore.h"
+#import "SDRAuthStore.h"
 #import "SDRAppConstants.h"
 #import "SDRConnection.h"
 
-@implementation SDRUserStore
+@implementation SDRAuthStore
 
-+ (SDRUserStore *)sharedStore {
-    static SDRUserStore *userStore = nil;
++ (SDRAuthStore *)sharedStore {
+    static SDRAuthStore *authStore = nil;
     
-    if(!userStore) {
-        userStore = [[SDRUserStore alloc]init];
+    if(!authStore) {
+        authStore = [[SDRAuthStore alloc]init];
+        if(authStore.token){
+            authStore.loggedIn=YES;
+        }
     };
-    return userStore;
+    return authStore;
 }
 
-- (void)addVendor:(SDRUser *)user {
++ (BOOL)loggedIn
+{
+    return [[SDRAuthStore sharedStore] loggedIn];
+}
+
++ (NSString *)token
+{
+    return [[SDRAuthStore sharedStore] token];
+}
+
+- (void)addCurrentUser:(SDRUser *)user {
     if(!currentUser){
         currentUser = [SDRUser new];
     }
@@ -31,6 +44,36 @@
 - (SDRUser *)currentUser {
     return currentUser;
 }
+
+- (void)logout
+{
+    NSLog(@"logout");
+    self.token = nil;
+    self.loggedIn = NO;
+}
+
+#pragma mark Accessors
+
+- (NSString *)token
+{
+    return [[NSUserDefaults standardUserDefaults] valueForKey:@"token"];
+}
+
+//- (void)setToken:(NSString *)t
+//{
+//    self.token = t;
+//    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+//    [defaults setValue:t forKey:@"token"];
+//    [defaults synchronize];
+//}
+
+//- (void)setEmail:(NSString *)e
+//{
+//    self.email = e;
+//    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+//    [defaults setValue:e forKey:@"email"];
+//    [defaults synchronize];
+//}
 
 - (void)loginRequest:(NSDictionary *)parameters withCompletionBlock:(void (^)(SDRUser *obj, NSError *err))block {
     // Create the request.
@@ -65,7 +108,8 @@
     requestString = [requestString stringByAppendingString:(@"?email=")];
     requestString = [requestString stringByAppendingString:email];
     requestString = [requestString stringByAppendingString:(@"&password=")];
-    return [requestString stringByAppendingString:password];
+    requestString = [requestString stringByAppendingString:password];
+    return requestString;
 }
 
 @end

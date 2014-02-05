@@ -16,7 +16,7 @@
 		CB7C04F6189ED5C0009CAD15 /* SDRConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04F5189ED5C0009CAD15 /* SDRConnection.m */; };
 		CB7C04F9189F0C39009CAD15 /* SDRVendorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04F8189F0C39009CAD15 /* SDRVendorViewController.m */; };
 		CB7C04FF18A08F72009CAD15 /* SDRUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04FE18A08F72009CAD15 /* SDRUser.m */; };
-		CB7C050218A091E6009CAD15 /* SDRUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C050118A091E6009CAD15 /* SDRUserStore.m */; };
+		CB7C050218A091E6009CAD15 /* SDRAuthStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C050118A091E6009CAD15 /* SDRAuthStore.m */; };
 		CBE3D4E6189594B600BB0671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E5189594B600BB0671 /* Foundation.framework */; };
 		CBE3D4E8189594B600BB0671 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */; };
 		CBE3D4EA189594B600BB0671 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E9189594B600BB0671 /* UIKit.framework */; };
@@ -62,8 +62,8 @@
 		CB7C04F8189F0C39009CAD15 /* SDRVendorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRVendorViewController.m; sourceTree = "<group>"; };
 		CB7C04FD18A08F72009CAD15 /* SDRUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRUser.h; sourceTree = "<group>"; };
 		CB7C04FE18A08F72009CAD15 /* SDRUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRUser.m; sourceTree = "<group>"; };
-		CB7C050018A091E6009CAD15 /* SDRUserStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRUserStore.h; sourceTree = "<group>"; };
-		CB7C050118A091E6009CAD15 /* SDRUserStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRUserStore.m; sourceTree = "<group>"; };
+		CB7C050018A091E6009CAD15 /* SDRAuthStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRAuthStore.h; sourceTree = "<group>"; };
+		CB7C050118A091E6009CAD15 /* SDRAuthStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRAuthStore.m; sourceTree = "<group>"; };
 		CBE3D4E2189594B600BB0671 /* Leveredge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leveredge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE3D4E5189594B600BB0671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -180,8 +180,8 @@
 			children = (
 				CB7C04EC189ED32F009CAD15 /* SDRVendorStore.h */,
 				CB7C04ED189ED32F009CAD15 /* SDRVendorStore.m */,
-				CB7C050018A091E6009CAD15 /* SDRUserStore.h */,
-				CB7C050118A091E6009CAD15 /* SDRUserStore.m */,
+				CB7C050018A091E6009CAD15 /* SDRAuthStore.h */,
+				CB7C050118A091E6009CAD15 /* SDRAuthStore.m */,
 			);
 			name = Stores;
 			sourceTree = "<group>";
@@ -398,7 +398,7 @@
 			files = (
 				CB7C04EB189EC865009CAD15 /* SDRVendor.m in Sources */,
 				CB7C04D9189D92C1009CAD15 /* SDRVendorsListViewController.m in Sources */,
-				CB7C050218A091E6009CAD15 /* SDRUserStore.m in Sources */,
+				CB7C050218A091E6009CAD15 /* SDRAuthStore.m in Sources */,
 				CB7C04F9189F0C39009CAD15 /* SDRVendorViewController.m in Sources */,
 				CB7C04DE189D9AEE009CAD15 /* SDRVendorsTableCell.m in Sources */,
 				CBE3D4F6189594B600BB0671 /* SDRAppDelegate.m in Sources */,

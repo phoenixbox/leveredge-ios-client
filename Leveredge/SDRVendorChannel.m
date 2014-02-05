@@ -27,6 +27,14 @@
 - (void)readFromJSONDictionary:(NSDictionary *)d {
 }
 
+- (void)readFromNSObject:(NSObject *)object {
+    if([object isKindOfClass:[NSArray class]]){
+        [self readFromJSONArray:(NSArray *)object];
+    } else if ([object isKindOfClass:[NSDictionary class]]){
+        [self readFromJSONDictionary:(NSDictionary *)object];
+    }
+}
+
 - (void)readFromJSONArray:(NSArray *)array {
     for (NSDictionary *dictionary in array) {
         SDRVendor *vendor = [[SDRVendor alloc] init];

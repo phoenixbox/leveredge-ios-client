@@ -11,8 +11,7 @@
 
 @implementation SDRVendor
 
-- (void)readFromJSONArray:(NSArray *)array {
-
+- (void)readFromNSObject:(NSObject *)object {
 }
 
 - (void)readFromJSONDictionary:(NSDictionary *)d {

@@ -24,4 +24,6 @@
 @property (nonatomic, strong) NSString *state;
 @property (nonatomic, strong) NSString *zipCode;
 
+- (void)readFromJSONDictionary:(NSDictionary *)d;
+
 @end

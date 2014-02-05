@@ -10,7 +10,7 @@
 
 @class SDRVendorChannel;
 
-@interface SDRVendorsListViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+@interface SDRVendorsListViewController : UIViewController <UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource> {
     SDRVendorChannel *vendorChannel;
 }
 
