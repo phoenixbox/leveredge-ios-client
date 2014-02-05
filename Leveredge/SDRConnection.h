@@ -12,6 +12,7 @@
 @interface SDRConnection : NSObject <NSURLConnectionDelegate, NSURLConnectionDataDelegate> {
     NSURLConnection *internalConnection;
     NSMutableData *dataContainer;
+    NSDictionary *userInfo;
 }
 
 @property (nonatomic, copy) NSURLRequest *request;

@@ -76,6 +76,7 @@
 //}
 
 - (void)loginRequest:(NSDictionary *)parameters withCompletionBlock:(void (^)(SDRUser *obj, NSError *err))block {
+    
     // Create the request.
     NSString *requestString = [self constructLoginRequest:parameters];
     // Prepare the request URL
@@ -92,9 +93,11 @@
     
     [connection setCompletionBlock:^(SDRUser *obj, NSError *err){
         if(!err){
+            NSLog(@"Logging in successfully :)");
         }
         block(obj, err);
     }];
+
     [connection setJsonRootObject:user];
     
     [connection start];

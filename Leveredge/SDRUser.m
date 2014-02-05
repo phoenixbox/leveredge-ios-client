@@ -20,12 +20,14 @@
 }
 
 - (void)readFromJSONDictionary:(NSDictionary *)d {
-    [self setEmail:[d objectForKey:@"email"]];
-    [self setAuthenticationToken:[d objectForKey:@"authentication_token"]];
+    if([d objectForKey:@"authentication_token"]){
+        [self setEmail:[d objectForKey:@"email"]];
+        [self setAuthenticationToken:[d objectForKey:@"authentication_token"]];
+        [[SDRAuthStore sharedStore] addCurrentUser:self];
+    }
     
 //    [[SDRAuthStore sharedStore] setEmail:self.email];
 //    [[SDRAuthStore sharedStore] setToken:self.authenticationToken];
-    [[SDRAuthStore sharedStore] addCurrentUser:self];
 }
 
 @end

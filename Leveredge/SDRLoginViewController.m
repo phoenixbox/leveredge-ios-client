@@ -61,7 +61,7 @@
     //
     self.logoLabel = [[UILabel alloc]initWithFrame:CGRectMake(0.0f,0.0f, 250.0f, 50.0f)];
     [self.logoLabel setCenter:CGPointMake(self.view.frame.size.width/2, 100.0f)];
-    [self.logoLabel setText:@"Leveredge"];
+    [self.logoLabel setText:kLogoPlaceholder];
     [self.logoLabel setFont:[UIFont systemFontOfSize:35.0f]];
     self.logoLabel.textAlignment = NSTextAlignmentCenter;
     
@@ -70,7 +70,7 @@
     logoSubheaderFrame.origin.y += logoSubheaderFrame.size.height + 10;
     self.logoSubHeader = [[UITextView alloc]initWithFrame:logoSubheaderFrame];
     self.logoSubHeader.contentInset = UIEdgeInsetsMake(10.0f, 0.0f, 0.0f, 0.0f);
-    [self.logoSubHeader setText:@"Don't just realize your purchasing power, Leveredge it"];
+    [self.logoSubHeader setText:kLogoSubHeader];
     [self.logoSubHeader setFont:[UIFont systemFontOfSize:12.0f]];
     self.logoSubHeader.textAlignment = NSTextAlignmentCenter;
     
@@ -81,7 +81,7 @@
 - (void)renderEmailField {
     CGRect emailFieldFrame = CGRectMake(0.0f,50.0f, 250.0f, 40.0f);
     self.emailField = [[UITextField alloc] initWithFrame:emailFieldFrame];
-    self.emailField.text = @"rogerssh@tcd.ie";
+    self.emailField.text = kSampleEmail;
     self.emailField.center = self.view.center;
     
     [self formatTextField:self.emailField];
@@ -92,7 +92,7 @@
     passwordFieldFrame.origin.y += self.emailField.frame.size.height + 10;
     self.passwordField = [[UITextField alloc] initWithFrame:passwordFieldFrame];
     self.passwordField.secureTextEntry = YES;
-    self.passwordField.text = @"uxo6Sife!";
+    self.passwordField.text = kSamplePasswordError;
     
     [self formatTextField:self.passwordField];
 }
@@ -132,10 +132,17 @@
 }
 
 - (void)renderErrorMessage:(NSError *)err {
-    NSString *errorString = [NSString stringWithFormat:@"Login failed: %@", [err localizedDescription]];
-    UIAlertView *av = [[UIAlertView alloc]initWithTitle:@"Error" message:errorString delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-    
-    [av show];
+    [[[UIAlertView alloc] initWithTitle:err.localizedDescription
+                                message:err.localizedRecoverySuggestion
+                               delegate:nil
+                      cancelButtonTitle:NSLocalizedString(@"OK", nil)
+                      otherButtonTitles:nil, nil] show];
+
+//    NSString *errorString = [NSString stringWithFormat:@"Login failed: %@ Please try again later :)", [err localizedDescription]];
+//    UIAlertView *av = [[UIAlertView alloc]initWithTitle:@"Login Error" message:errorString delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+//    
+//    [av show];
+    [self.requestIndicator stopAnimating];
 }
 
 - (void)setLoginActivityIndicator {
