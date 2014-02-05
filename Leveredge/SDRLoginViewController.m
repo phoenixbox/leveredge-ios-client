@@ -92,7 +92,7 @@
     passwordFieldFrame.origin.y += self.emailField.frame.size.height + 10;
     self.passwordField = [[UITextField alloc] initWithFrame:passwordFieldFrame];
     self.passwordField.secureTextEntry = YES;
-    self.passwordField.text = kSamplePasswordError;
+    self.passwordField.text = kSamplePassword;
     
     [self formatTextField:self.passwordField];
 }
@@ -121,7 +121,6 @@
     
     void(^completionBlock)(SDRUser *obj, NSError *err)=^(SDRUser *obj, NSError *err){
         if(!err){
-            // Get the app instance and instantiate the navigation controller
             SDRAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
             [appDelegate initializeNavigationController];
         } else {
@@ -138,10 +137,6 @@
                       cancelButtonTitle:NSLocalizedString(@"OK", nil)
                       otherButtonTitles:nil, nil] show];
 
-//    NSString *errorString = [NSString stringWithFormat:@"Login failed: %@ Please try again later :)", [err localizedDescription]];
-//    UIAlertView *av = [[UIAlertView alloc]initWithTitle:@"Login Error" message:errorString delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-//    
-//    [av show];
     [self.requestIndicator stopAnimating];
 }
 

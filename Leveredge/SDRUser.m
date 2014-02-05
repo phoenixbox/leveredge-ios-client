@@ -25,9 +25,6 @@
         [self setAuthenticationToken:[d objectForKey:@"authentication_token"]];
         [[SDRAuthStore sharedStore] addCurrentUser:self];
     }
-    
-//    [[SDRAuthStore sharedStore] setEmail:self.email];
-//    [[SDRAuthStore sharedStore] setToken:self.authenticationToken];
 }
 
 @end

@@ -60,11 +60,12 @@ static NSMutableArray *sharedConnectionList = nil;
     if ([self jsonRootObject]){
         NSObject *serializedObject = [NSJSONSerialization JSONObjectWithData:dataContainer options:0 error:nil];
         NSLog(@"Serialized Object %@", serializedObject);
+        [[self jsonRootObject] readFromNSObject:serializedObject];
+        rootObject = [self jsonRootObject];
         if([self completionBlock]){
-            [[self jsonRootObject] readFromNSObject:serializedObject];
-            rootObject = [self jsonRootObject];
-            
-            if([(SDRUser *)rootObject authenticationToken]==nil){
+            if ([serializedObject isKindOfClass:[NSArray class]]){
+                [self completionBlock](rootObject, nil);
+            } else if ([(NSDictionary *)serializedObject objectForKey:@"status"]){
                 NSError *error = [[NSError alloc] initWithDomain:@"apiClient" code:[[(NSDictionary *)serializedObject objectForKey:@"status"] integerValue] userInfo:userInfo];
                 [self completionBlock](rootObject, error);
             } else {
