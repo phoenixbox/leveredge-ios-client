@@ -41,8 +41,9 @@ static NSMutableArray *sharedConnectionList = nil;
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
     id rootObject = nil;
     if ([self jsonRootObject]){
-        NSArray *jsonArray = [NSJSONSerialization JSONObjectWithData:dataContainer options:0 error:nil];
-        [[self jsonRootObject] readFromJSONArray:jsonArray];
+        
+        NSObject *jsonArray = [NSJSONSerialization JSONObjectWithData:dataContainer options:0 error:nil];
+//        [[self jsonRootObject] readFromJSONArray:jsonArray];
         rootObject = [self jsonRootObject];
     }
     if([self completionBlock]){

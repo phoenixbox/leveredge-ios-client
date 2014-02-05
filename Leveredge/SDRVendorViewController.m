@@ -32,8 +32,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+//    TODO: Setup visual representation of cells and setup S3 bucket
 //    [self.view setBackgroundColor:[UIColor whiteColor]];
-    
     self.placeholderLabel = [[UILabel alloc]initWithFrame:CGRectMake(0.0f,50.0f, 250.0f, 50.0f)];
     [self.placeholderLabel setBackgroundColor:[UIColor redColor]];
     [self.view addSubview:self.placeholderLabel];

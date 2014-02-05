@@ -12,11 +12,10 @@
 
 @property (nonatomic, strong) UILabel *logoLabel;
 @property (nonatomic, strong) UITextView *logoSubHeader;
-
-@property (nonatomic, strong)UIScrollView *scrollView;
-@property (nonatomic, strong)UITextField *emailField;
-@property (nonatomic, strong)UITextField *passwordField;
-
-@property (nonatomic, strong)UIButton *loginButton;
+@property (nonatomic, strong) UIScrollView *scrollView;
+@property (nonatomic, strong) UITextField *emailField;
+@property (nonatomic, strong) UITextField *passwordField;
+@property (nonatomic, strong) UIButton *loginButton;
+@property (nonatomic, strong) UIActivityIndicatorView *requestIndicator;
 
 @end

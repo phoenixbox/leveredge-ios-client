@@ -8,6 +8,9 @@
             <PersistentString
                value = "[[self jsonRootObject] readFromJSONDictionary:d];">
             </PersistentString>
+            <PersistentString
+               value = "[NSJSONSerialization JSONObjectWithData:dataContainer options:0 error:nil]">
+            </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState

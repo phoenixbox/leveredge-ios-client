@@ -9,6 +9,8 @@
 #import "SDRLoginViewController.h"
 #import "SDRViewConstants.h"
 #import "SDRAppDelegate.h"
+#import "SDRUserStore.h"
+#import "SDRUser.h"
 
 @interface SDRLoginViewController ()
 
@@ -71,7 +73,7 @@
 - (void)renderEmailField {
     CGRect emailFieldFrame = CGRectMake(0.0f,50.0f, 250.0f, 40.0f);
     self.emailField = [[UITextField alloc] initWithFrame:emailFieldFrame];
-    self.emailField.text = @"leveredge@it.com";
+    self.emailField.text = @"rogerssh@tcd.ie";
     self.emailField.center = self.view.center;
     
     [self formatTextField:self.emailField];
@@ -82,12 +84,13 @@
     passwordFieldFrame.origin.y += self.emailField.frame.size.height + 10;
     self.passwordField = [[UITextField alloc] initWithFrame:passwordFieldFrame];
     self.passwordField.secureTextEntry = YES;
-    self.passwordField.text = @"password";
+    self.passwordField.text = @"uxo6Sife!";
     
     [self formatTextField:self.passwordField];
 }
 
 - (void)renderLoginButton {
+    // NOTE origin is not assignable - need to retrieve rect first
     CGRect loginButtonFrame = self.passwordField.frame;
     loginButtonFrame.origin.y += self.passwordField.frame.size.height + 10;
     self.loginButton = [[UIButton alloc]initWithFrame:loginButtonFrame];
@@ -101,13 +104,37 @@
 }
 
 - (void)login:(id)paramSender {
-    //    TODO: Success Callback
-    SDRAppDelegate *appDelegate = [[UIApplication sharedApplication]delegate];
-    [appDelegate initializeNavigationController];
+    NSString *email = self.emailField.text;
+    NSString *password = self.passwordField.text;
     
-    NSLog(@"Email Field is: %@", self.emailField.text);
-    NSLog(@"Password Field is: %@", self.passwordField.text);
+    NSDictionary *loginParameters = [[NSDictionary alloc]initWithObjectsAndKeys:email,@"email",password,@"password",nil];
     
+    [self setLoginActivityIndicator];
+    
+    void(^completionBlock)(SDRUser *obj, NSError *err)=^(SDRUser *obj, NSError *err){
+        if(!err){
+            [[NSUserDefaults standardUserDefaults] setObject: obj.email forKey:@"email"];
+        } else {
+            [self renderErrorMessage:err];
+        }
+    };
+    [[SDRUserStore sharedStore]loginRequest:loginParameters withCompletionBlock:completionBlock];
+}
+
+- (void)renderErrorMessage:(NSError *)err {
+    NSString *errorString = [NSString stringWithFormat:@"Login failed: %@", [err localizedDescription]];
+    UIAlertView *av = [[UIAlertView alloc]initWithTitle:@"Error" message:errorString delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    
+    [av show];
+}
+
+- (void)setLoginActivityIndicator {
+    self.requestIndicator = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    self.requestIndicator.center = CGPointMake(self.view.frame.size.width / 2.0, self.view.frame.size.height / 2.0);
+    self.requestIndicator.center = self.view.center;
+    [self.view addSubview:self.requestIndicator];
+    
+    [self.requestIndicator startAnimating];
 }
 
 - (void)formatTextField:(UITextField *)textField {
