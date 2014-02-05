@@ -30,7 +30,14 @@ static NSMutableArray *sharedConnectionList = nil;
     userInfo = [NSDictionary new];
     userInfo = @{ NSLocalizedDescriptionKey: NSLocalizedString(@"Login was unsuccessful.", nil),
                   NSLocalizedFailureReasonErrorKey: NSLocalizedString(@"The operation timed out.", nil),
-                  NSLocalizedRecoverySuggestionErrorKey: NSLocalizedString(@"Please check your information and try again :)", nil)};
+                  NSLocalizedRecoverySuggestionErrorKey: NSLocalizedString(@"Please check your information and try again :)", nil),
+                  NSLocalizedRecoveryOptionsErrorKey: NSLocalizedString(@"NSLocalizedRecoveryOptionsErrorKey", nil),
+                  NSFilePathErrorKey: NSLocalizedString(@"NSFilePathErrorKey", nil),
+                  NSStringEncodingErrorKey: NSLocalizedString(@"NSStringEncodingErrorKey", nil),
+                  NSUnderlyingErrorKey: NSLocalizedString(@"NSUnderlyingErrorKey", nil),
+                  NSRecoveryAttempterErrorKey: NSLocalizedString(@"NSRecoveryAttempterErrorKey", nil),
+                  NSHelpAnchorErrorKey: NSLocalizedString(@"NSHelpAnchorErrorKey", nil),
+                  };
 }
 
 -(void)start {
@@ -51,28 +58,24 @@ static NSMutableArray *sharedConnectionList = nil;
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
     id rootObject = nil;
     if ([self jsonRootObject]){
-        
         NSObject *serializedObject = [NSJSONSerialization JSONObjectWithData:dataContainer options:0 error:nil];
-//        TODO: Check status response code!
         NSLog(@"Serialized Object %@", serializedObject);
-    if([self completionBlock]){
-        [[self jsonRootObject] readFromNSObject:serializedObject];
-        rootObject = [self jsonRootObject];
-        if([(SDRUser *)rootObject authenticationToken]==nil){
-            NSError *error = [[NSError alloc] initWithDomain:@"apiClient" code:[[(NSDictionary *)serializedObject objectForKey:@"status"] integerValue] userInfo:userInfo];
-            [self completionBlock](rootObject, error);
-        } else {
-            [self completionBlock](rootObject, nil);
+        if([self completionBlock]){
+            [[self jsonRootObject] readFromNSObject:serializedObject];
+            rootObject = [self jsonRootObject];
+            
+            if([(SDRUser *)rootObject authenticationToken]==nil){
+                NSError *error = [[NSError alloc] initWithDomain:@"apiClient" code:[[(NSDictionary *)serializedObject objectForKey:@"status"] integerValue] userInfo:userInfo];
+                [self completionBlock](rootObject, error);
+            } else {
+                [self completionBlock](rootObject, nil);
+            }
         }
-    }
     }
     [sharedConnectionList removeObject:self];
 }
 
 - (void)requestError:(NSError *)error {
-//    if([self completionBlock]){
-//        [self completionBlock](nil, error);
-//    }
     [sharedConnectionList removeObject:self];
 }
 
