@@ -30,6 +30,7 @@
 		CBE3D509189594B600BB0671 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBE3D507189594B600BB0671 /* InfoPlist.strings */; };
 		CBE3D50B189594B600BB0671 /* LeveredgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE3D50A189594B600BB0671 /* LeveredgeTests.m */; };
 		CBE3D5171895961300BB0671 /* SDRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE3D5161895961300BB0671 /* SDRLoginViewController.m */; };
+		CBF5E1C918A2E6B30051A49F /* SDRCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF5E1C818A2E6B30051A49F /* SDRCarousel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		CBE3D5151895961300BB0671 /* SDRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRLoginViewController.h; sourceTree = "<group>"; };
 		CBE3D5161895961300BB0671 /* SDRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRLoginViewController.m; sourceTree = "<group>"; };
 		CBE3D5191895A4D100BB0671 /* SDRViewConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDRViewConstants.h; sourceTree = "<group>"; };
+		CBF5E1C718A2E6B30051A49F /* SDRCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRCarousel.h; sourceTree = "<group>"; };
+		CBF5E1C818A2E6B30051A49F /* SDRCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRCarousel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,10 +239,11 @@
 		CBE3D4EB189594B600BB0671 /* Leveredge */ = {
 			isa = PBXGroup;
 			children = (
+				CBF5E1CA18A2E6D10051A49F /* View Controls */,
 				CB7C04E7189EC713009CAD15 /* Data Layer */,
 				CB7C04DF189DA014009CAD15 /* Assets */,
 				CB7C04DA189D92CA009CAD15 /* Presentation Layer */,
-				CBE3D5181895A4B300BB0671 /* View Constants */,
+				CBE3D5181895A4B300BB0671 /* Constants */,
 				CBE3D4F4189594B600BB0671 /* SDRAppDelegate.h */,
 				CBE3D4F5189594B600BB0671 /* SDRAppDelegate.m */,
 				CBE3D4F7189594B600BB0671 /* Images.xcassets */,
@@ -290,13 +294,22 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
-		CBE3D5181895A4B300BB0671 /* View Constants */ = {
+		CBE3D5181895A4B300BB0671 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
 				CBE3D5191895A4D100BB0671 /* SDRViewConstants.h */,
 				CB7C04EF189ED4F1009CAD15 /* SDRAppConstants.h */,
 			);
-			name = "View Constants";
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		CBF5E1CA18A2E6D10051A49F /* View Controls */ = {
+			isa = PBXGroup;
+			children = (
+				CBF5E1C718A2E6B30051A49F /* SDRCarousel.h */,
+				CBF5E1C818A2E6B30051A49F /* SDRCarousel.m */,
+			);
+			name = "View Controls";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,6 +414,7 @@
 				CB7C050218A091E6009CAD15 /* SDRAuthStore.m in Sources */,
 				CB7C04F9189F0C39009CAD15 /* SDRVendorViewController.m in Sources */,
 				CB7C04DE189D9AEE009CAD15 /* SDRVendorsTableCell.m in Sources */,
+				CBF5E1C918A2E6B30051A49F /* SDRCarousel.m in Sources */,
 				CBE3D4F6189594B600BB0671 /* SDRAppDelegate.m in Sources */,
 				CB7C04F6189ED5C0009CAD15 /* SDRConnection.m in Sources */,
 				CBE3D5171895961300BB0671 /* SDRLoginViewController.m in Sources */,

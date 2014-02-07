@@ -3,13 +3,32 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "-[SDRVendorChannel readFromJSONDictionary:]:SDRVendorChannel.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRUser readFromNSObject:]:SDRUser.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[object isKindOfClass:[NSDictionary class]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRConnection requestError:]:SDRConnection.m">
+      </ContextState>
+      <ContextState
          contextName = "-[SDRConnection connectionDidFinishLoading:]:SDRConnection.m">
          <PersistentStrings>
             <PersistentString
-               value = "[[self jsonRootObject] readFromJSONDictionary:d];">
+               value = "[(NSDictionary *)serializedObject objectForKey:@&quot;status&quot;]">
             </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRVendorStore constructAuthenticatedRequest:]:SDRVendorStore.m">
+         <PersistentStrings>
             <PersistentString
-               value = "[NSJSONSerialization JSONObjectWithData:dataContainer options:0 error:nil]">
+               value = "[SDRAuthStore sharedStore]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -24,28 +43,6 @@
             </PersistentString>
             <PersistentString
                value = " [self setTitle:[d objectForKey:@&quot;zip_code&quot;]];">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[SDRVendorChannel readFromJSONDictionary:]:SDRVendorChannel.m">
-      </ContextState>
-      <ContextState
-         contextName = "-[SDRVendorStore constructAuthenticatedRequest:]:SDRVendorStore.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "[SDRAuthStore sharedStore]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[SDRConnection requestError:]:SDRConnection.m">
-      </ContextState>
-      <ContextState
-         contextName = "-[SDRUser readFromNSObject:]:SDRUser.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "[object isKindOfClass:[NSDictionary class]]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
