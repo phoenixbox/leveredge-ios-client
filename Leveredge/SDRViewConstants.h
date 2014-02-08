@@ -13,9 +13,12 @@
 
 // Global Styles
 #define kLoginButtonColor [UIColor colorWithRed:190/255.0f green:190/255.0f blue:190/255.0f alpha:1.0f]
-#define kPureWhite [UIColor colorWithWhite:255.0f alpha:1.0f]
 #define kAlphaWhite30 [UIColor colorWithWhite:255.0f alpha:0.3f]
 #define kLeveredgeBlue [UIColor colorWithRed:61/255.0f green:154/255.0f blue:232/255.0f alpha:1.0f]
+#define kLeveredgeSmallPadding 5.0f
+
+//---colors
+#define kPureWhite [UIColor colorWithWhite:255.0f alpha:1.0f]
 
 // Login Template
 #define kLogoPlaceholder @"Client"
@@ -26,8 +29,12 @@
 #define kSampleEmailError @"roger@tcd.ie"
 #define kSamplePasswordError @"123"
 
-// Vendors Template
+// Vendors List Template
 #define kVendorsTableCellIdentifier @"SDRVendorsTableCell"
 #define kVendorsTableCellHeight 175.0f
+
+// Vendor Detail Templae
+
+
 
 #endif

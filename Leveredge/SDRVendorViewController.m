@@ -8,6 +8,7 @@
 
 #import "SDRVendorViewController.h"
 #import "SDRCarousel.h"
+#import "SDRViewConstants.h"
 
 @interface SDRVendorViewController ()
 
@@ -35,6 +36,7 @@
 	// Do any additional setup after loading the view.
     [self buildScrollView];
     [self addContentToScrollView];
+    [self setScrollViewContentSize];
 }
 
 - (void)buildScrollView {
@@ -55,13 +57,13 @@
 }
 
 - (void) buildTitleContainer {
-    [self renderContainer];
+    [self renderTitleContainer];
     [self renderTitleAndSummary];
     [self renderTypeAndScore];
 }
 
-- (void)renderContainer {
-    self.titleContainer = [[UIView alloc]initWithFrame:CGRectMake(self.carousel.frame.origin.x,self.carousel.frame.size.height, self.view.frame.size.width, 50.0f)];
+- (void)renderTitleContainer {
+    self.titleContainer = [[UIView alloc]initWithFrame:CGRectMake(0,self.carousel.frame.size.height, self.view.frame.size.width, 50.0f)];
     [self.titleContainer setBackgroundColor:[UIColor lightGrayColor]];
     [self.scrollView addSubview:self.titleContainer];
 }
@@ -72,7 +74,7 @@
 }
 
 - (void)renderTitle {
-    self.titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(self.titleContainer.frame.origin.x+5, self.titleContainer.frame.origin.x+5, self.titleContainer.frame.size.width*.75,self.titleContainer.frame.size.height*.35)];
+    self.titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(kLeveredgeSmallPadding, kLeveredgeSmallPadding, self.titleContainer.frame.size.width*.75,self.titleContainer.frame.size.height*.35)];
     [self.titleLabel setText:self.vendor.title];
     [self.titleLabel setBackgroundColor:[UIColor redColor]];
     [self.titleContainer addSubview:self.titleLabel];
@@ -92,7 +94,91 @@
 }
 
 - (void)buildDetailContainer {
+    [self renderDetailsContainer];
+    [self renderDetails];
+//    [self renderDescription];
+    [self buildCommentsSection];
+}
 
+- (void)renderDetailsContainer {
+    self.detailsContainer = [[UIView alloc]initWithFrame:CGRectMake(0.0f,self.titleContainer.frame.origin.y + self.titleContainer.frame.size.height,self.view.frame.size.width,100.0f)];
+    [self.detailsContainer setBackgroundColor:[UIColor grayColor]];
+    
+    [self.scrollView addSubview:self.detailsContainer];
+}
+
+- (void)renderDetails {
+    [self renderPhoneNumber];
+    [self renderWebsiteUrl];
+    
+//    self.websiteUrl = [UILabel new];
+//    [self.websiteUrl setText:self.vendor.websiteUrl];
+//    
+//    self.address = [UILabel new];
+//    [self.address setText:self.vendor.address];
+}
+
+- (void)renderPhoneNumber {
+    CGRect phoneNumberContainer = self.detailsContainer.frame;
+    phoneNumberContainer.origin.x = self.detailsContainer.frame.origin.x + kLeveredgeSmallPadding;
+    phoneNumberContainer.origin.y = self.detailsContainer.frame.origin.y + kLeveredgeSmallPadding;
+    phoneNumberContainer.size.width = self.detailsContainer.frame.size.width * 0.5;
+    phoneNumberContainer.size.height = self.detailsContainer.frame.size.height * 0.2;
+    
+    self.phoneNumber = [UILabel new];
+    
+//    NSAttributedString *descriptor = [[NSAttributedString alloc] initWithString:@"Phone: " attributes:@{ NSStrokeColorAttributeName : [UIColor greenColor]}];
+    
+    NSAttributedString *descriptor = [[NSAttributedString alloc] initWithString:@"Phone: " attributes:@{ NSFontAttributeName : [UIFont fontWithName:@"Noteworthy-Bold" size:10.0f], NSUnderlineStyleAttributeName : @1 , NSStrokeColorAttributeName : [UIColor greenColor]}];
+    
+    [self.phoneNumber setText:[NSString stringWithFormat:@"%@/%@/", descriptor, self.vendor.phoneNumber]];
+    [self.phoneNumber setFont:[UIFont systemFontOfSize:10.0f]];
+    [self.phoneNumber setFrame:phoneNumberContainer];
+    [self.phoneNumber setBackgroundColor:kPureWhite];
+    
+    [self.scrollView addSubview:self.phoneNumber];
+}
+
+- (void)renderWebsiteUrl {
+    CGRect websiteUrlContainer = self.phoneNumber.frame;
+    websiteUrlContainer.origin.x = self.phoneNumber.frame.origin.x;
+    websiteUrlContainer.origin.y = self.phoneNumber.frame.origin.y + self.phoneNumber.frame.size.height + kLeveredgeSmallPadding;
+    websiteUrlContainer.size.width = self.detailsContainer.frame.size.width * 0.5;
+    websiteUrlContainer.size.height = self.detailsContainer.frame.size.height * 0.2;
+    
+    self.websiteUrl = [UILabel new];
+    
+    [self.websiteUrl setText:[NSString stringWithFormat:@"%@/%@/", @"Website: ", self.vendor.websiteUrl]];
+    [self.websiteUrl setFont:[UIFont systemFontOfSize:10.0f]];
+    [self.websiteUrl setFrame:websiteUrlContainer];
+    [self.websiteUrl setBackgroundColor:kPureWhite];
+    
+    [self.scrollView addSubview:self.websiteUrl];
+}
+
+//- (void)renderDescription {
+//    self.description = [[UITextView alloc]initWithFrame:CGRectMake(kLeveredgeSmallPadding, self.detailsContainer.frame.origin.y+kLeveredgeSmallPadding,self.detailsContainer.frame.size.width-(kLeveredgeSmallPadding*2),self.detailsContainer.frame.size.height-(kLeveredgeSmallPadding*2))];
+//    [self.description setBackgroundColor:kPureWhite];
+//    [self.description setText:self.vendor.description];
+//    
+//    [self.description sizeToFit];
+//    [self.description layoutIfNeeded];
+//    
+//    [self.description setEditable:NO];
+//    [self.description setSelectable:NO];
+//    [self.scrollView addSubview:self.description];
+//}
+
+- (void)buildCommentsSection{
+    
+}
+
+- (void)setScrollViewContentSize{
+    CGRect contentRect = CGRectZero;
+    for (UIView *view in self.scrollView.subviews) {
+        contentRect = CGRectUnion(contentRect, view.frame);
+    }
+    self.scrollView.contentSize = contentRect.size;
 }
 
 - (void)didReceiveMemoryWarning

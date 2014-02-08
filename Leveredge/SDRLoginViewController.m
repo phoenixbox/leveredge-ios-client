@@ -125,6 +125,7 @@
             [appDelegate initializeNavigationController];
         } else {
             [self renderErrorMessage:err];
+            NSLog(@"Error point");
         }
     };
     [[SDRAuthStore sharedStore]loginRequest:loginParameters withCompletionBlock:completionBlock];

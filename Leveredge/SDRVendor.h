@@ -17,6 +17,7 @@
 @property (nonatomic, strong) NSString *vendorType;
 @property (nonatomic, strong) NSString *thumbnail;
 //@property (nonatomic, strong) UIImageView *thumbnail;
+
 @property (nonatomic, strong) NSString *phoneNumber;
 @property (nonatomic, strong) NSString *websiteUrl;
 @property (nonatomic, strong) NSString *address;
