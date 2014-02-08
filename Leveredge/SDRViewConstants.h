@@ -33,7 +33,20 @@
 #define kVendorsTableCellIdentifier @"SDRVendorsTableCell"
 #define kVendorsTableCellHeight 175.0f
 
-// Vendor Detail Templae
+// Vendor Detail Template
+#define kDetailElementHeight 15.0f
+#define kDetailContainerHeight 45.0f
+#define kLeveredgeButtonHeight 30.0f
+#define kLeveredgeItCopy @"LEVEREDGE IT!"
+#define kLeveredgedCopy @"LEVEREDGED!"
+
+// Vendor Comment Cell
+#define kLeveredgeCommentCell @"SDRCommentViewCell"
+#define kCommentThumbnailDimension 40.0f
+#define kCommentNameheight 10.0f
+#define kCommentTableCellHeight 50.0f
+
+#define kCommentCopySample @"Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla."
 
 
 

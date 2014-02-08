@@ -17,6 +17,9 @@
 		CB7C04F9189F0C39009CAD15 /* SDRVendorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04F8189F0C39009CAD15 /* SDRVendorViewController.m */; };
 		CB7C04FF18A08F72009CAD15 /* SDRUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04FE18A08F72009CAD15 /* SDRUser.m */; };
 		CB7C050218A091E6009CAD15 /* SDRAuthStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C050118A091E6009CAD15 /* SDRAuthStore.m */; };
+		CB8B6D5618A6B1E100E63566 /* SDRLeveredgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5518A6B1E100E63566 /* SDRLeveredgeButton.m */; };
+		CB8B6D5918A6B6FE00E63566 /* SDRCommentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5818A6B6FE00E63566 /* SDRCommentsView.m */; };
+		CB8B6D5C18A6C94A00E63566 /* SDRCommentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5B18A6C94A00E63566 /* SDRCommentViewCell.m */; };
 		CBE3D4E6189594B600BB0671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E5189594B600BB0671 /* Foundation.framework */; };
 		CBE3D4E8189594B600BB0671 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */; };
 		CBE3D4EA189594B600BB0671 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E9189594B600BB0671 /* UIKit.framework */; };
@@ -65,6 +68,12 @@
 		CB7C04FE18A08F72009CAD15 /* SDRUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRUser.m; sourceTree = "<group>"; };
 		CB7C050018A091E6009CAD15 /* SDRAuthStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRAuthStore.h; sourceTree = "<group>"; };
 		CB7C050118A091E6009CAD15 /* SDRAuthStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRAuthStore.m; sourceTree = "<group>"; };
+		CB8B6D5418A6B1E100E63566 /* SDRLeveredgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRLeveredgeButton.h; sourceTree = "<group>"; };
+		CB8B6D5518A6B1E100E63566 /* SDRLeveredgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRLeveredgeButton.m; sourceTree = "<group>"; };
+		CB8B6D5718A6B6FE00E63566 /* SDRCommentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRCommentsView.h; sourceTree = "<group>"; };
+		CB8B6D5818A6B6FE00E63566 /* SDRCommentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRCommentsView.m; sourceTree = "<group>"; };
+		CB8B6D5A18A6C94A00E63566 /* SDRCommentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRCommentViewCell.h; sourceTree = "<group>"; };
+		CB8B6D5B18A6C94A00E63566 /* SDRCommentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRCommentViewCell.m; sourceTree = "<group>"; };
 		CBE3D4E2189594B600BB0671 /* Leveredge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leveredge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE3D4E5189594B600BB0671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +133,7 @@
 		CB7C04DB189D9ACE009CAD15 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				CB8B6D5318A6B1CA00E63566 /* Global */,
 				CB7C04E3189DA10B009CAD15 /* Vendors */,
 			);
 			name = Controls;
@@ -150,6 +160,10 @@
 			children = (
 				CB7C04DC189D9AEE009CAD15 /* SDRVendorsTableCell.h */,
 				CB7C04DD189D9AEE009CAD15 /* SDRVendorsTableCell.m */,
+				CB8B6D5718A6B6FE00E63566 /* SDRCommentsView.h */,
+				CB8B6D5818A6B6FE00E63566 /* SDRCommentsView.m */,
+				CB8B6D5A18A6C94A00E63566 /* SDRCommentViewCell.h */,
+				CB8B6D5B18A6C94A00E63566 /* SDRCommentViewCell.m */,
 			);
 			name = Vendors;
 			sourceTree = "<group>";
@@ -204,6 +218,15 @@
 				CB7C04E8189EC7D5009CAD15 /* JSONSerializable.h */,
 			);
 			name = Protocols;
+			sourceTree = "<group>";
+		};
+		CB8B6D5318A6B1CA00E63566 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				CB8B6D5418A6B1E100E63566 /* SDRLeveredgeButton.h */,
+				CB8B6D5518A6B1E100E63566 /* SDRLeveredgeButton.m */,
+			);
+			name = Global;
 			sourceTree = "<group>";
 		};
 		CBE3D4D9189594B600BB0671 = {
@@ -411,9 +434,11 @@
 			files = (
 				CB7C04EB189EC865009CAD15 /* SDRVendor.m in Sources */,
 				CB7C04D9189D92C1009CAD15 /* SDRVendorsListViewController.m in Sources */,
+				CB8B6D5918A6B6FE00E63566 /* SDRCommentsView.m in Sources */,
 				CB7C050218A091E6009CAD15 /* SDRAuthStore.m in Sources */,
 				CB7C04F9189F0C39009CAD15 /* SDRVendorViewController.m in Sources */,
 				CB7C04DE189D9AEE009CAD15 /* SDRVendorsTableCell.m in Sources */,
+				CB8B6D5C18A6C94A00E63566 /* SDRCommentViewCell.m in Sources */,
 				CBF5E1C918A2E6B30051A49F /* SDRCarousel.m in Sources */,
 				CBE3D4F6189594B600BB0671 /* SDRAppDelegate.m in Sources */,
 				CB7C04F6189ED5C0009CAD15 /* SDRConnection.m in Sources */,
@@ -422,6 +447,7 @@
 				CB7C04FF18A08F72009CAD15 /* SDRUser.m in Sources */,
 				CB7C04E6189EC6FD009CAD15 /* SDRVendorChannel.m in Sources */,
 				CB7C04EE189ED32F009CAD15 /* SDRVendorStore.m in Sources */,
+				CB8B6D5618A6B1E100E63566 /* SDRLeveredgeButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
