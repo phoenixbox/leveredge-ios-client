@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "SDRVendor.h"
+#import "SDRCommentViewCell.h"
 
 @interface SDRCommentsView : UIView <UITableViewDelegate, UITableViewDataSource> {
     NSArray *_copySamples;
+    float _totalCellsHeight;
 }
 
 @property (nonatomic, strong) UITableView *commentsTable;
+@property (strong) SDRCommentViewCell *cellPrototype;
 
 - (id)initWithFrame:(CGRect)frame forVendor:(SDRVendor *)vendor;
 

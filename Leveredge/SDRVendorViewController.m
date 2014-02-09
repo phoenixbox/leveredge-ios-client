@@ -244,7 +244,7 @@
 
 - (void)buildCommentsContainer {
     self.commentsContainer = [[UIView alloc]initWithFrame:CGRectMake(0.0f,self.descriptionContainer.frame.origin.y+self.descriptionContainer.frame.size.height, self.view.frame.size.width,0.0f)];
-    [self.commentsContainer setBackgroundColor:[UIColor darkGrayColor]];
+    [self.commentsContainer setBackgroundColor:[UIColor greenColor]];
     
     self.commentsView = [[SDRCommentsView alloc]initWithFrame:CGRectMake(0.0f, self.descriptionContainer.frame.origin.y+self.descriptionContainer.frame.size.height,self.view.frame.size.width, 0.0f) forVendor:self.vendor];
     
@@ -256,8 +256,11 @@
 
 - (void)setScrollViewContentSize{
     CGRect contentRect = CGRectZero;
-    for (UIView *view in self.scrollView.subviews) {
-        contentRect = CGRectUnion(contentRect, view.frame);
+    NSArray *subviews = self.scrollView.subviews;
+    
+    for (UIView *view in subviews) {
+        CGRect rect = view.frame;
+        contentRect = CGRectUnion(contentRect, rect);
     }
     self.scrollView.contentSize = contentRect.size;
 }

@@ -45,7 +45,7 @@
 }
 
 - (void)renderComment {
-    self.comment = [[UITextView alloc]initWithFrame:CGRectMake(self.commentatorName.frame.origin.x,self.commentatorName.frame.origin.y+self.commentatorName.frame.size.height+kLeveredgeSmallPadding, (self.frame.size.width-self.thumbnail.frame.size.width-(kLeveredgeSmallPadding *4)),0.0f)];
+    self.comment = [[UITextView alloc]initWithFrame:CGRectMake(self.commentatorName.frame.origin.x,self.commentatorName.frame.origin.y+self.commentatorName.frame.size.height, (self.frame.size.width-self.thumbnail.frame.size.width-(kLeveredgeSmallPadding *4)),0.0f)];
     [self.comment setBackgroundColor:kLeveredgeBlue];
     
     [self.comment setEditable:NO];
@@ -63,7 +63,7 @@
     
     CGRect rect = [attrStr boundingRectWithSize:CGSizeMake(width, 1000) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading context:nil];
     rect.origin.x = self.commentatorName.frame.origin.x;
-    rect.origin.y = self.commentatorName.frame.origin.y+self.commentatorName.frame.size.height+kLeveredgeSmallPadding;
+    rect.origin.y = self.commentatorName.frame.origin.y+self.commentatorName.frame.size.height;
     
     [self.comment setFrame:rect];
     

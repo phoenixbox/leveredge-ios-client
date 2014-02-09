@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "SDRVendor.h"
-#import "SDRCarousel.h"
 #import "SDRCommentsView.h"
+#import "SDRCarousel.h"
 
 @interface SDRVendorViewController : UIViewController {
     float _detailElementWidth;

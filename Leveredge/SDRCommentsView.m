@@ -8,7 +8,6 @@
 
 #import "SDRCommentsView.h"
 #import "SDRViewConstants.h"
-#import "SDRCommentViewCell.h"
 #import "SDRLeveredgeButton.h"
 #import "SDRDynamicRowHeightTableViewCell.h"
 
@@ -23,19 +22,31 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        [self buildSampleCopyArray];
+        [self buildCommentCopyArray];
         _cellCache = [NSMutableArray new];
         [self renderCommentsTable];
+        [self resizeCommentsTableContentSize];
     }
     return self;
 }
 
-- (void)buildSampleCopyArray {
+- (void)buildCommentCopyArray {
     _copySamples = [[NSArray alloc]initWithObjects:kCommentCopySampleOne,kCommentCopySampleTwo,kCommentCopySampleThree,kCommentCopySampleFour, nil];
 }
 
+- (CGSize)sizeOfLabel:(UILabel *)label withText:(NSString *)string {
+    NSMutableAttributedString *result = [[NSMutableAttributedString alloc] initWithString:string];
+    NSAttributedString *attrStr = [[NSAttributedString alloc]initWithAttributedString:result];
+    return [attrStr boundingRectWithSize:CGSizeMake(self.commentsTable.frame.size.width, 1000) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading context:nil].size;
+}
+
+- (CGSize)sizeOfTextField:(UITextView *)textView withText:(NSString *)string {
+    NSMutableAttributedString *result = [[NSMutableAttributedString alloc] initWithString:string];
+    NSAttributedString *attrStr = [[NSAttributedString alloc]initWithAttributedString:result];
+    return [attrStr boundingRectWithSize:CGSizeMake(self.commentsTable.frame.size.width, 1000) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading context:nil].size;
+}
+
 - (void)renderCommentsTable {
-    // Remove Arbitrary Height - Insert Min and Max || Accumulated subview heights
     self.commentsTable = [[UITableView alloc]initWithFrame:CGRectMake(0.0f, 0.0f, self.frame.size.width, 300.0f)];
     [self.commentsTable registerClass:[UITableViewCell class] forCellReuseIdentifier:kLeveredgeCommentCell];
     self.commentsTable.delegate = self;
@@ -43,7 +54,7 @@
     self.commentsTable.alwaysBounceVertical = NO;
     self.commentsTable.scrollEnabled = NO;
     self.commentsTable.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    self.commentsTable.separatorColor = [UIColor lightGrayColor];
+    self.commentsTable.separatorColor = [UIColor clearColor];
     [self.commentsTable setBackgroundColor:[UIColor lightGrayColor]];
     
     [self addSubview:self.commentsTable];
@@ -52,11 +63,12 @@
 #pragma UITableViewDelgate
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    return [_copySamples count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     SDRCommentViewCell *cell = [[SDRCommentViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kLeveredgeCommentCell];
+    cell.frame = CGRectMake(cell.frame.origin.x, cell.frame.origin.y, tableView.frame.size.width, cell.frame.size.height);
     
     NSString *copy = _copySamples[indexPath.row];
     
@@ -64,7 +76,6 @@
     [cell.commentatorName setText:@"Rory McDonagh"];
     [cell.commentatorName setFont:[UIFont systemFontOfSize:12.0f]];
     [cell.comment setText:copy];
-    [cell resizeCommentContent];
     
     [cell.commentDistanceOfTime setText:[NSString stringWithFormat:@"%@ ago",@"less than a minute"]];
     [cell.commentDistanceOfTime setFont:[UIFont systemFontOfSize:12.0f]];
@@ -73,37 +84,44 @@
 //    SDRComment *comment = vendorComments[indexPath.row];
 //    TODO: Implement Comment Upvoting Functionality
 //    cell.accessoryView = [self buildAccessoryButton];
-
+    
+    [cell resizeCommentContent];
     [cell setBackgroundColor:[UIColor clearColor]];
 
     return cell;
 }
 
 - (CGFloat) tableView:(UITableView*)tableView heightForRowAtIndexPath:(NSIndexPath*)indexPath {
-    return 200.0f;
+    self.cellPrototype.frame = CGRectMake(self.cellPrototype.frame.origin.x, self.cellPrototype.frame.origin.y, tableView.frame.size.width, self.cellPrototype.frame.size.height);
     
-//    CGRect blah = CGRectZero;
-//    return blah.size.height;
-//    
-//   SDRCommentViewCell *cell = [self.commentsTable cellForRowAtIndexPath:indexPath];
-//            // force layout
-//    [sizingCell setNeedsLayout];
-//    [sizingCell layoutIfNeeded];
-//
-//    CGSize fittingSize = [sizingCell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
-//    //NSLog(@"fitting size: %@", NSStringFromCGSize(fittingSize));
-//    
-//    return fittingSize.height;
+    CGFloat commentatorsNameHeight = [self sizeOfLabel:self.cellPrototype.commentatorName withText:@"Rory McDonagh"].height;
+    
+    CGFloat commentHeight = [self sizeOfTextField:self.cellPrototype.comment withText:_copySamples[indexPath.row]].height+30.0f;
+    
+    CGFloat padding = kLeveredgeSmallPadding;
+    
+    CGFloat combinedHeight = padding + commentatorsNameHeight + padding + commentHeight + padding;
+    
+    _totalCellsHeight += combinedHeight;
+    
+    CGFloat minHeight = 50.0f;
+    
+    return MAX(combinedHeight, minHeight);
 }
 
-//- (void)resizeCommentsTableToContents {
-//    CGRect contentRect = CGRectZero;
-//    
-//    for(SDRCommentViewCell *cell in self.commentsTable.subviews){
-//        contentRect = CGRectUnion(contentRect,cell.frame);
-//    }
-//    self.commentsTable.contentSize = contentRect.size;
+- (void)resizeCommentsTableContentSize {
+    CGRect tableRect = self.commentsTable.frame;
+    tableRect.size.height = _totalCellsHeight;
+    self.commentsTable.contentSize = tableRect.size;
+}
+
+//CGRect contentRect = CGRectZero;
+//
+//for(SDRCommentViewCell *cell in self.commentsTable.subviews){
+//    contentRect = CGRectUnion(contentRect,cell.frame);
 //}
+//self.commentsTable.contentSize = contentRect.size;
+
 
 /*
 - (SDRLeveredgeButton *)buildAccessoryButton {
