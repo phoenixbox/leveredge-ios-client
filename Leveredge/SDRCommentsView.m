@@ -62,10 +62,12 @@
     
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     [cell.commentatorName setText:@"Rory McDonagh"];
+    [cell.commentatorName setFont:[UIFont systemFontOfSize:12.0f]];
     [cell.comment setText:copy];
     [cell resizeCommentContent];
     
     [cell.commentDistanceOfTime setText:[NSString stringWithFormat:@"%@ ago",@"less than a minute"]];
+    [cell.commentDistanceOfTime setFont:[UIFont systemFontOfSize:12.0f]];
     
 //    TODO: Implement Comments Functionalty
 //    SDRComment *comment = vendorComments[indexPath.row];

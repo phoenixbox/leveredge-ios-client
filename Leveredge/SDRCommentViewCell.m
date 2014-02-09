@@ -39,7 +39,7 @@
 }
 
 - (void)renderCommentDistanceOfTime {
-    self.commentDistanceOfTime = [[UILabel alloc]initWithFrame:CGRectMake(self.commentatorName.frame.origin.x +self.commentatorName.frame.size.width + kLeveredgeSmallPadding, self.commentatorName.frame.origin.y,(self.frame.size.width-self.thumbnail.frame.size.width-(kLeveredgeSmallPadding *3))*0.3, kCommentNameheight)];
+    self.commentDistanceOfTime = [[UILabel alloc]initWithFrame:CGRectMake(self.commentatorName.frame.origin.x +self.commentatorName.frame.size.width + kLeveredgeSmallPadding, self.commentatorName.frame.origin.y,(self.frame.size.width-self.thumbnail.frame.size.width-(kLeveredgeSmallPadding *3))*0.325, kCommentNameheight)];
     [self.commentDistanceOfTime setBackgroundColor:[UIColor purpleColor]];
     [self.contentView addSubview:self.commentDistanceOfTime];
 }
@@ -61,7 +61,7 @@
     
     CGFloat width = (self.frame.size.width-self.thumbnail.frame.size.width-(kLeveredgeSmallPadding *4));
     
-    CGRect rect = [attrStr boundingRectWithSize:CGSizeMake(width, 10000) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading context:nil];
+    CGRect rect = [attrStr boundingRectWithSize:CGSizeMake(width, 1000) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading context:nil];
     rect.origin.x = self.commentatorName.frame.origin.x;
     rect.origin.y = self.commentatorName.frame.origin.y+self.commentatorName.frame.size.height+kLeveredgeSmallPadding;
     
