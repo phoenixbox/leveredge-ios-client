@@ -10,6 +10,7 @@
 #import "SDRCarousel.h"
 #import "SDRViewConstants.h"
 #import "SDRLeveredgeButton.h"
+#import "SDRCommentViewCell.h"
 
 @interface SDRVendorViewController ()
 
@@ -245,7 +246,7 @@
     self.commentsContainer = [[UIView alloc]initWithFrame:CGRectMake(0.0f,self.descriptionContainer.frame.origin.y+self.descriptionContainer.frame.size.height, self.view.frame.size.width,0.0f)];
     [self.commentsContainer setBackgroundColor:[UIColor darkGrayColor]];
     
-    self.commentsView = [[SDRCommentsView alloc]initWithFrame:CGRectMake(kLeveredgeSmallPadding, self.descriptionContainer.frame.origin.y+self.descriptionContainer.frame.size.height +kLeveredgeSmallPadding,self.view.frame.size.width, 0.0f) forVendor:self.vendor];
+    self.commentsView = [[SDRCommentsView alloc]initWithFrame:CGRectMake(0.0f, self.descriptionContainer.frame.origin.y+self.descriptionContainer.frame.size.height,self.view.frame.size.width, 0.0f) forVendor:self.vendor];
     
     [self setCommentsContainerSize];
     

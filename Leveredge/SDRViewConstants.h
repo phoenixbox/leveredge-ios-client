@@ -43,10 +43,13 @@
 // Vendor Comment Cell
 #define kLeveredgeCommentCell @"SDRCommentViewCell"
 #define kCommentThumbnailDimension 40.0f
-#define kCommentNameheight 10.0f
+#define kCommentNameheight 12.0f
 #define kCommentTableCellHeight 50.0f
 
-#define kCommentCopySample @"Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla."
+#define kCommentCopySampleOne @"Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla."
+#define kCommentCopySampleTwo @"Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo."
+#define kCommentCopySampleThree @"Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
+#define kCommentCopySampleFour @"Vestibulum id ligula porta felis euismod semper."
 
 
 

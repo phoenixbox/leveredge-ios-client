@@ -10,8 +10,11 @@
 #import "SDRViewConstants.h"
 #import "SDRCommentViewCell.h"
 #import "SDRLeveredgeButton.h"
+#import "SDRDynamicRowHeightTableViewCell.h"
 
-@implementation SDRCommentsView
+@implementation SDRCommentsView {
+    NSMutableArray *_cellCache;
+}
 
 @synthesize commentsTable;
 
@@ -20,21 +23,27 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        [self buildSampleCopyArray];
+        _cellCache = [NSMutableArray new];
         [self renderCommentsTable];
     }
     return self;
 }
 
+- (void)buildSampleCopyArray {
+    _copySamples = [[NSArray alloc]initWithObjects:kCommentCopySampleOne,kCommentCopySampleTwo,kCommentCopySampleThree,kCommentCopySampleFour, nil];
+}
+
 - (void)renderCommentsTable {
     // Remove Arbitrary Height - Insert Min and Max || Accumulated subview heights
-    self.commentsTable = [[UITableView alloc]initWithFrame:CGRectMake(0.0f, 0.0f, self.frame.size.width, 200.0f)];
+    self.commentsTable = [[UITableView alloc]initWithFrame:CGRectMake(0.0f, 0.0f, self.frame.size.width, 300.0f)];
     [self.commentsTable registerClass:[UITableViewCell class] forCellReuseIdentifier:kLeveredgeCommentCell];
     self.commentsTable.delegate = self;
     self.commentsTable.dataSource = self;
     self.commentsTable.alwaysBounceVertical = NO;
     self.commentsTable.scrollEnabled = NO;
     self.commentsTable.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    self.commentsTable.separatorColor = [UIColor clearColor];
+    self.commentsTable.separatorColor = [UIColor lightGrayColor];
     [self.commentsTable setBackgroundColor:[UIColor lightGrayColor]];
     
     [self addSubview:self.commentsTable];
@@ -48,44 +57,50 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     SDRCommentViewCell *cell = [[SDRCommentViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kLeveredgeCommentCell];
-
-//    TODO: Implement Comments Functionalty
-//    SDRComment *comment = vendorComments[indexPath.row];
+    
+    NSString *copy = _copySamples[indexPath.row];
     
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     [cell.commentatorName setText:@"Rory McDonagh"];
-    [cell.comment setText:kCommentCopySample];
-
+    [cell.comment setText:copy];
+    [cell resizeCommentContent];
+    
     [cell.commentDistanceOfTime setText:[NSString stringWithFormat:@"%@ ago",@"less than a minute"]];
     
+//    TODO: Implement Comments Functionalty
+//    SDRComment *comment = vendorComments[indexPath.row];
 //    TODO: Implement Comment Upvoting Functionality
 //    cell.accessoryView = [self buildAccessoryButton];
 
-    [cell setBackgroundColor:[UIColor whiteColor]];
-    
-//    CGRect contentRect = CGRectZero;
-    CGRect newCellFrame = cell.frame;
-//    for (UIView *view in cell.subviews) {
-//        contentRect = CGRectUnion(contentRect,view.frame);
-//    }
-//    newCellFrame.size.height = (kLeveredgeSmallPadding *3+cell.comment.frame.size.height + cell.commentatorName.frame.size.height);
-//  TODO: Cant set frame here
-    newCellFrame.size.height += 100.0f;
-    [cell setFrame:newCellFrame];
+    [cell setBackgroundColor:[UIColor clearColor]];
 
     return cell;
 }
 
-//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    TODO: Calculate cumulative height here
-//    SDRCommentViewCell *cell = [[tableView visibleCells]objectAtIndex:indexPath.row];
-////    SDRCommentViewCell *cell = (SDRCommentViewCell *)[tableView cellForRowAtIndexPath:indexPath];
+- (CGFloat) tableView:(UITableView*)tableView heightForRowAtIndexPath:(NSIndexPath*)indexPath {
+    return 200.0f;
+    
+//    CGRect blah = CGRectZero;
+//    return blah.size.height;
 //    
+//   SDRCommentViewCell *cell = [self.commentsTable cellForRowAtIndexPath:indexPath];
+//            // force layout
+//    [sizingCell setNeedsLayout];
+//    [sizingCell layoutIfNeeded];
+//
+//    CGSize fittingSize = [sizingCell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
+//    //NSLog(@"fitting size: %@", NSStringFromCGSize(fittingSize));
+//    
+//    return fittingSize.height;
+}
+
+//- (void)resizeCommentsTableToContents {
 //    CGRect contentRect = CGRectZero;
-//    for(UIView *view in cell.subviews) {
-//        contentRect = CGRectUnion(contentRect,view.frame);
+//    
+//    for(SDRCommentViewCell *cell in self.commentsTable.subviews){
+//        contentRect = CGRectUnion(contentRect,cell.frame);
 //    }
-//    return contentRect.size.height;
+//    self.commentsTable.contentSize = contentRect.size;
 //}
 
 /*

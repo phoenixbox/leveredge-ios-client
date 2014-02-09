@@ -15,5 +15,6 @@
 @property (nonatomic, strong) UITextView *comment;
 @property (nonatomic, strong) UILabel *commentDistanceOfTime;
 
+- (void)resizeCommentContent;
 
 @end

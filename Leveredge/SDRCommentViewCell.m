@@ -48,13 +48,28 @@
     self.comment = [[UITextView alloc]initWithFrame:CGRectMake(self.commentatorName.frame.origin.x,self.commentatorName.frame.origin.y+self.commentatorName.frame.size.height+kLeveredgeSmallPadding, (self.frame.size.width-self.thumbnail.frame.size.width-(kLeveredgeSmallPadding *4)),0.0f)];
     [self.comment setBackgroundColor:kLeveredgeBlue];
     
-    [self.comment sizeToFit];
-    [self.comment layoutIfNeeded];
-    
     [self.comment setEditable:NO];
     [self.comment setSelectable:NO];
     
     [self.contentView addSubview:self.comment];
+}
+
+- (void)resizeCommentContent {
+    NSString *string = [NSString stringWithFormat:@"%@",self.comment.text];
+    NSMutableAttributedString *result = [[NSMutableAttributedString alloc] initWithString:string];
+    NSAttributedString *attrStr = [[NSAttributedString alloc]initWithAttributedString:result];
+    
+    CGFloat width = (self.frame.size.width-self.thumbnail.frame.size.width-(kLeveredgeSmallPadding *4));
+    
+    CGRect rect = [attrStr boundingRectWithSize:CGSizeMake(width, 10000) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading context:nil];
+    rect.origin.x = self.commentatorName.frame.origin.x;
+    rect.origin.y = self.commentatorName.frame.origin.y+self.commentatorName.frame.size.height+kLeveredgeSmallPadding;
+    
+    [self.comment setFrame:rect];
+    
+    [self.comment layoutIfNeeded];
+    [self.comment setNeedsLayout];
+    [self.comment sizeToFit];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated

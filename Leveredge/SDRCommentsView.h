@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "SDRVendor.h"
 
-@interface SDRCommentsView : UIView <UITableViewDelegate, UITableViewDataSource>
+@interface SDRCommentsView : UIView <UITableViewDelegate, UITableViewDataSource> {
+    NSArray *_copySamples;
+}
 
 @property (nonatomic, strong) UITableView *commentsTable;
 

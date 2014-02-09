@@ -74,6 +74,7 @@
 		CB8B6D5818A6B6FE00E63566 /* SDRCommentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRCommentsView.m; sourceTree = "<group>"; };
 		CB8B6D5A18A6C94A00E63566 /* SDRCommentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRCommentViewCell.h; sourceTree = "<group>"; };
 		CB8B6D5B18A6C94A00E63566 /* SDRCommentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRCommentViewCell.m; sourceTree = "<group>"; };
+		CB8B6D5D18A7347100E63566 /* SDRDynamicRowHeightTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDRDynamicRowHeightTableViewCell.h; sourceTree = "<group>"; };
 		CBE3D4E2189594B600BB0671 /* Leveredge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leveredge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE3D4E5189594B600BB0671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -216,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				CB7C04E8189EC7D5009CAD15 /* JSONSerializable.h */,
+				CB8B6D5D18A7347100E63566 /* SDRDynamicRowHeightTableViewCell.h */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
