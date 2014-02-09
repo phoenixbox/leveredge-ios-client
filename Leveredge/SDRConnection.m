@@ -59,7 +59,6 @@ static NSMutableArray *sharedConnectionList = nil;
     id rootObject = nil;
     if ([self jsonRootObject]){
         NSObject *serializedObject = [NSJSONSerialization JSONObjectWithData:dataContainer options:0 error:nil];
-        NSLog(@"Serialized Object %@", serializedObject);
         [[self jsonRootObject] readFromNSObject:serializedObject];
         rootObject = [self jsonRootObject];
         if([self completionBlock]){

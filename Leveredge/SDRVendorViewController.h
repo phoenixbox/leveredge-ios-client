@@ -10,6 +10,7 @@
 #import "SDRVendor.h"
 #import "SDRCommentsView.h"
 #import "SDRCarousel.h"
+#import "SDRCommentsView.h"
 
 @interface SDRVendorViewController : UIViewController {
     float _detailElementWidth;

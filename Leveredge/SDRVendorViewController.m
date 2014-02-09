@@ -256,11 +256,8 @@
 
 - (void)setScrollViewContentSize{
     CGRect contentRect = CGRectZero;
-    NSArray *subviews = self.scrollView.subviews;
-    
-    for (UIView *view in subviews) {
-        CGRect rect = view.frame;
-        contentRect = CGRectUnion(contentRect, rect);
+    for (UIView *view in self.scrollView.subviews) {
+        contentRect = CGRectUnion(contentRect, view.frame);
     }
     self.scrollView.contentSize = contentRect.size;
 }
@@ -272,6 +269,9 @@
         contentRect = CGRectUnion(contentRect,view.frame);
     }
     newCommentsViewFrame.size.height = contentRect.size.height;
+    
+//  TODO: Replace holder for artificial padding
+//  newCommentsViewFrame.size.height = contentRect.size.height+120.0f;
     [self.commentsView setFrame:newCommentsViewFrame];
 }
 

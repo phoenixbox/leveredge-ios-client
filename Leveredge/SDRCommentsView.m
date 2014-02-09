@@ -25,7 +25,6 @@
         [self buildCommentCopyArray];
         _cellCache = [NSMutableArray new];
         [self renderCommentsTable];
-        [self resizeCommentsTableContentSize];
     }
     return self;
 }
@@ -102,18 +101,16 @@
     
     CGFloat combinedHeight = padding + commentatorsNameHeight + padding + commentHeight + padding;
     
-    _totalCellsHeight += combinedHeight;
-    
     CGFloat minHeight = 50.0f;
     
     return MAX(combinedHeight, minHeight);
 }
 
-- (void)resizeCommentsTableContentSize {
-    CGRect tableRect = self.commentsTable.frame;
-    tableRect.size.height = _totalCellsHeight;
-    self.commentsTable.contentSize = tableRect.size;
-}
+//- (void)resizeCommentsTableContentSize {
+//    CGRect tableRect = self.commentsTable.frame;
+//    tableRect.size.height = _totalCellsHeight;
+//    self.commentsTable.contentSize = tableRect.size;
+//}
 
 //CGRect contentRect = CGRectZero;
 //
