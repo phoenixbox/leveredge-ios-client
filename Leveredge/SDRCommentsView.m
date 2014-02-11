@@ -10,6 +10,7 @@
 #import "SDRViewConstants.h"
 #import "SDRLeveredgeButton.h"
 #import "SDRDynamicRowHeightTableViewCell.h"
+#import "SDRVendorViewController.h"
 
 @implementation SDRCommentsView {
     NSMutableArray *_cellCache;
@@ -29,6 +30,7 @@
     return self;
 }
 
+
 - (void)buildCommentCopyArray {
     _copySamples = [[NSArray alloc]initWithObjects:kCommentCopySampleOne,kCommentCopySampleTwo,kCommentCopySampleThree,kCommentCopySampleFour, nil];
 }
@@ -46,6 +48,7 @@
 }
 
 - (void)renderCommentsTable {
+    // Set Height
     self.commentsTable = [[UITableView alloc]initWithFrame:CGRectMake(0.0f, 0.0f, self.frame.size.width, 300.0f)];
     [self.commentsTable registerClass:[UITableViewCell class] forCellReuseIdentifier:kLeveredgeCommentCell];
     self.commentsTable.delegate = self;
@@ -85,7 +88,14 @@
 //    cell.accessoryView = [self buildAccessoryButton];
     
     [cell resizeCommentContent];
+    self.totalCellsHeight += cell.comment.frame.size.height + (kLeveredgeSmallPadding*3) + cell.commentatorName.frame.size.height;
+    NSLog(@"Total Height of Cells: %f", self.totalCellsHeight);
     [cell setBackgroundColor:[UIColor clearColor]];
+    
+    CGRect tableRect = self.commentsTable.frame;
+    
+    tableRect.size.height = self.totalCellsHeight;
+    self.commentsTable.contentSize = tableRect.size;
 
     return cell;
 }

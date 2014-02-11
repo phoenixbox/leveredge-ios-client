@@ -166,7 +166,7 @@
     
     self.address = [UILabel new];
     
-    NSString *fullAddress = [NSString stringWithFormat:@"%@, %@, %@", self.vendor.address, self.vendor.city, self.vendor.state];
+    NSString *fullAddress = [NSString stringWithFormat:@"%@, %@, %@, %@", self.vendor.address, self.vendor.city, self.vendor.state, self.vendor.zipCode];
     NSAttributedString *processedString = [self formatString:@"Address: " withString:fullAddress];
 
     [self.address setAttributedText:processedString];
@@ -266,7 +266,9 @@
     CGRect contentRect = CGRectZero;
     CGRect newCommentsViewFrame = self.commentsView.frame;
     for (UIView *view in self.commentsView.subviews) {
-        contentRect = CGRectUnion(contentRect,view.frame);
+        if(![view isKindOfClass:[SDRCommentsView class]]){
+            contentRect = CGRectUnion(contentRect,view.frame);
+        }
     }
     newCommentsViewFrame.size.height = contentRect.size.height;
     

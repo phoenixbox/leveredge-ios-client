@@ -59,12 +59,13 @@ static NSMutableArray *sharedConnectionList = nil;
     id rootObject = nil;
     if ([self jsonRootObject]){
         NSObject *serializedObject = [NSJSONSerialization JSONObjectWithData:dataContainer options:0 error:nil];
+        NSLog(@"Information %@", serializedObject);
         [[self jsonRootObject] readFromNSObject:serializedObject];
         rootObject = [self jsonRootObject];
         if([self completionBlock]){
             if ([serializedObject isKindOfClass:[NSArray class]]){
                 [self completionBlock](rootObject, nil);
-            } else if ([(NSDictionary *)serializedObject objectForKey:@"status"]){
+            } else if (![(NSDictionary *)serializedObject objectForKey:@"status"]==200){
                 NSError *error = [[NSError alloc] initWithDomain:@"apiClient" code:[[(NSDictionary *)serializedObject objectForKey:@"status"] integerValue] userInfo:userInfo];
                 [self completionBlock](rootObject, error);
             } else {

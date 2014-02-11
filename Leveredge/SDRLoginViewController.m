@@ -73,6 +73,8 @@
     [self.logoSubHeader setText:kLogoSubHeader];
     [self.logoSubHeader setFont:[UIFont systemFontOfSize:12.0f]];
     self.logoSubHeader.textAlignment = NSTextAlignmentCenter;
+    [self.logoSubHeader setEditable:NO];
+    [self.logoSubHeader setSelectable:NO];
     
     [self.scrollView addSubview:self.logoLabel];
     [self.scrollView addSubview:self.logoSubHeader];

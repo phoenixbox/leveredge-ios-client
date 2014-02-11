@@ -10,6 +10,7 @@
 
 @interface SDRCommentViewCell : UITableViewCell
 
+@property float cellHeight;
 @property (nonatomic, strong) UILabel *commentatorName;
 @property (nonatomic, strong) UIImageView *thumbnail;
 @property (nonatomic, strong) UITextView *comment;

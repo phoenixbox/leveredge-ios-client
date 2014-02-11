@@ -10,11 +10,14 @@
 #import "SDRVendor.h"
 #import "SDRCommentViewCell.h"
 
+@class SDRVendorViewController;
+
 @interface SDRCommentsView : UIView <UITableViewDelegate, UITableViewDataSource> {
     NSArray *_copySamples;
     float _totalCellsHeight;
 }
-
+@property float totalCellsHeight;
+@property (strong, nonatomic) SDRVendorViewController *delegate;
 @property (nonatomic, strong) UITableView *commentsTable;
 @property (strong) SDRCommentViewCell *cellPrototype;
 
