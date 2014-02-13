@@ -11,6 +11,7 @@
 #import "SDRCommentsView.h"
 #import "SDRCarousel.h"
 #import "SDRCommentsView.h"
+#import "SDRLeveredgeButton.h"
 
 @interface SDRVendorViewController : UIViewController {
     float _detailElementWidth;
@@ -18,7 +19,7 @@
 
 @property(nonatomic, strong) UIScrollView *scrollView;
 @property(nonatomic, strong) SDRVendor *vendor;;
-@property(nonatomic, strong) UIButton *leveredgeButton;
+@property(nonatomic, strong) SDRLeveredgeButton *leveredgeButton;
 
 // Vendor Image Carousel Section
 @property(nonatomic, strong) SDRCarousel *carousel;

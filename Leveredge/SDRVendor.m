@@ -15,7 +15,11 @@
 }
 
 - (void)readFromJSONDictionary:(NSDictionary *)d {
-    
+    // Parsing response for vendors on users
+    if ([d objectForKey:@"vendor"]){
+        d = [d objectForKey:@"vendor"];
+    }
+    [self setVendorID:[d objectForKey:@"id"]];
     [self setTitle:[d objectForKey:@"title"]];
     [self setDescription:[d objectForKey:@"description"]];
     [self setSummary:[d objectForKey:@"summary"]];
@@ -28,6 +32,7 @@
     [self setState:[d objectForKey:@"state"]];
     [self setZipCode:[d objectForKey:@"zip_code"]];
     
+    // Check for uniqueness?
     [[SDRVendorStore sharedStore] addVendor:self];
     
     // Use SDWebImage library to render web images

@@ -9,8 +9,10 @@
 #import "SDRVendorViewController.h"
 #import "SDRCarousel.h"
 #import "SDRViewConstants.h"
-#import "SDRLeveredgeButton.h"
 #import "SDRCommentViewCell.h"
+#import "SDRUser.h"
+#import "SDRAuthStore.h"
+#import "SDRVendorStore.h"
 
 @interface SDRVendorViewController ()
 
@@ -200,20 +202,41 @@
     
     [self.leveredgeButton setBackgroundColor:kLeveredgeBlue];
     [self.scrollView addSubview:self.leveredgeButton];
+    [self checkIfVendorIsLeveredged];
 };
+
+- (void)checkIfVendorIsLeveredged {
+    NSInteger ind = [[SDRAuthStore sharedStore].currentUser.vendors indexOfObject:self.vendor];
+    if (ind != NSNotFound) {
+        return;
+    }
+    else {
+        [self formatSelectedButton:self.leveredgeButton];
+    }
+}
 
 - (void)leveredgeIt:(SDRLeveredgeButton *)button {
     if (![button selected]){
         NSLog(@"Vendor Leveredged");
-        [button setSelected:YES];
-        [button setBackgroundColor:[UIColor greenColor]];
-        [button setTitle:kLeveredgedCopy forState:UIControlStateNormal];
+        [self formatSelectedButton:button];
+        [self makeVendorPreQualifiedLeadForUser];
     } else {
         NSLog(@"Vendor De-Leveredged");
-        [button setSelected:NO];
-        [button setBackgroundColor:kLeveredgeBlue];
-        [button setTitle:kLeveredgeItCopy forState:UIControlStateNormal];
+        [self formatDeselectedButton:button];
+        [self removePreQualifiedLeadFromUser];
     }
+}
+
+- (void)formatSelectedButton:(SDRLeveredgeButton *)button {
+    [button setSelected:YES];
+    [button setBackgroundColor:[UIColor greenColor]];
+    [button setTitle:kLeveredgedCopy forState:UIControlStateNormal];
+}
+
+- (void)formatDeselectedButton:(SDRLeveredgeButton *)button {
+    [button setSelected:NO];
+    [button setBackgroundColor:kLeveredgeBlue];
+    [button setTitle:kLeveredgeItCopy forState:UIControlStateNormal];
 }
 
 - (void)buildDescriptionContainer {
@@ -275,6 +298,37 @@
 //  TODO: Replace holder for artificial padding
 //  newCommentsViewFrame.size.height = contentRect.size.height+120.0f;
     [self.commentsView setFrame:newCommentsViewFrame];
+}
+
+- (void) makeVendorPreQualifiedLeadForUser {
+    [self setActivityIndicator];
+    
+    void(^completionBlock)(SDRUser *obj, NSError *err)=^(SDRUser *obj, NSError *err){
+        if(!err){
+            [[SDRAuthStore sharedStore] setCurrentUser:obj];
+        } else {
+            [self renderErrorMessage:err];
+        }
+    };
+    [[SDRVendorStore sharedStore] createPreQualificationforVendor:self.vendor WithCompletion:completionBlock];
+}
+
+- (void) removePreQualifiedLeadFromUser {
+
+};
+
+- (void)setActivityIndicator {
+    UIActivityIndicatorView *aiView = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    [[self navigationItem] setTitleView:aiView];
+    [aiView startAnimating];
+    
+}
+
+- (void)renderErrorMessage:(NSError *)err {
+    NSString *errorString = [NSString stringWithFormat:@"Leveredge Failed: %@", [err localizedDescription]];
+    UIAlertView *av = [[UIAlertView alloc]initWithTitle:@"Error" message:errorString delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    
+    [av show];
 }
 
 - (void)didReceiveMemoryWarning

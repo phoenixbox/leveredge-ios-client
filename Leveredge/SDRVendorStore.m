@@ -12,6 +12,7 @@
 #import "SDRConnection.h"
 #import "SDRVendorChannel.h"
 #import "SDRVendor.h"
+#import "SDRUser.h"
 
 @implementation SDRVendorStore
 
@@ -28,6 +29,7 @@
     if(!allVendors){
         allVendors = [NSMutableArray new];
     }
+    //  RESTART: Find or create
     [allVendors addObject:vendor];
 }
 
@@ -37,8 +39,7 @@
 
 - (void)fetchVendorsWithCompletion:(void (^)(SDRVendorChannel *, NSError *))block {
     // Prepare the request URL
-    NSString *requestString = [self constructAuthenticatedRequest:kAPIVendorsIndex];
-    
+    NSString *requestString = [self authenticateRequest:kAPIVendorsIndex];
     NSURL *url = [NSURL URLWithString:requestString];
     
     //Append the user auth token parameter
@@ -60,12 +61,39 @@
     [connection start];
 }
 
-- (NSString *)constructAuthenticatedRequest:(NSString *)endpoint {
+- (void)createPreQualificationforVendor:(SDRVendor *)vendor WithCompletion:(void (^)(SDRUser *, NSError *))block{
+    // Prepare the request URL
+    NSString *requestString = [self authenticateRequest:kAPIPreQualifiedCreate];
+    // append the vendor params
+    requestString = [requestString stringByAppendingString:(@"&vendor_id=")];
+    requestString = [requestString stringByAppendingString:[vendor.vendorID stringValue]];
+    
+    NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:requestString] cachePolicy:NSURLCacheStorageNotAllowed timeoutInterval:1000.0];
+    // Specify that it will be a POST request
+    [req setHTTPMethod:@"POST"];
+    // Set the header fields
+    [req setValue:@"application/xml; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+    
+    SDRVendorChannel *vendorChannel = [SDRVendorChannel new];
+    SDRConnection *connection = [[SDRConnection alloc]initWithRequest:req];
+    
+    // Set the connection success block - to trigger directors completion block
+    [connection setCompletionBlock:^(SDRUser *obj, NSError *err){
+        if(!err){
+            // Cache the response if needed
+        }
+        block(obj, err);
+    }];
+    [connection setJsonRootObject:vendorChannel];
+    
+    [connection start];
+
+}
+
+- (NSString *)authenticateRequest:(NSString *)requestString {
     SDRAuthStore *authStore = [SDRAuthStore sharedStore];
     NSString *email = authStore.currentUser.email;
     NSString *token = authStore.currentUser.authenticationToken;
-    
-    NSString *requestString = [NSString stringWithFormat:@"%@",endpoint];
     requestString = [requestString stringByAppendingString:(@"?email=")];
     requestString = [requestString stringByAppendingString:email];
     requestString = [requestString stringByAppendingString:(@"&authentication_token=")];
@@ -73,5 +101,7 @@
     
     return requestString;
 }
+
+
 
 @end

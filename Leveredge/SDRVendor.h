@@ -11,6 +11,7 @@
 
 @interface SDRVendor : NSObject <JSONSerializable>
 
+@property (nonatomic) NSNumber *vendorID;
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *description;
 @property (nonatomic, strong) NSString *summary;

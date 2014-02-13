@@ -35,14 +35,10 @@
 }
 
 - (void)addCurrentUser:(SDRUser *)user {
-    if(!currentUser){
-        currentUser = [SDRUser new];
+    if(!self.currentUser){
+        self.currentUser = [SDRUser new];
     }
-    currentUser = user;
-}
-
-- (SDRUser *)currentUser {
-    return currentUser;
+    self.currentUser = user;
 }
 
 - (void)logout

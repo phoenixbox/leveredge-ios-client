@@ -9,8 +9,13 @@
 #ifndef Leveredge_SDRAppConstants_h
 #define Leveredge_SDRAppConstants_h
 
-// Server Endpoints
+// Vendor Routes
 #define kAPIVendorsIndex @"http://localhost:3000/api/v1/vendors"
+
+// User Routes
 #define kAPIUserLogin @"http://localhost:3000/api/v1/users/login"
+
+// PreQualified Routes
+#define kAPIPreQualifiedCreate @"http://localhost:3000/api/v1/pre_qualifications"
 
 #endif

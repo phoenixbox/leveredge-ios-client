@@ -11,7 +11,9 @@
 
 @interface SDRUser : NSObject <JSONSerializable>
 
+@property (nonatomic) NSNumber *userID;
 @property (nonatomic, strong) NSString *email;
 @property (nonatomic, strong) NSString *authenticationToken;
+@property (nonatomic, strong) NSMutableArray *vendors;
 
 @end

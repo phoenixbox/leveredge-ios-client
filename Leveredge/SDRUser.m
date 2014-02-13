@@ -7,9 +7,12 @@
 //
 
 #import "SDRUser.h"
+#import "SDRVendor.h"
 #import "SDRAuthStore.h"
 
 @implementation SDRUser
+
+@synthesize vendors;
 
 - (void)readFromNSObject:(NSObject *)object {
     if([object isMemberOfClass:[NSArray class]]){
@@ -20,11 +23,17 @@
 }
 
 - (void)readFromJSONDictionary:(NSDictionary *)d {
-    if([d objectForKey:@"authentication_token"]){
-        [self setEmail:[d objectForKey:@"email"]];
-        [self setAuthenticationToken:[d objectForKey:@"authentication_token"]];
-        [[SDRAuthStore sharedStore] addCurrentUser:self];
-    }
+    [self setUserID:[d objectForKey:@"id"]];
+    [self setEmail:[d objectForKey:@"email"]];
+    [self setAuthenticationToken:[d objectForKey:@"authentication_token"]];
+    for(NSDictionary *vendorDict in [d objectForKey:@"vendors"]){
+        if(!self.vendors){self.vendors = [NSMutableArray new];}
+        SDRVendor *vendor = [SDRVendor new];
+        [vendor readFromJSONDictionary:vendorDict];
+        [self.vendors addObject:vendor];
+    };
+    
+    [[SDRAuthStore sharedStore] addCurrentUser:self];
 }
 
 @end

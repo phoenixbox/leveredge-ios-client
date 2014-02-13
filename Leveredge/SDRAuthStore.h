@@ -9,18 +9,16 @@
 #import <Foundation/Foundation.h>
 #import "SDRUser.h"
 
-@interface SDRAuthStore : NSObject {
-    SDRUser *currentUser;
-}
+@interface SDRAuthStore : NSObject
 
 @property (strong, nonatomic) NSString *token;
 @property (strong, nonatomic) NSString *email;
 @property (assign, nonatomic) BOOL loggedIn;
+@property (strong, nonatomic) SDRUser *currentUser;
 
 + (SDRAuthStore *)sharedStore;
 + (BOOL)loggedIn;
 - (void)addCurrentUser:(SDRUser *)user;
-- (SDRUser *)currentUser;
 - (void)setToken:(NSString *)t;
 - (void)setEmail:(NSString *)e;
 
