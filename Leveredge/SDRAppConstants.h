@@ -16,6 +16,6 @@
 #define kAPIUserLogin @"http://localhost:3000/api/v1/users/login"
 
 // PreQualified Routes
-#define kAPIPreQualifiedCreate @"http://localhost:3000/api/v1/pre_qualifications"
+#define kAPIPreQualifiedEndpoint @"http://localhost:3000/api/v1/pre_qualifications"
 
 #endif

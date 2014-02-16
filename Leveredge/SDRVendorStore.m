@@ -61,20 +61,19 @@
     [connection start];
 }
 
-- (void)createPreQualificationforVendor:(SDRVendor *)vendor WithCompletion:(void (^)(SDRUser *, NSError *))block{
-    // Prepare the request URL
-    NSString *requestString = [self authenticateRequest:kAPIPreQualifiedCreate];
-    // append the vendor params
+- (void)createPreQualificationForVendor:(SDRVendor *)vendor WithCompletion:(void (^)(SDRUser *, NSError *))block {
+    
+    NSString *requestString = [self authenticateRequest:kAPIPreQualifiedEndpoint];
     requestString = [requestString stringByAppendingString:(@"&vendor_id=")];
     requestString = [requestString stringByAppendingString:[vendor.vendorID stringValue]];
-    
     NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:requestString] cachePolicy:NSURLCacheStorageNotAllowed timeoutInterval:1000.0];
-    // Specify that it will be a POST request
+    
     [req setHTTPMethod:@"POST"];
     // Set the header fields
-    [req setValue:@"application/xml; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+    [req setValue:@"application/json" forHTTPHeaderField:@"content-type"];
+    [req setValue:@"application/json" forHTTPHeaderField:@"accept"];
     
-    SDRVendorChannel *vendorChannel = [SDRVendorChannel new];
+    SDRUser *user = [SDRUser new];
     SDRConnection *connection = [[SDRConnection alloc]initWithRequest:req];
     
     // Set the connection success block - to trigger directors completion block
@@ -84,14 +83,48 @@
         }
         block(obj, err);
     }];
-    [connection setJsonRootObject:vendorChannel];
+    [connection setJsonRootObject:user];
     
     [connection start];
+}
 
+- (void)removePreQualificationForVendor:(SDRVendor *)vendor WithCompletion:(void (^)(SDRUser *, NSError *))block {
+    SDRAuthStore *authStore = [SDRAuthStore sharedStore];
+    NSString *email = authStore.currentUser.email;
+    NSString *token = authStore.currentUser.authenticationToken;
+    NSString *string = @"/";
+    NSString *requestString = [kAPIPreQualifiedEndpoint stringByAppendingString:string];
+    requestString = [requestString stringByAppendingString:[vendor.vendorID stringValue]];
+    requestString = [requestString stringByAppendingString:(@"?email=")];
+    requestString = [requestString stringByAppendingString:email];
+    requestString = [requestString stringByAppendingString:(@"&authentication_token=")];
+    requestString = [requestString stringByAppendingString:token];
+    
+    NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:requestString] cachePolicy:NSURLCacheStorageNotAllowed timeoutInterval:1000.0];
+    
+    [req setHTTPMethod:@"DELETE"];
+    // Set the header fields
+    [req setValue:@"application/json" forHTTPHeaderField:@"content-type"];
+    [req setValue:@"application/json" forHTTPHeaderField:@"accept"];
+    
+    SDRUser *user = [SDRUser new];
+    SDRConnection *connection = [[SDRConnection alloc]initWithRequest:req];
+    
+    // Set the connection success block - to trigger directors completion block
+    [connection setCompletionBlock:^(SDRUser *obj, NSError *err){
+        if(!err){
+            // Cache the response if needed
+        }
+        block(obj, err);
+    }];
+    [connection setJsonRootObject:user];
+    
+    [connection start];
 }
 
 - (NSString *)authenticateRequest:(NSString *)requestString {
     SDRAuthStore *authStore = [SDRAuthStore sharedStore];
+    NSLog(@"CurrentUser %@", authStore.currentUser);
     NSString *email = authStore.currentUser.email;
     NSString *token = authStore.currentUser.authenticationToken;
     requestString = [requestString stringByAppendingString:(@"?email=")];

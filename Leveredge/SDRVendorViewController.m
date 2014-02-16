@@ -31,18 +31,20 @@
 
 - (void)setViewWithVendor:(SDRVendor *)v{
     self.vendor = v;
-    [[self navigationItem] setTitle:@"Detail View"];
+    [[self navigationItem] setTitle:self.vendor.title];
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view.
     [self calculateDimensions];
     
     [self buildScrollView];
     [self addContentToScrollView];
     [self setScrollViewContentSize];
+    [self checkIfVendorIsLeveredged];
 }
 
 - (void)calculateDimensions {
@@ -202,41 +204,40 @@
     
     [self.leveredgeButton setBackgroundColor:kLeveredgeBlue];
     [self.scrollView addSubview:self.leveredgeButton];
-    [self checkIfVendorIsLeveredged];
 };
 
 - (void)checkIfVendorIsLeveredged {
     NSInteger ind = [[SDRAuthStore sharedStore].currentUser.vendors indexOfObject:self.vendor];
     if (ind != NSNotFound) {
-        return;
-    }
-    else {
-        [self formatSelectedButton:self.leveredgeButton];
+        [self formatSelectedButton];
+    } else {
+        [self formatDeselectedButton];
     }
 }
 
 - (void)leveredgeIt:(SDRLeveredgeButton *)button {
     if (![button selected]){
         NSLog(@"Vendor Leveredged");
-        [self formatSelectedButton:button];
+//        [self formatSelectedButton:button];
         [self makeVendorPreQualifiedLeadForUser];
     } else {
         NSLog(@"Vendor De-Leveredged");
-        [self formatDeselectedButton:button];
+//        [self formatDeselectedButton:button];
         [self removePreQualifiedLeadFromUser];
     }
+//    [self checkIfVendorIsLeveredged];
 }
 
-- (void)formatSelectedButton:(SDRLeveredgeButton *)button {
-    [button setSelected:YES];
-    [button setBackgroundColor:[UIColor greenColor]];
-    [button setTitle:kLeveredgedCopy forState:UIControlStateNormal];
+- (void)formatSelectedButton {
+    [self.leveredgeButton setSelected:YES];
+    [self.leveredgeButton setBackgroundColor:[UIColor greenColor]];
+    [self.leveredgeButton setTitle:kLeveredgedCopy forState:UIControlStateNormal];
 }
 
-- (void)formatDeselectedButton:(SDRLeveredgeButton *)button {
-    [button setSelected:NO];
-    [button setBackgroundColor:kLeveredgeBlue];
-    [button setTitle:kLeveredgeItCopy forState:UIControlStateNormal];
+- (void)formatDeselectedButton {
+    [self.leveredgeButton setSelected:NO];
+    [self.leveredgeButton setBackgroundColor:kLeveredgeBlue];
+    [self.leveredgeButton setTitle:kLeveredgeItCopy forState:UIControlStateNormal];
 }
 
 - (void)buildDescriptionContainer {
@@ -300,28 +301,44 @@
     [self.commentsView setFrame:newCommentsViewFrame];
 }
 
-- (void) makeVendorPreQualifiedLeadForUser {
+- (void)makeVendorPreQualifiedLeadForUser {
     [self setActivityIndicator];
     
     void(^completionBlock)(SDRUser *obj, NSError *err)=^(SDRUser *obj, NSError *err){
         if(!err){
             [[SDRAuthStore sharedStore] setCurrentUser:obj];
+            NSLog(@"%@ LEVEREDGED", self.vendor.title);
+            [self formatSelectedButton];
+            [[self navigationItem] setTitleView:nil];
+            [[self navigationItem] setTitle:self.vendor.title];
         } else {
             [self renderErrorMessage:err];
         }
     };
-    [[SDRVendorStore sharedStore] createPreQualificationforVendor:self.vendor WithCompletion:completionBlock];
+    [[SDRVendorStore sharedStore] createPreQualificationForVendor:self.vendor WithCompletion:completionBlock];
 }
 
-- (void) removePreQualifiedLeadFromUser {
-
+- (void)removePreQualifiedLeadFromUser {
+    [self setActivityIndicator];
+    
+    void(^completionBlock)(SDRUser *obj, NSError *err)=^(SDRUser *obj, NSError *err){
+        if(!err){
+            [[SDRAuthStore sharedStore] setCurrentUser:obj];
+            NSLog(@"%@ DELEVEREDGED", self.vendor.title);
+            [self formatDeselectedButton];
+            [[self navigationItem] setTitleView:nil];
+            [[self navigationItem] setTitle:self.vendor.title];
+        } else {
+            [self renderErrorMessage:err];
+        }
+    };
+    [[SDRVendorStore sharedStore] removePreQualificationForVendor:self.vendor WithCompletion:completionBlock];
 };
 
 - (void)setActivityIndicator {
     UIActivityIndicatorView *aiView = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
     [[self navigationItem] setTitleView:aiView];
     [aiView startAnimating];
-    
 }
 
 - (void)renderErrorMessage:(NSError *)err {

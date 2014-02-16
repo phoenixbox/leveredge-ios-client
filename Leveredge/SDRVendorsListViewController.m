@@ -27,7 +27,6 @@
     if (self) {
         // Custom initialization
         [self initAppearance];
-        [self renderVendorsTable];
     }
     return self;
 }
@@ -43,6 +42,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [self fetchVendors];
+    [self renderVendorsTable];
 }
 
 - (void)initAppearance
@@ -87,6 +87,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     SDRVendor *vendor = [[vendorChannel vendors]objectAtIndex:[indexPath row]];
+//    SDRVendor *vendor = [[[SDRVendorStore sharedStore] allVendors] objectAtIndex:[indexPath row]];
     
     SDRVendorsTableCell *cell = (SDRVendorsTableCell *)[tableView dequeueReusableCellWithIdentifier:kVendorsTableCellIdentifier];
     
@@ -116,7 +117,7 @@
     
     [vendorViewController setViewWithVendor:selectedVendor];
     
-    [[self navigationController]pushViewController:vendorViewController animated:YES];
+    [[self navigationController] pushViewController:vendorViewController animated:YES];
 }
 
 - (void)fetchVendors {
@@ -127,6 +128,7 @@
         [[self navigationItem] setTitleView:nil];
         [[self navigationItem] setTitle:@"Vendors"];
         if(!err){
+            // TODO: Possible change when querying subset of vendors
             vendorChannel = obj;
             [[self vendorsTable]reloadData];
         } else {

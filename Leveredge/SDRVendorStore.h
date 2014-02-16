@@ -21,6 +21,9 @@
 - (NSMutableArray *)allVendors;
 
 - (void)fetchVendorsWithCompletion:(void (^)(SDRVendorChannel *obj, NSError *err))block;
-- (void)createPreQualificationforVendor:(SDRVendor *)vendor WithCompletion:(void (^)(SDRUser *, NSError *))block;
+
+- (void)createPreQualificationForVendor:(SDRVendor *)vendor WithCompletion:(void (^)(SDRUser *, NSError *))block;
+
+- (void)removePreQualificationForVendor:(SDRVendor *)vendor WithCompletion:(void (^)(SDRUser *, NSError *))block;
 
 @end

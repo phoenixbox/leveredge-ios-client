@@ -3,7 +3,28 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "-[SDRCommentsView resizeCommentsTableContentSize]:SDRCommentsView.m">
+         contextName = "-[SDRUser readFromNSObject:]:SDRUser.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[object isKindOfClass:[NSDictionary class]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRVendorStore authenticateRequest:]:SDRVendorStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[SDRAuthStore sharedStore].currentUser">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRVendorViewController viewDidLoad]:SDRVendorViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[SDRAuthStore sharedStore]">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "-[SDRCommentsView renderCommentsTable]:SDRCommentsView.m">
@@ -14,88 +35,15 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "-[SDRVendorViewController resizeCommentsTableToContents]:SDRVendorViewController.m">
+         contextName = "-[SDRVendor constructVendor:]:SDRVendor.m">
          <PersistentStrings>
             <PersistentString
-               value = "self.commentsView.subviews">
-            </PersistentString>
-            <PersistentString
-               value = "[self.commentsView.commentsTable visibleCells];">
+               value = "[SDRVendorStore sharedStore]">
             </PersistentString>
          </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[SDRCommentsView resizeCommentsTableToContents]:SDRCommentsView.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "self.commentsTable.subviews">
-            </PersistentString>
-            <PersistentString
-               value = "[self.commentsTable visibleCells];">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[SDRVendorViewController setScrollViewContentSize]:SDRVendorViewController.m">
       </ContextState>
       <ContextState
          contextName = "-[SDRConnection requestError:]:SDRConnection.m">
-      </ContextState>
-      <ContextState
-         contextName = "-[SDRVendor readFromJSONDictionary:]:SDRVendor.m">
-         <PersistentStrings>
-            <PersistentString
-               value = " [self setTitle:[d objectForKey:@&quot;zip_code&quot;]];">
-            </PersistentString>
-            <PersistentString
-               value = "[d objectForKey:@&quot;id&quot;];">
-            </PersistentString>
-            <PersistentString
-               value = "[d objectForKey:@&quot;title&quot;]">
-            </PersistentString>
-            <PersistentString
-               value = "[d objectForKey:@&quot;vendor&quot;]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[SDRConnection connectionDidFinishLoading:]:SDRConnection.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "[(NSDictionary *)serializedObject objectForKey:@&quot;status&quot;]">
-            </PersistentString>
-            <PersistentString
-               value = "[(NSDictionary *)serializedObject objectForKey:@&quot;message&quot;]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[SDRCommentsView tableView:heightForRowAtIndexPath:]:SDRCommentsView.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "[tableView cellForRowAtIndexPath:indexPath];">
-            </PersistentString>
-            <PersistentString
-               value = "[tableView visibleCells]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[SDRConnection connection:didFailWithError:]:SDRConnection.m">
-      </ContextState>
-      <ContextState
-         contextName = "-[SDRUser readFromJSONDictionary:]:SDRUser.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "[d objectForKey:@&quot;vendors&quot;]">
-            </PersistentString>
-            <PersistentString
-               value = "[d objectForKey:@&quot;authentication_token&quot;]">
-            </PersistentString>
-            <PersistentString
-               value = "[d objectForKey@&quot;user&quot;]">
-            </PersistentString>
-         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "-[SDRCommentsView tableView:willDisplayCell:forRowAtIndexPath:]:SDRCommentsView.m">
@@ -122,16 +70,122 @@
             <PersistentString
                value = "[[SDRAuthStore sharedStore].currentUser.vendors containsObject:self.vendor]">
             </PersistentString>
+            <PersistentString
+               value = "[[SDRAuthStore sharedStore].currentUser.vendors indexOfObject:self.vendor]">
+            </PersistentString>
+            <PersistentString
+               value = "self.vendor">
+            </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "-[SDRVendorChannel readFromJSONDictionary:]:SDRVendorChannel.m">
       </ContextState>
       <ContextState
-         contextName = "-[SDRUser readFromNSObject:]:SDRUser.m">
+         contextName = "-[SDRVendorStore preQualificationRequestforVendor:WithCompletion:andRequestMethod:]:SDRVendorStore.m">
          <PersistentStrings>
             <PersistentString
-               value = "[object isKindOfClass:[NSDictionary class]]">
+               value = " [requestString stringByAppendingString:[vendor.vendorID stringValue]];">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRCommentsView tableView:heightForRowAtIndexPath:]:SDRCommentsView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[tableView cellForRowAtIndexPath:indexPath];">
+            </PersistentString>
+            <PersistentString
+               value = "[tableView visibleCells]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRConnection connection:didFailWithError:]:SDRConnection.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRVendor readFromJSONDictionary:]:SDRVendor.m">
+         <PersistentStrings>
+            <PersistentString
+               value = " [self setTitle:[d objectForKey:@&quot;zip_code&quot;]];">
+            </PersistentString>
+            <PersistentString
+               value = "[d objectForKey:@&quot;title&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "[d objectForKey:@&quot;id&quot;];">
+            </PersistentString>
+            <PersistentString
+               value = "[d objectForKey:@&quot;vendor&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRVendorViewController setScrollViewContentSize]:SDRVendorViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRCommentsView resizeCommentsTableContentSize]:SDRCommentsView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRVendorViewController resizeCommentsTableToContents]:SDRVendorViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.commentsView.subviews">
+            </PersistentString>
+            <PersistentString
+               value = "[self.commentsView.commentsTable visibleCells];">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRUser readFromJSONDictionary:]:SDRUser.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[d objectForKey@&quot;user&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "[d objectForKey:@&quot;authentication_token&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "[d objectForKey:@&quot;vendors&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRCommentsView resizeCommentsTableToContents]:SDRCommentsView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.commentsTable.subviews">
+            </PersistentString>
+            <PersistentString
+               value = "[self.commentsTable visibleCells];">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRVendorStore removePreQualificationForVendor:WithCompletion:]:SDRVendorStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[SDRAuthStore sharedStore].currentUser">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRConnection connectionDidFinishLoading:]:SDRConnection.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[(NSDictionary *)serializedObject objectForKey:@&quot;status&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "[(NSDictionary *)serializedObject objectForKey:@&quot;message&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRVendorsListViewController tableView:didSelectRowAtIndexPath:]:SDRVendorsListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[SDRAuthStore sharedStore].currentUser">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
