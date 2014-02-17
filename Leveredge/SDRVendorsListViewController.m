@@ -27,6 +27,7 @@
     if (self) {
         // Custom initialization
         [self initAppearance];
+        [self fetchVendors];
     }
     return self;
 }
@@ -41,7 +42,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    [self fetchVendors];
+
     [self renderVendorsTable];
 }
 
@@ -130,12 +131,21 @@
         if(!err){
             // TODO: Possible change when querying subset of vendors
             vendorChannel = obj;
+            // Only add if unique
+            [self addUniquesToVendorStore:vendorChannel];
+            
             [[self vendorsTable]reloadData];
         } else {
             [self renderErrorMessage:err];
         }
     };
     [[SDRVendorStore sharedStore]fetchVendorsWithCompletion:completionBlock];
+}
+
+- (void)addUniquesToVendorStore:(SDRVendorChannel *)vc {
+    for(SDRVendor *vendor in [vc vendors]){
+        [[SDRVendorStore sharedStore] addUniqueVendors:vendor];
+    }
 }
 
 - (void)renderErrorMessage:(NSError *)err {

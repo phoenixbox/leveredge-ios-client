@@ -206,26 +206,31 @@
     [self.scrollView addSubview:self.leveredgeButton];
 };
 
+//- (void)checkIfVendorIsLeveredged {
+//    NSInteger ind = [[SDRAuthStore sharedStore].currentUser.vendors indexOfObject:self.vendor];
+//    if (ind != NSNotFound) {
+//        [self formatSelectedButton];
+//    } else {
+//        [self formatDeselectedButton];
+//    }
+//}
+
 - (void)checkIfVendorIsLeveredged {
-    NSInteger ind = [[SDRAuthStore sharedStore].currentUser.vendors indexOfObject:self.vendor];
-    if (ind != NSNotFound) {
-        [self formatSelectedButton];
-    } else {
-        [self formatDeselectedButton];
+    for(SDRVendor *vendor in [SDRAuthStore sharedStore].currentUser.vendors){
+        if ([vendor.vendorID isEqualToNumber:self.vendor.vendorID]) {
+            [self formatSelectedButton];
+        }
     }
 }
 
 - (void)leveredgeIt:(SDRLeveredgeButton *)button {
     if (![button selected]){
         NSLog(@"Vendor Leveredged");
-//        [self formatSelectedButton:button];
         [self makeVendorPreQualifiedLeadForUser];
     } else {
         NSLog(@"Vendor De-Leveredged");
-//        [self formatDeselectedButton:button];
         [self removePreQualifiedLeadFromUser];
     }
-//    [self checkIfVendorIsLeveredged];
 }
 
 - (void)formatSelectedButton {

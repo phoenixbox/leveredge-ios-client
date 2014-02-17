@@ -25,12 +25,16 @@
     return vendorStore;
 }
 
-- (void)addVendor:(SDRVendor *)vendor {
+- (void)addUniqueVendors:(SDRVendor *)vendor {
     if(!allVendors){
         allVendors = [NSMutableArray new];
     }
     //  RESTART: Find or create
-    [allVendors addObject:vendor];
+
+    NSInteger ind = [[self allVendors] indexOfObject:vendor];
+    if (ind == NSNotFound) {
+        [allVendors addObject:vendor];
+    }
 }
 
 - (NSMutableArray *)allVendors {
@@ -45,7 +49,7 @@
     //Append the user auth token parameter
     
     // Set the connection
-    NSURLRequest *req = [NSURLRequest requestWithURL:url];
+    NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:1000.0];
     SDRVendorChannel *vendorChannel = [SDRVendorChannel new];
     SDRConnection *connection = [[SDRConnection alloc]initWithRequest:req];
     
@@ -66,7 +70,7 @@
     NSString *requestString = [self authenticateRequest:kAPIPreQualifiedEndpoint];
     requestString = [requestString stringByAppendingString:(@"&vendor_id=")];
     requestString = [requestString stringByAppendingString:[vendor.vendorID stringValue]];
-    NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:requestString] cachePolicy:NSURLCacheStorageNotAllowed timeoutInterval:1000.0];
+    NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:requestString] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:1000.0];
     
     [req setHTTPMethod:@"POST"];
     // Set the header fields
@@ -100,7 +104,7 @@
     requestString = [requestString stringByAppendingString:(@"&authentication_token=")];
     requestString = [requestString stringByAppendingString:token];
     
-    NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:requestString] cachePolicy:NSURLCacheStorageNotAllowed timeoutInterval:1000.0];
+    NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:requestString] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:1000.0];
     
     [req setHTTPMethod:@"DELETE"];
     // Set the header fields
@@ -134,7 +138,5 @@
     
     return requestString;
 }
-
-
 
 @end

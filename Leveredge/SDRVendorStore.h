@@ -17,7 +17,7 @@
 }
 
 + (SDRVendorStore *)sharedStore;
-- (void)addVendor:(SDRVendor *)vendor;
+- (void)addUniqueVendors:(SDRVendor *)vendor;
 - (NSMutableArray *)allVendors;
 
 - (void)fetchVendorsWithCompletion:(void (^)(SDRVendorChannel *obj, NSError *err))block;

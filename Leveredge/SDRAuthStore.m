@@ -76,12 +76,13 @@
     // Create the request.
     NSString *requestString = [self constructLoginRequest:parameters];
     // Prepare the request URL
-    NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:requestString] cachePolicy:NSURLCacheStorageNotAllowed timeoutInterval:1000.0];
+    NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:requestString] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:1000.0];
 
     // Specify that it will be a POST request
     [req setHTTPMethod:@"POST"];
     // Set the header fields
-    [req setValue:@"application/xml; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+    [req setValue:@"application/json" forHTTPHeaderField:@"content-type"];
+    [req setValue:@"application/json" forHTTPHeaderField:@"accept"];
     
     // Set the connection
     SDRUser *user = [SDRUser new];

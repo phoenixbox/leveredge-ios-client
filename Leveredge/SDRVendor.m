@@ -14,17 +14,18 @@
 - (void)readFromNSObject:(NSObject *)object {
 }
 
-- (void)readFromJSONDictionary:(NSDictionary *)d {
+- (SDRVendor *)vendorFromJSONDictionary:(NSDictionary *)d {
     // Parsing response for vendors on users
-    if ([d objectForKey:@"vendor"]){
+    SDRVendor *vendor = [SDRVendor new];
+    if ([d objectForKey:@"vendor"]) {
         d = [d objectForKey:@"vendor"];
-        if([self vendorExists:[d objectForKey:@"id"]]){
-            [self constructVendor:d];
-        }
+//        if([self vendorExists:[d objectForKey:@"id"]]) {
+            return [self constructVendor:d];
+//        }
+    } else if ([self vendorExists:[d objectForKey:@"id"]]) {
+        return [self constructVendor:d];
     }
-    if([self vendorExists:[d objectForKey:@"id"]]){
-        [self constructVendor:d];
-    }
+    return vendor;
 }
 
 - (BOOL)vendorExists:(NSNumber *)vId {
@@ -37,7 +38,7 @@
     return TRUE;
 }
 
-- (void)constructVendor:(NSDictionary *)d {
+- (SDRVendor *)constructVendor:(NSDictionary *)d {
     
     [self setVendorID:[d objectForKey:@"id"]];
     [self setTitle:[d objectForKey:@"title"]];
@@ -51,8 +52,8 @@
     [self setCity:[d objectForKey:@"city"]];
     [self setState:[d objectForKey:@"state"]];
     [self setZipCode:[d objectForKey:@"zip_code"]];
-    
-    [[SDRVendorStore sharedStore] addVendor:self];
+    return self;
+//    [[SDRVendorStore sharedStore] addVendor:self];
     
     // Use SDWebImage library to render web images
     // [self.imageView setImageWithURL:[NSURL URLWithString:@"http://www.domain.com/path/to/image.jpg"] placeholderImage:[UIImage imageNamed:@"placeholder.png"]];

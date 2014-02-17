@@ -90,6 +90,9 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "-[SDRVendorStore addUniqueVendors:]:SDRVendorStore.m">
+      </ContextState>
+      <ContextState
          contextName = "-[SDRCommentsView tableView:heightForRowAtIndexPath:]:SDRCommentsView.m">
          <PersistentStrings>
             <PersistentString
@@ -122,6 +125,14 @@
       </ContextState>
       <ContextState
          contextName = "-[SDRVendorViewController setScrollViewContentSize]:SDRVendorViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRVendorsListViewController addUniquesToVendorStore:]:SDRVendorsListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[SDRVendorStore sharedStore]">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "-[SDRCommentsView resizeCommentsTableContentSize]:SDRCommentsView.m">
@@ -188,6 +199,9 @@
                value = "[SDRAuthStore sharedStore].currentUser">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRVendorsListViewController tableView:cellForRowAtIndexPath:]:SDRVendorsListViewController.m">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

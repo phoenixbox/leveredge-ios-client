@@ -25,6 +25,7 @@
 }
 
 - (void)readFromJSONDictionary:(NSDictionary *)d {
+    
 }
 
 - (void)readFromNSObject:(NSObject *)object {
@@ -39,7 +40,7 @@
     for (NSDictionary *dictionary in array) {
         SDRVendor *vendor = [[SDRVendor alloc] init];
         // Pass the entry dictionary to the item so it can grab its ivars
-        [vendor readFromJSONDictionary:dictionary];
+        [vendor vendorFromJSONDictionary:dictionary];
         [vendors addObject:vendor];
     }
 }

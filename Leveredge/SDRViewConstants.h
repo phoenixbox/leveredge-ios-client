@@ -21,8 +21,8 @@
 #define kPureWhite [UIColor colorWithWhite:255.0f alpha:1.0f]
 
 // Login Template
-#define kLogoPlaceholder @"Client"
-#define kLogoSubHeader @"Subheader"
+#define kLogoPlaceholder @"Leveredge"
+#define kLogoSubHeader @"Don't just realize your purchasing power, Leveredge it!"
 
 #define kSampleEmail @"rogerssh@tcd.ie"
 #define kSamplePassword @"12345678"
@@ -50,7 +50,5 @@
 #define kCommentCopySampleTwo @"Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo."
 #define kCommentCopySampleThree @"Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
 #define kCommentCopySampleFour @"Vestibulum id ligula porta felis euismod semper."
-
-
 
 #endif
