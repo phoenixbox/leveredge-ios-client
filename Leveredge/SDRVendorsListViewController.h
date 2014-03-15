@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SDRFilterTableViewController.h"
 
 @class SDRVendorChannel;
 
@@ -15,5 +16,6 @@
 }
 
 @property (nonatomic, strong) UITableView *vendorsTable;
+@property (nonatomic, strong) SDRFilterTableViewController *filterListModal;
 
 @end

@@ -162,7 +162,10 @@
 }
 
 - (void)toggleFilter:(id)paramSender {
-    NSLog(@"Filter Icon Tapped");
+    self.filterListModal = [SDRFilterTableViewController new];
+    UINavigationController *navigationContainer =[[UINavigationController alloc]initWithRootViewController:self.filterListModal];
+    
+    [self presentViewController:navigationContainer animated:YES completion:^{/* No callback*/}];
 }
 
 - (void)renderErrorMessage:(NSError *)err {
