@@ -306,6 +306,8 @@
     [self.commentsView setFrame:newCommentsViewFrame];
 }
 
+# pragma Actions
+
 - (void)makeVendorPreQualifiedLeadForUser {
     [self setActivityIndicator];
     
@@ -339,6 +341,8 @@
     };
     [[SDRVendorStore sharedStore] removePreQualificationForVendor:self.vendor WithCompletion:completionBlock];
 };
+
+# pragma view enhancements
 
 - (void)setActivityIndicator {
     UIActivityIndicatorView *aiView = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];

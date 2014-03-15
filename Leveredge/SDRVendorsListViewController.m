@@ -42,7 +42,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-
     [self renderVendorsTable];
 }
 
@@ -56,15 +55,11 @@
     [[UIToolbar appearance] setBarStyle:UIBarStyleBlackOpaque];
     [[UIToolbar appearance] setBarTintColor:kLeveredgeBlue];
     [self setHeaderLogo];
-//    UIGraphicsBeginImageContext(self.vendorsThumbnail.frame.size);
-//    [[UIImage imageNamed:@"littleowl.jpg"] drawInRect:CGRectMake(self.frame.origin.x,self.frame.origin.y,self.frame.size.width,kVendorsTableCellHeight)];
-//    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-//    UIGraphicsEndImageContext();
-//    self.backgroundColor = [UIColor colorWithPatternImage:image];
-    
-
-    
-//    [[self navigationItem] setTitle:@"Vendors"];
+//    UIImageView *logoView = [[UIImageView alloc]initWithFrame:CGRectMake(0.0f, 0.0f,100.0f, 40.0f)];
+//    logoView.contentMode = UIViewContentModeScaleAspectFill;
+    UIImage *filterImage = [UIImage imageNamed:@"filterIconSmall.png"];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:filterImage landscapeImagePhone:filterImage style:UIBarButtonItemStylePlain target:self action:@selector(toggleFilter:)];
+    [self.navigationItem.rightBarButtonItem setTintColor:[UIColor whiteColor]];
 }
 
 - (void)renderVendorsTable {
@@ -162,6 +157,10 @@
     for(SDRVendor *vendor in [vc vendors]){
         [[SDRVendorStore sharedStore] addUniqueVendors:vendor];
     }
+}
+
+- (void)toggleFilter:(id)paramSender {
+    NSLog(@"Filter Icon Tapped");
 }
 
 - (void)renderErrorMessage:(NSError *)err {
