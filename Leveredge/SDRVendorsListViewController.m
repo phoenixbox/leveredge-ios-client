@@ -55,8 +55,16 @@
     
     [[UIToolbar appearance] setBarStyle:UIBarStyleBlackOpaque];
     [[UIToolbar appearance] setBarTintColor:kLeveredgeBlue];
+    [self setHeaderLogo];
+//    UIGraphicsBeginImageContext(self.vendorsThumbnail.frame.size);
+//    [[UIImage imageNamed:@"littleowl.jpg"] drawInRect:CGRectMake(self.frame.origin.x,self.frame.origin.y,self.frame.size.width,kVendorsTableCellHeight)];
+//    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+//    UIGraphicsEndImageContext();
+//    self.backgroundColor = [UIColor colorWithPatternImage:image];
     
-    [[self navigationItem] setTitle:@"Vendors"];
+
+    
+//    [[self navigationItem] setTitle:@"Vendors"];
 }
 
 - (void)renderVendorsTable {
@@ -126,8 +134,7 @@
     [self setActivityIndicator];
     
     void(^completionBlock)(SDRVendorChannel *obj, NSError *err)=^(SDRVendorChannel *obj, NSError *err){
-        [[self navigationItem] setTitleView:nil];
-        [[self navigationItem] setTitle:@"Vendors"];
+        [self setHeaderLogo];
         if(!err){
             // TODO: Possible change when querying subset of vendors
             vendorChannel = obj;
@@ -140,6 +147,15 @@
         }
     };
     [[SDRVendorStore sharedStore]fetchVendorsWithCompletion:completionBlock];
+}
+
+- (void)setHeaderLogo {
+    [[self navigationItem] setTitleView:nil];
+    UIImageView *logoView = [[UIImageView alloc]initWithFrame:CGRectMake(0.0f, 0.0f,100.0f, 40.0f)];
+    logoView.contentMode = UIViewContentModeScaleAspectFill;
+    UIImage *logoImage = [UIImage imageNamed:@"leveredgeLogo.png"];
+    [logoView setImage:logoImage];
+    self.navigationItem.titleView = logoView;
 }
 
 - (void)addUniquesToVendorStore:(SDRVendorChannel *)vc {

@@ -40,6 +40,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [[self navigationController] setNavigationBarHidden:YES animated:YES];
+    [self.view setBackgroundColor:kLeveredgeBlue];
     [self renderScrollView];
     
     [self renderForm];
@@ -58,25 +59,26 @@
 }
 
 - (void)renderLogoPlaceholderAndSubheader {
-    //
-    self.logoLabel = [[UILabel alloc]initWithFrame:CGRectMake(0.0f,0.0f, 250.0f, 50.0f)];
-    [self.logoLabel setCenter:CGPointMake(self.view.frame.size.width/2, 100.0f)];
-    [self.logoLabel setText:kLogoPlaceholder];
-    [self.logoLabel setFont:[UIFont systemFontOfSize:35.0f]];
-    self.logoLabel.textAlignment = NSTextAlignmentCenter;
-    
-    CGRect logoSubheaderFrame = self.logoLabel.frame;
+    self.logoHero = [[UIImageView alloc]initWithFrame:CGRectMake(0.0f, 0.0f,200.0f, 80.0f)];
+    self.logoHero.contentMode = UIViewContentModeScaleAspectFill;
+    UIImage *logoImage = [UIImage imageNamed:@"leveredgeLogoHero.png"];
+    [self.logoHero setImage:logoImage];
+    [self.logoHero setCenter:CGPointMake(self.view.frame.size.width/2, 100.0f)];
+    CGRect logoSubheaderFrame = self.logoHero.frame;
 
     logoSubheaderFrame.origin.y += logoSubheaderFrame.size.height + 10;
     self.logoSubHeader = [[UITextView alloc]initWithFrame:logoSubheaderFrame];
+    [self.logoSubHeader setBackgroundColor:[UIColor clearColor]];
     self.logoSubHeader.contentInset = UIEdgeInsetsMake(10.0f, 0.0f, 0.0f, 0.0f);
     [self.logoSubHeader setText:kLogoSubHeader];
     [self.logoSubHeader setFont:[UIFont systemFontOfSize:12.0f]];
+    [self.logoSubHeader setTextColor:[UIColor whiteColor]];
     self.logoSubHeader.textAlignment = NSTextAlignmentCenter;
     [self.logoSubHeader setEditable:NO];
     [self.logoSubHeader setSelectable:NO];
     
-    [self.scrollView addSubview:self.logoLabel];
+//    [self.scrollView addSubview:self.logoLabel];
+    [self.scrollView addSubview:self.logoHero];
     [self.scrollView addSubview:self.logoSubHeader];
 }
 
