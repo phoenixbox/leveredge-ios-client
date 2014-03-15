@@ -9,6 +9,8 @@
 #import "SDRAppDelegate.h"
 #import "SDRLoginViewController.h"
 #import "SDRVendorsListViewController.h"
+#import "SDRLeveredgeSelectionsViewController.h"
+#import "SDRViewConstants.h"
 
 @implementation SDRAppDelegate
 
@@ -52,9 +54,36 @@
 }
 
 - (void)initializeNavigationController{
-    SDRVendorsListViewController *vendorsViewController = [SDRVendorsListViewController new];
-    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:vendorsViewController];
-    [[self window] setRootViewController:navController];
+    SDRVendorsListViewController *vendorsListViewController = [SDRVendorsListViewController new];
+    SDRLeveredgeSelectionsViewController *leveredgeSelectionsViewController = [SDRLeveredgeSelectionsViewController new];
+
+    UINavigationController *vendorsListViewNavController = [[UINavigationController alloc]initWithRootViewController:vendorsListViewController];
+    UINavigationController *leveredgeSelectionsViewNavController = [[UINavigationController alloc]initWithRootViewController:leveredgeSelectionsViewController];
+
+    UITabBarController *leveredgeTabBarController = [UITabBarController new];
+    [leveredgeTabBarController setViewControllers:@[vendorsListViewNavController,leveredgeSelectionsViewNavController]];
+    [self styleTabBar:leveredgeTabBarController.tabBar];
+    
+    [[self window] setRootViewController:leveredgeTabBarController];
 }
+
+- (void)styleTabBar:(UITabBar *)tabBar {
+    [[UITabBar appearance] setBarTintColor:kLeveredgeBlue];
+    [[UITabBar appearance] setSelectedImageTintColor:kPureWhite];
+    NSArray *tabBarTitlesMap = @[@"Food", @"Selections"];
+    NSArray *tabBarImagesMap = @[@"knifeAndFork", @"selections"];
+    
+    [[tabBar items] enumerateObjectsUsingBlock:^(UITabBarItem *item, NSUInteger index, BOOL *stop){
+        [self setTabItemImages:item withTitle:[tabBarTitlesMap objectAtIndex:index] andImageName:[tabBarImagesMap objectAtIndex:index]];
+    }];
+}
+
+- (void)setTabItemImages:(UITabBarItem *)item withTitle:(NSString *)title andImageName:(NSString *)imageName {
+    [item setTitle:title];
+    [item setImage:[[UIImage imageNamed:[imageName stringByAppendingString:@"Unhighlighted.png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    [item setSelectedImage:[[UIImage imageNamed:[imageName stringByAppendingString:@"Highlighted.png"]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    [item setTitleTextAttributes:@{ NSForegroundColorAttributeName : kLeveredgeDeselectedGrey } forState:UIControlStateNormal];
+    [item setTitleTextAttributes:@{ NSForegroundColorAttributeName : kPureWhite } forState:UIControlStateHighlighted];
+};
 
 @end

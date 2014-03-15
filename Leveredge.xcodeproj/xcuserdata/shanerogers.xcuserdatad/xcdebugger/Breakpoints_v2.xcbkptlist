@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Leveredge/SDRVendorsListViewController.m"
-            timestampString = "416553036.25884"
+            timestampString = "416605552.326713"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -70,7 +70,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Leveredge/SDRUser.m"
@@ -83,13 +83,13 @@
             landmarkType = "5">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[SDRUser userReadFromJSONDictionary:]"
                   moduleName = "Leveredge"
                   urlString = "file://localhost/Users/shanerogers/Desktop/dev/leveredge/leveredge-ios-client/Leveredge/SDRUser.m"
-                  timestampString = "414295682.636992"
+                  timestampString = "416607014.34036"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "30"
@@ -97,13 +97,13 @@
                   offsetFromSymbolStart = "415">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[SDRUser userReadFromJSONDictionary:]"
                   moduleName = "Leveredge"
                   urlString = "file://localhost/Users/shanerogers/Desktop/dev/leveredge/leveredge-ios-client/Leveredge/SDRUser.m"
-                  timestampString = "414295682.637287"
+                  timestampString = "416607014.340635"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "30"
@@ -116,7 +116,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Leveredge/SDRVendorChannel.m"
@@ -136,11 +136,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Leveredge/SDRVendorsListViewController.m"
-            timestampString = "416553036.25884"
+            timestampString = "416605552.326713"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "158"
-            endingLineNumber = "158"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
             landmarkName = "-addUniquesToVendorStore:"
             landmarkType = "5">
          </BreakpointContent>
@@ -334,7 +334,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Leveredge/SDRAuthStore.m"
@@ -344,6 +344,22 @@
             startingLineNumber = "80"
             endingLineNumber = "80"
             landmarkName = "-loginRequest:withCompletionBlock:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Leveredge/SDRAppDelegate.m"
+            timestampString = "416609063.256451"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "-setTabItemImages:withTitle:andImageName:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

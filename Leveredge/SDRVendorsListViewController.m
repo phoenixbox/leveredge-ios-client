@@ -43,20 +43,22 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [self renderVendorsTable];
+
 }
 
 - (void)initAppearance
 {
     // Set appearance info
-    [[UITabBar appearance] setBarTintColor:kLeveredgeBlue];
     [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackOpaque];
     [[UINavigationBar appearance] setBarTintColor:kLeveredgeBlue];
     
     [[UIToolbar appearance] setBarStyle:UIBarStyleBlackOpaque];
     [[UIToolbar appearance] setBarTintColor:kLeveredgeBlue];
     [self setHeaderLogo];
-//    UIImageView *logoView = [[UIImageView alloc]initWithFrame:CGRectMake(0.0f, 0.0f,100.0f, 40.0f)];
-//    logoView.contentMode = UIViewContentModeScaleAspectFill;
+    [self addNavigationItems];
+}
+
+- (void)addNavigationItems{
     UIImage *filterImage = [UIImage imageNamed:@"filterIconSmall.png"];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:filterImage landscapeImagePhone:filterImage style:UIBarButtonItemStylePlain target:self action:@selector(toggleFilter:)];
     [self.navigationItem.rightBarButtonItem setTintColor:[UIColor whiteColor]];

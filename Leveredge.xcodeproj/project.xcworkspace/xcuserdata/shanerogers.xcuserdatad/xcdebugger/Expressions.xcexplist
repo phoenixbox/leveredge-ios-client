@@ -46,6 +46,14 @@
          contextName = "-[SDRConnection requestError:]:SDRConnection.m">
       </ContextState>
       <ContextState
+         contextName = "-[SDRAppDelegate styleTabBar:]:SDRAppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[tabBar items]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[SDRCommentsView tableView:willDisplayCell:forRowAtIndexPath:]:SDRCommentsView.m">
          <PersistentStrings>
             <PersistentString
@@ -113,10 +121,10 @@
                value = " [self setTitle:[d objectForKey:@&quot;zip_code&quot;]];">
             </PersistentString>
             <PersistentString
-               value = "[d objectForKey:@&quot;title&quot;]">
+               value = "[d objectForKey:@&quot;id&quot;];">
             </PersistentString>
             <PersistentString
-               value = "[d objectForKey:@&quot;id&quot;];">
+               value = "[d objectForKey:@&quot;title&quot;]">
             </PersistentString>
             <PersistentString
                value = "[d objectForKey:@&quot;vendor&quot;]">
@@ -131,6 +139,14 @@
          <PersistentStrings>
             <PersistentString
                value = "[SDRVendorStore sharedStore]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRAppDelegate setTabItemAttributes:withTitle:andImageName:]:SDRAppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[imageName stringByAppendingString:@&quot;.png&quot;]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -152,13 +168,13 @@
          contextName = "-[SDRUser readFromJSONDictionary:]:SDRUser.m">
          <PersistentStrings>
             <PersistentString
-               value = "[d objectForKey@&quot;user&quot;]">
+               value = "[d objectForKey:@&quot;vendors&quot;]">
             </PersistentString>
             <PersistentString
                value = "[d objectForKey:@&quot;authentication_token&quot;]">
             </PersistentString>
             <PersistentString
-               value = "[d objectForKey:@&quot;vendors&quot;]">
+               value = "[d objectForKey@&quot;user&quot;]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -202,6 +218,14 @@
       </ContextState>
       <ContextState
          contextName = "-[SDRVendorsListViewController tableView:cellForRowAtIndexPath:]:SDRVendorsListViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SDRAuthStore loginRequest:withCompletionBlock:]:SDRAuthStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[tabBar items]">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
    </ContextStates>
 </VariablesViewState>
