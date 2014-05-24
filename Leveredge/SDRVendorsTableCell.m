@@ -36,7 +36,6 @@
 - (void)renderCellCopy {
     [self renderCopyContainer];
     [self renderCopyText];
-    
 }
 
 - (void)renderCopyContainer {

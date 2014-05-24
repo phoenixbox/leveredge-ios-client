@@ -43,6 +43,7 @@
 
 - (void)fetchVendorsWithCompletion:(void (^)(SDRVendorChannel *, NSError *))block {
     // Prepare the request URL
+//    NSString *requestString = [self authenticateRequest:kProdAPIVendorsIndex];
     NSString *requestString = [self authenticateRequest:kAPIVendorsIndex];
     NSURL *url = [NSURL URLWithString:requestString];
     
@@ -67,6 +68,7 @@
 
 - (void)createPreQualificationForVendor:(SDRVendor *)vendor WithCompletion:(void (^)(SDRUser *, NSError *))block {
     
+//    NSString *requestString = [self authenticateRequest:kProdAPIPreQualifiedEndpoint];
     NSString *requestString = [self authenticateRequest:kAPIPreQualifiedEndpoint];
     requestString = [requestString stringByAppendingString:(@"&vendor_id=")];
     requestString = [requestString stringByAppendingString:[vendor.vendorID stringValue]];
@@ -97,6 +99,7 @@
     NSString *email = authStore.currentUser.email;
     NSString *token = authStore.currentUser.authenticationToken;
     NSString *string = @"/";
+//    NSString *requestString = [kProdAPIPreQualifiedEndpoint stringByAppendingString:string];
     NSString *requestString = [kAPIPreQualifiedEndpoint stringByAppendingString:string];
     requestString = [requestString stringByAppendingString:[vendor.vendorID stringValue]];
     requestString = [requestString stringByAppendingString:(@"?email=")];

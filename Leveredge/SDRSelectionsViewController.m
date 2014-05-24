@@ -1,18 +1,18 @@
 //
-//  SDRLeveredgeSelectionsViewController.m
+//  SDRSelectionsViewController.m
 //  Leveredge
 //
 //  Created by Shane Rogers on 3/15/14.
 //  Copyright (c) 2014 Shane Rogers. All rights reserved.
 //
 
-#import "SDRLeveredgeSelectionsViewController.h"
+#import "SDRSelectionsViewController.h"
 
-@interface SDRLeveredgeSelectionsViewController ()
+@interface SDRSelectionsViewController ()
 
 @end
 
-@implementation SDRLeveredgeSelectionsViewController
+@implementation SDRSelectionsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

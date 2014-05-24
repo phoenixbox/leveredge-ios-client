@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB35D95E19063AA000CD8F75 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB35D95A19063AA000CD8F75 /* libTestFlight.a */; };
 		CB4447CB18D4082800F3854B /* leveredgeLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4447CA18D4082800F3854B /* leveredgeLogo@2x.png */; };
 		CB4447CD18D4116000F3854B /* leveredgeLogoHero@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4447CC18D4116000F3854B /* leveredgeLogoHero@2x.png */; };
 		CB4447CF18D4165900F3854B /* filterIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4447CE18D4165900F3854B /* filterIcon@2x.png */; };
 		CB4447D118D4176300F3854B /* filterIconSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4447D018D4176300F3854B /* filterIconSmall@2x.png */; };
-		CB4447D418D4AE4D00F3854B /* SDRLeveredgeSelectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4447D318D4AE4D00F3854B /* SDRLeveredgeSelectionsViewController.m */; };
+		CB4447D418D4AE4D00F3854B /* SDRSelectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4447D318D4AE4D00F3854B /* SDRSelectionsViewController.m */; };
 		CB4447DE18D4F2A500F3854B /* knifeAndForkHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4447DA18D4F2A500F3854B /* knifeAndForkHighlighted@2x.png */; };
 		CB4447DF18D4F2A500F3854B /* knifeAndForkUnhighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4447DB18D4F2A500F3854B /* knifeAndForkUnhighlighted@2x.png */; };
 		CB4447E018D4F2A500F3854B /* selectionsHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4447DC18D4F2A500F3854B /* selectionsHighlighted@2x.png */; };
@@ -30,6 +31,16 @@
 		CB8B6D5618A6B1E100E63566 /* SDRLeveredgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5518A6B1E100E63566 /* SDRLeveredgeButton.m */; };
 		CB8B6D5918A6B6FE00E63566 /* SDRCommentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5818A6B6FE00E63566 /* SDRCommentsView.m */; };
 		CB8B6D5C18A6C94A00E63566 /* SDRCommentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5B18A6C94A00E63566 /* SDRCommentViewCell.m */; };
+		CBD2875E1925B09400AA22C5 /* videoHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD2875C1925B09400AA22C5 /* videoHighlighted@2x.png */; };
+		CBD2875F1925B09400AA22C5 /* videoUnhighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD2875D1925B09400AA22C5 /* videoUnhighlighted@2x.png */; };
+		CBD287621925B24F00AA22C5 /* SDRRoomsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD287611925B24F00AA22C5 /* SDRRoomsListViewController.m */; };
+		CBD28769192D98A500AA22C5 /* SDRRoomsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD28768192D98A500AA22C5 /* SDRRoomsTableViewCell.m */; };
+		CBD2876C192D9D7500AA22C5 /* SDRRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD2876B192D9D7500AA22C5 /* SDRRoom.m */; };
+		CBD2876E192D9EE100AA22C5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD2876D192D9EE100AA22C5 /* AVFoundation.framework */; };
+		CBD28770192D9F9100AA22C5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD2876F192D9F9100AA22C5 /* AssetsLibrary.framework */; };
+		CBD28772192D9F9D00AA22C5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD28771192D9F9D00AA22C5 /* CoreMedia.framework */; };
+		CBD28775192DA71500AA22C5 /* SDRRoomStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD28774192DA71500AA22C5 /* SDRRoomStore.m */; };
+		CBD28778192DAA6C00AA22C5 /* SDRRoomChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD28777192DAA6C00AA22C5 /* SDRRoomChannel.m */; };
 		CBE3D4E6189594B600BB0671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E5189594B600BB0671 /* Foundation.framework */; };
 		CBE3D4E8189594B600BB0671 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */; };
 		CBE3D4EA189594B600BB0671 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E9189594B600BB0671 /* UIKit.framework */; };
@@ -57,12 +68,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB35D95A19063AA000CD8F75 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		CB35D95B19063AA000CD8F75 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		CB35D95C19063AA000CD8F75 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		CB35D95D19063AA000CD8F75 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		CB4447CA18D4082800F3854B /* leveredgeLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leveredgeLogo@2x.png"; sourceTree = "<group>"; };
 		CB4447CC18D4116000F3854B /* leveredgeLogoHero@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leveredgeLogoHero@2x.png"; sourceTree = "<group>"; };
 		CB4447CE18D4165900F3854B /* filterIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filterIcon@2x.png"; sourceTree = "<group>"; };
 		CB4447D018D4176300F3854B /* filterIconSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filterIconSmall@2x.png"; sourceTree = "<group>"; };
-		CB4447D218D4AE4D00F3854B /* SDRLeveredgeSelectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRLeveredgeSelectionsViewController.h; sourceTree = "<group>"; };
-		CB4447D318D4AE4D00F3854B /* SDRLeveredgeSelectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRLeveredgeSelectionsViewController.m; sourceTree = "<group>"; };
+		CB4447D218D4AE4D00F3854B /* SDRSelectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRSelectionsViewController.h; sourceTree = "<group>"; };
+		CB4447D318D4AE4D00F3854B /* SDRSelectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRSelectionsViewController.m; sourceTree = "<group>"; };
 		CB4447DA18D4F2A500F3854B /* knifeAndForkHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "knifeAndForkHighlighted@2x.png"; sourceTree = "<group>"; };
 		CB4447DB18D4F2A500F3854B /* knifeAndForkUnhighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "knifeAndForkUnhighlighted@2x.png"; sourceTree = "<group>"; };
 		CB4447DC18D4F2A500F3854B /* selectionsHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectionsHighlighted@2x.png"; sourceTree = "<group>"; };
@@ -97,6 +112,21 @@
 		CB8B6D5A18A6C94A00E63566 /* SDRCommentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRCommentViewCell.h; sourceTree = "<group>"; };
 		CB8B6D5B18A6C94A00E63566 /* SDRCommentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRCommentViewCell.m; sourceTree = "<group>"; };
 		CB8B6D5D18A7347100E63566 /* SDRDynamicRowHeightTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDRDynamicRowHeightTableViewCell.h; sourceTree = "<group>"; };
+		CBD2875C1925B09400AA22C5 /* videoHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoHighlighted@2x.png"; sourceTree = "<group>"; };
+		CBD2875D1925B09400AA22C5 /* videoUnhighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoUnhighlighted@2x.png"; sourceTree = "<group>"; };
+		CBD287601925B24F00AA22C5 /* SDRRoomsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRRoomsListViewController.h; sourceTree = "<group>"; };
+		CBD287611925B24F00AA22C5 /* SDRRoomsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRRoomsListViewController.m; sourceTree = "<group>"; };
+		CBD28767192D98A500AA22C5 /* SDRRoomsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRRoomsTableViewCell.h; sourceTree = "<group>"; };
+		CBD28768192D98A500AA22C5 /* SDRRoomsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRRoomsTableViewCell.m; sourceTree = "<group>"; };
+		CBD2876A192D9D7500AA22C5 /* SDRRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRRoom.h; sourceTree = "<group>"; };
+		CBD2876B192D9D7500AA22C5 /* SDRRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRRoom.m; sourceTree = "<group>"; };
+		CBD2876D192D9EE100AA22C5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CBD2876F192D9F9100AA22C5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CBD28771192D9F9D00AA22C5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CBD28773192DA71500AA22C5 /* SDRRoomStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRRoomStore.h; sourceTree = "<group>"; };
+		CBD28774192DA71500AA22C5 /* SDRRoomStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRRoomStore.m; sourceTree = "<group>"; };
+		CBD28776192DAA6C00AA22C5 /* SDRRoomChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRRoomChannel.h; sourceTree = "<group>"; };
+		CBD28777192DAA6C00AA22C5 /* SDRRoomChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRRoomChannel.m; sourceTree = "<group>"; };
 		CBE3D4E2189594B600BB0671 /* Leveredge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leveredge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE3D4E5189594B600BB0671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -125,9 +155,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD28772192D9F9D00AA22C5 /* CoreMedia.framework in Frameworks */,
+				CBD28770192D9F9100AA22C5 /* AssetsLibrary.framework in Frameworks */,
+				CBD2876E192D9EE100AA22C5 /* AVFoundation.framework in Frameworks */,
 				CBE3D4E8189594B600BB0671 /* CoreGraphics.framework in Frameworks */,
 				CBE3D4EA189594B600BB0671 /* UIKit.framework in Frameworks */,
 				CBE3D4E6189594B600BB0671 /* Foundation.framework in Frameworks */,
+				CB35D95E19063AA000CD8F75 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,9 +178,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB35D958190639D100CD8F75 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				CB35D95919063AA000CD8F75 /* TestFlightSDK */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		CB35D95919063AA000CD8F75 /* TestFlightSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CB35D95A19063AA000CD8F75 /* libTestFlight.a */,
+				CB35D95B19063AA000CD8F75 /* TestFlight+AsyncLogging.h */,
+				CB35D95C19063AA000CD8F75 /* TestFlight+ManualSessions.h */,
+				CB35D95D19063AA000CD8F75 /* TestFlight.h */,
+			);
+			name = TestFlightSDK;
+			path = ../../../ios/TestFlightSDK;
+			sourceTree = "<group>";
+		};
 		CB4447D918D4F28900F3854B /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				CBD2875C1925B09400AA22C5 /* videoHighlighted@2x.png */,
+				CBD2875D1925B09400AA22C5 /* videoUnhighlighted@2x.png */,
 				CB4447DA18D4F2A500F3854B /* knifeAndForkHighlighted@2x.png */,
 				CB4447DB18D4F2A500F3854B /* knifeAndForkUnhighlighted@2x.png */,
 				CB4447DC18D4F2A500F3854B /* selectionsHighlighted@2x.png */,
@@ -185,6 +241,7 @@
 		CB7C04DB189D9ACE009CAD15 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				CBD28766192D984500AA22C5 /* Rooms */,
 				CB8B6D5318A6B1CA00E63566 /* Global */,
 				CB7C04E3189DA10B009CAD15 /* Vendors */,
 			);
@@ -237,12 +294,9 @@
 		CB7C04F0189ED583009CAD15 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CB7C04E4189EC6FD009CAD15 /* SDRVendorChannel.h */,
-				CB7C04E5189EC6FD009CAD15 /* SDRVendorChannel.m */,
-				CB7C04E9189EC865009CAD15 /* SDRVendor.h */,
-				CB7C04EA189EC865009CAD15 /* SDRVendor.m */,
-				CB7C04FD18A08F72009CAD15 /* SDRUser.h */,
-				CB7C04FE18A08F72009CAD15 /* SDRUser.m */,
+				CBD2877C192DAC9D00AA22C5 /* Room */,
+				CBD2877B192DAC9200AA22C5 /* User */,
+				CBD2877A192DAC8700AA22C5 /* Vendor */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -254,6 +308,8 @@
 				CB7C04ED189ED32F009CAD15 /* SDRVendorStore.m */,
 				CB7C050018A091E6009CAD15 /* SDRAuthStore.h */,
 				CB7C050118A091E6009CAD15 /* SDRAuthStore.m */,
+				CBD28773192DA71500AA22C5 /* SDRRoomStore.h */,
+				CBD28774192DA71500AA22C5 /* SDRRoomStore.m */,
 			);
 			name = Stores;
 			sourceTree = "<group>";
@@ -285,6 +341,46 @@
 			name = Global;
 			sourceTree = "<group>";
 		};
+		CBD28766192D984500AA22C5 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				CBD28767192D98A500AA22C5 /* SDRRoomsTableViewCell.h */,
+				CBD28768192D98A500AA22C5 /* SDRRoomsTableViewCell.m */,
+			);
+			name = Rooms;
+			sourceTree = "<group>";
+		};
+		CBD2877A192DAC8700AA22C5 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CB7C04E4189EC6FD009CAD15 /* SDRVendorChannel.h */,
+				CB7C04E5189EC6FD009CAD15 /* SDRVendorChannel.m */,
+				CB7C04E9189EC865009CAD15 /* SDRVendor.h */,
+				CB7C04EA189EC865009CAD15 /* SDRVendor.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		CBD2877B192DAC9200AA22C5 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CB7C04FD18A08F72009CAD15 /* SDRUser.h */,
+				CB7C04FE18A08F72009CAD15 /* SDRUser.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		CBD2877C192DAC9D00AA22C5 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2876A192D9D7500AA22C5 /* SDRRoom.h */,
+				CBD2876B192D9D7500AA22C5 /* SDRRoom.m */,
+				CBD28776192DAA6C00AA22C5 /* SDRRoomChannel.h */,
+				CBD28777192DAA6C00AA22C5 /* SDRRoomChannel.m */,
+			);
+			name = Room;
+			sourceTree = "<group>";
+		};
 		CBE3D4D9189594B600BB0671 = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +403,9 @@
 		CBE3D4E4189594B600BB0671 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CBD28771192D9F9D00AA22C5 /* CoreMedia.framework */,
+				CBD2876F192D9F9100AA22C5 /* AssetsLibrary.framework */,
+				CBD2876D192D9EE100AA22C5 /* AVFoundation.framework */,
 				CBE3D4E5189594B600BB0671 /* Foundation.framework */,
 				CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */,
 				CBE3D4E9189594B600BB0671 /* UIKit.framework */,
@@ -318,6 +417,7 @@
 		CBE3D4EB189594B600BB0671 /* Leveredge */ = {
 			isa = PBXGroup;
 			children = (
+				CB35D958190639D100CD8F75 /* Third Party */,
 				CBF5E1CA18A2E6D10051A49F /* View Controls */,
 				CB7C04E7189EC713009CAD15 /* Data Layer */,
 				CB7C04DF189DA014009CAD15 /* Assets */,
@@ -363,16 +463,11 @@
 		CBE3D5141895957D00BB0671 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CB7C04D7189D92C1009CAD15 /* SDRVendorsListViewController.h */,
-				CB7C04D8189D92C1009CAD15 /* SDRVendorsListViewController.m */,
-				CBE3D5151895961300BB0671 /* SDRLoginViewController.h */,
-				CBE3D5161895961300BB0671 /* SDRLoginViewController.m */,
-				CB7C04F7189F0C39009CAD15 /* SDRVendorViewController.h */,
-				CB7C04F8189F0C39009CAD15 /* SDRVendorViewController.m */,
-				CB4447D218D4AE4D00F3854B /* SDRLeveredgeSelectionsViewController.h */,
-				CB4447D318D4AE4D00F3854B /* SDRLeveredgeSelectionsViewController.m */,
-				CB4447E418D4F9D000F3854B /* SDRFilterTableViewController.h */,
-				CB4447E518D4F9D000F3854B /* SDRFilterTableViewController.m */,
+				CBED85F9193023470080EE2A /* Login */,
+				CBED85F8193023400080EE2A /* Vendors */,
+				CBED85FA193023A40080EE2A /* Selections */,
+				CBED85FB193023B90080EE2A /* Secondary */,
+				CBED85FC193023C10080EE2A /* Rooms */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -384,6 +479,53 @@
 				CB7C04EF189ED4F1009CAD15 /* SDRAppConstants.h */,
 			);
 			name = Constants;
+			sourceTree = "<group>";
+		};
+		CBED85F8193023400080EE2A /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				CB7C04D7189D92C1009CAD15 /* SDRVendorsListViewController.h */,
+				CB7C04D8189D92C1009CAD15 /* SDRVendorsListViewController.m */,
+				CB7C04F7189F0C39009CAD15 /* SDRVendorViewController.h */,
+				CB7C04F8189F0C39009CAD15 /* SDRVendorViewController.m */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		CBED85F9193023470080EE2A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CBE3D5151895961300BB0671 /* SDRLoginViewController.h */,
+				CBE3D5161895961300BB0671 /* SDRLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		CBED85FA193023A40080EE2A /* Selections */ = {
+			isa = PBXGroup;
+			children = (
+				CB4447D218D4AE4D00F3854B /* SDRSelectionsViewController.h */,
+				CB4447D318D4AE4D00F3854B /* SDRSelectionsViewController.m */,
+			);
+			name = Selections;
+			sourceTree = "<group>";
+		};
+		CBED85FB193023B90080EE2A /* Secondary */ = {
+			isa = PBXGroup;
+			children = (
+				CB4447E418D4F9D000F3854B /* SDRFilterTableViewController.h */,
+				CB4447E518D4F9D000F3854B /* SDRFilterTableViewController.m */,
+			);
+			name = Secondary;
+			sourceTree = "<group>";
+		};
+		CBED85FC193023C10080EE2A /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				CBD287601925B24F00AA22C5 /* SDRRoomsListViewController.h */,
+				CBD287611925B24F00AA22C5 /* SDRRoomsListViewController.m */,
+			);
+			name = Rooms;
 			sourceTree = "<group>";
 		};
 		CBF5E1CA18A2E6D10051A49F /* View Controls */ = {
@@ -440,9 +582,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SDR;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Shane Rogers";
 				TargetAttributes = {
+					CBE3D4E1189594B600BB0671 = {
+						DevelopmentTeam = C4NFUQ8T98;
+					};
 					CBE3D4FC189594B600BB0671 = {
 						TestTargetID = CBE3D4E1189594B600BB0671;
 					};
@@ -475,6 +620,7 @@
 				CB4447DF18D4F2A500F3854B /* knifeAndForkUnhighlighted@2x.png in Resources */,
 				CB4447E118D4F2A500F3854B /* selectionsUnhighlighted@2x.png in Resources */,
 				CB4447DE18D4F2A500F3854B /* knifeAndForkHighlighted@2x.png in Resources */,
+				CBD2875F1925B09400AA22C5 /* videoUnhighlighted@2x.png in Resources */,
 				CBE3D4F0189594B600BB0671 /* InfoPlist.strings in Resources */,
 				CB4447CF18D4165900F3854B /* filterIcon@2x.png in Resources */,
 				CB7C04E2189DA02F009CAD15 /* littleowl@2x.jpg in Resources */,
@@ -482,6 +628,7 @@
 				CBE3D4F8189594B600BB0671 /* Images.xcassets in Resources */,
 				CB4447D118D4176300F3854B /* filterIconSmall@2x.png in Resources */,
 				CB4447CD18D4116000F3854B /* leveredgeLogoHero@2x.png in Resources */,
+				CBD2875E1925B09400AA22C5 /* videoHighlighted@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,20 +649,25 @@
 			files = (
 				CB7C04EB189EC865009CAD15 /* SDRVendor.m in Sources */,
 				CB7C04D9189D92C1009CAD15 /* SDRVendorsListViewController.m in Sources */,
+				CBD28778192DAA6C00AA22C5 /* SDRRoomChannel.m in Sources */,
 				CB8B6D5918A6B6FE00E63566 /* SDRCommentsView.m in Sources */,
 				CB7C050218A091E6009CAD15 /* SDRAuthStore.m in Sources */,
 				CB7C04F9189F0C39009CAD15 /* SDRVendorViewController.m in Sources */,
-				CB4447D418D4AE4D00F3854B /* SDRLeveredgeSelectionsViewController.m in Sources */,
+				CBD28775192DA71500AA22C5 /* SDRRoomStore.m in Sources */,
+				CB4447D418D4AE4D00F3854B /* SDRSelectionsViewController.m in Sources */,
 				CB7C04DE189D9AEE009CAD15 /* SDRVendorsTableCell.m in Sources */,
 				CB8B6D5C18A6C94A00E63566 /* SDRCommentViewCell.m in Sources */,
 				CBF5E1C918A2E6B30051A49F /* SDRCarousel.m in Sources */,
 				CBE3D4F6189594B600BB0671 /* SDRAppDelegate.m in Sources */,
+				CBD28769192D98A500AA22C5 /* SDRRoomsTableViewCell.m in Sources */,
 				CB7C04F6189ED5C0009CAD15 /* SDRConnection.m in Sources */,
+				CBD2876C192D9D7500AA22C5 /* SDRRoom.m in Sources */,
 				CB4447E618D4F9D000F3854B /* SDRFilterTableViewController.m in Sources */,
 				CBE3D5171895961300BB0671 /* SDRLoginViewController.m in Sources */,
 				CBE3D4F2189594B600BB0671 /* main.m in Sources */,
 				CB7C04FF18A08F72009CAD15 /* SDRUser.m in Sources */,
 				CB7C04E6189EC6FD009CAD15 /* SDRVendorChannel.m in Sources */,
+				CBD287621925B24F00AA22C5 /* SDRRoomsListViewController.m in Sources */,
 				CB7C04EE189ED32F009CAD15 /* SDRVendorStore.m in Sources */,
 				CB8B6D5618A6B1E100E63566 /* SDRLeveredgeButton.m in Sources */,
 			);
@@ -563,7 +715,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -603,7 +754,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -638,10 +788,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Leveredge/Leveredge-Prefix.pch";
 				INFOPLIST_FILE = "Leveredge/Leveredge-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/shanerogers/projects/ios/TestFlightSDK,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -651,10 +808,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Leveredge/Leveredge-Prefix.pch";
 				INFOPLIST_FILE = "Leveredge/Leveredge-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/shanerogers/projects/ios/TestFlightSDK,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -662,7 +826,6 @@
 		CBE3D512189594B600BB0671 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Leveredge.app/Leveredge";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -685,7 +848,6 @@
 		CBE3D513189594B600BB0671 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Leveredge.app/Leveredge";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

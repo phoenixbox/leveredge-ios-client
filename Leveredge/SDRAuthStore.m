@@ -104,6 +104,7 @@
     NSString *email = [parameters objectForKey:@"email"];
     NSString *password = [parameters objectForKey:@"password"];
     
+//    NSString *requestString = [NSString stringWithFormat:kProdAPIUserLogin];
     NSString *requestString = [NSString stringWithFormat:kAPIUserLogin];
     requestString = [requestString stringByAppendingString:(@"?email=")];
     requestString = [requestString stringByAppendingString:email];

@@ -8,10 +8,12 @@
 
 #import "SDRVendorsListViewController.h"
 #import "SDRViewConstants.h"
+
 #import "SDRVendorsTableCell.h"
 #import "SDRVendorChannel.h"
 #import "SDRVendor.h"
 #import "SDRVendorStore.h"
+
 #import "SDRVendorViewController.h"
 #import "SDRAuthStore.h"
 
@@ -43,12 +45,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [self renderVendorsTable];
-
 }
 
 - (void)initAppearance
 {
     // Set appearance info
+    self.navigationController.navigationBar.translucent = NO;
+    
     [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackOpaque];
     [[UINavigationBar appearance] setBarTintColor:kLeveredgeBlue];
     
@@ -77,7 +80,7 @@
     self.vendorsTable.alwaysBounceVertical = NO;
     self.vendorsTable.scrollEnabled = YES;
     self.vendorsTable.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-//    self.vendorsTable.separatorColor = [UIColor clearColor];
+    self.vendorsTable.separatorColor = [UIColor clearColor];
     
     [self.vendorsTable setBackgroundColor:[UIColor clearColor]];
 }
@@ -93,7 +96,6 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     SDRVendor *vendor = [[vendorChannel vendors]objectAtIndex:[indexPath row]];
-//    SDRVendor *vendor = [[[SDRVendorStore sharedStore] allVendors] objectAtIndex:[indexPath row]];
     
     SDRVendorsTableCell *cell = (SDRVendorsTableCell *)[tableView dequeueReusableCellWithIdentifier:kVendorsTableCellIdentifier];
     
@@ -116,8 +118,10 @@
 // hook into the didSelectRowAtIndexPath to instantiate a DetailViewController and push it atop the stack
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    //  Init the detail view controller
     SDRVendorViewController *vendorViewController = [[SDRVendorViewController alloc]init];
     
+    //  Find the selected vendor per touch
     NSArray *vendors = [[SDRVendorStore sharedStore] allVendors];
     SDRVendor *selectedVendor = [vendors objectAtIndex:[indexPath row]];
     

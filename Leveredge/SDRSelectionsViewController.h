@@ -1,5 +1,5 @@
 //
-//  SDRLeveredgeSelectionsViewController.h
+//  SDRSelectionsViewController.h
 //  Leveredge
 //
 //  Created by Shane Rogers on 3/15/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SDRLeveredgeSelectionsViewController : UIViewController
+@interface SDRSelectionsViewController : UIViewController
 
 @end

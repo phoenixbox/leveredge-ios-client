@@ -11,7 +11,7 @@
 
 @implementation SDRVendorChannel
 
-@synthesize title, vendors;
+//@synthesize title, vendors;
 
 -(id)init
 {
@@ -19,7 +19,7 @@
     
     if(self){
         // Create the container for the RSSItems that the channel has
-        vendors = [[NSMutableArray alloc]init];
+        self.vendors = [[NSMutableArray alloc]init];
     }
     return self;
 }
@@ -41,7 +41,7 @@
         SDRVendor *vendor = [[SDRVendor alloc] init];
         // Pass the entry dictionary to the item so it can grab its ivars
         [vendor vendorFromJSONDictionary:dictionary];
-        [vendors addObject:vendor];
+        [self.vendors addObject:vendor];
     }
 }
 @end
