@@ -10,12 +10,18 @@
 #import "SDRRoomChannel.h"
 #import "SDRLeveredgeButton.h"
 
-@interface SDRRoomsListViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+// Video Imports
+#import <MobileCoreServices/UTCoreTypes.h>
+#import <MediaPlayer/MediaPlayer.h>
+
+@interface SDRRoomsListViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITableViewDelegate, UITableViewDataSource> {
     SDRRoomChannel *roomChannel;
 }
 
 @property (nonatomic, strong) UITableView *roomsTable;
 @property (nonatomic, strong) SDRLeveredgeButton *takeVideoButton;
 //@property (nonatomic, assign) float tabBarHeight;
+
+-(BOOL)startMediaBrowserFromViewController:(UIViewController *)controller usingDelegate:(id)delegate;
 
 @end

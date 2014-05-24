@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SDRLeveredgeButton.h"
 
 @interface SDRRoomsTableViewCell : UITableViewCell
 
-@property (nonatomic, strong)UIView *videoThumbnail;
+@property (nonatomic, strong)SDRLeveredgeButton *videoThumbnail;
 @property (nonatomic, strong)UILabel *roomNameLabel;
 
 @end

@@ -24,7 +24,7 @@
 
 - (void)renderCellImage {
     //   Square thumbnail to the side
-    self.videoThumbnail = [[UIView alloc]initWithFrame:CGRectMake(self.frame.origin.x+10, self.frame.origin.x+10, 100.0f, 80.0f)];
+    self.videoThumbnail = [[SDRLeveredgeButton alloc]initWithFrame:CGRectMake(self.frame.origin.x+10, self.frame.origin.x+10, 100.0f, 80.0f)];
     [self.videoThumbnail setBackgroundColor:kLeveredgeBlue];
     
     [self.contentView addSubview:self.videoThumbnail];

@@ -114,6 +114,10 @@
     NSLog(@"Implement take video");
 }
 
+- (void)playVideo:(SDRLeveredgeButton *)button {
+    [self startMediaBrowserFromViewController:self usingDelegate:self];
+}
+
 //#pragma UITableViewDelgate
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
@@ -134,6 +138,7 @@
         
         //  Set the cell attributes
         [room setTitle:@"Better Room"];
+        [cell.videoThumbnail addTarget:self action:@selector(playVideo:) forControlEvents:UIControlEventTouchUpInside];
     }
     return cell;
 }
@@ -186,16 +191,52 @@
     self.navigationItem.titleView = logoView;
 }
 
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - Video
+-(BOOL)startMediaBrowserFromViewController:(UIViewController *)controller usingDelegate:(id)delegate {
+    //    Validations to pick from existent location
+    if (([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeSavedPhotosAlbum] == NO)
+        || (delegate == nil)
+        || (controller == nil)) {
+        return NO;
+    }
+    //    Define the picker, its source and media type
+    UIImagePickerController *mediaUI = [UIImagePickerController new];
+    mediaUI.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
+    mediaUI.mediaTypes = [[NSArray alloc]initWithObjects:(NSString *)kUTTypeMovie, nil];
+    //    Toggle the ability to edit video
+    mediaUI.allowsEditing = YES;
+    mediaUI.delegate = delegate;
+    
+    [controller presentViewController:mediaUI animated:YES completion:^{/* No callback*/}];
+    
+    return YES;
 }
-*/
+
+-(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    // Get the mediatype
+    NSString *mediaType = [info objectForKey:UIImagePickerControllerMediaType];
+    // Dismiss the controller
+    [self dismissViewControllerAnimated:YES completion:^{/* No callback*/}];
+    // Handling the movie capture
+    if(CFStringCompare((__bridge_retained CFStringRef)mediaType, kUTTypeMovie, 0)== kCFCompareEqualTo) {
+        // Play the video
+        MPMoviePlayerViewController *theMovie = [[MPMoviePlayerViewController alloc]initWithContentURL:[info objectForKey:UIImagePickerControllerMediaURL]];
+        [self presentMoviePlayerViewControllerAnimated:theMovie];
+        // Register for playback finished notification
+        [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(myMovieFinishedCallback:) name:MPMoviePlayerPlaybackDidFinishNotification object:theMovie];
+    }
+}
+
+// Release the controller from the notification when the movie is done
+- (void)myMovieFinishedCallback:(NSNotification *)aNotification {
+    [self dismissMoviePlayerViewControllerAnimated];
+    MPMoviePlayerController *theMovie = [aNotification object];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:theMovie];
+}
+
+// When the user taps cancel and not choose
+-(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+    [self dismissViewControllerAnimated:YES completion:^{/* No callback*/}];
+}
 
 @end

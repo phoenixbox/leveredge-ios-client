@@ -18,6 +18,9 @@
 		CB4447E018D4F2A500F3854B /* selectionsHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4447DC18D4F2A500F3854B /* selectionsHighlighted@2x.png */; };
 		CB4447E118D4F2A500F3854B /* selectionsUnhighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4447DD18D4F2A500F3854B /* selectionsUnhighlighted@2x.png */; };
 		CB4447E618D4F9D000F3854B /* SDRFilterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4447E518D4F9D000F3854B /* SDRFilterTableViewController.m */; };
+		CB60A92919303BED00E59602 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB60A92819303BED00E59602 /* MediaPlayer.framework */; };
+		CB60A92B19303BF700E59602 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB60A92A19303BF700E59602 /* MobileCoreServices.framework */; };
+		CB60A92D19303C0000E59602 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB60A92C19303C0000E59602 /* QuartzCore.framework */; };
 		CB7C04D9189D92C1009CAD15 /* SDRVendorsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04D8189D92C1009CAD15 /* SDRVendorsListViewController.m */; };
 		CB7C04DE189D9AEE009CAD15 /* SDRVendorsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04DD189D9AEE009CAD15 /* SDRVendorsTableCell.m */; };
 		CB7C04E2189DA02F009CAD15 /* littleowl@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB7C04E1189DA02F009CAD15 /* littleowl@2x.jpg */; };
@@ -84,6 +87,9 @@
 		CB4447DD18D4F2A500F3854B /* selectionsUnhighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectionsUnhighlighted@2x.png"; sourceTree = "<group>"; };
 		CB4447E418D4F9D000F3854B /* SDRFilterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRFilterTableViewController.h; sourceTree = "<group>"; };
 		CB4447E518D4F9D000F3854B /* SDRFilterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRFilterTableViewController.m; sourceTree = "<group>"; };
+		CB60A92819303BED00E59602 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CB60A92A19303BF700E59602 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CB60A92C19303C0000E59602 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CB7C04D7189D92C1009CAD15 /* SDRVendorsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRVendorsListViewController.h; sourceTree = "<group>"; };
 		CB7C04D8189D92C1009CAD15 /* SDRVendorsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRVendorsListViewController.m; sourceTree = "<group>"; };
 		CB7C04DC189D9AEE009CAD15 /* SDRVendorsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRVendorsTableCell.h; sourceTree = "<group>"; };
@@ -155,6 +161,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB60A92D19303C0000E59602 /* QuartzCore.framework in Frameworks */,
+				CB60A92B19303BF700E59602 /* MobileCoreServices.framework in Frameworks */,
+				CB60A92919303BED00E59602 /* MediaPlayer.framework in Frameworks */,
 				CBD28772192D9F9D00AA22C5 /* CoreMedia.framework in Frameworks */,
 				CBD28770192D9F9100AA22C5 /* AssetsLibrary.framework in Frameworks */,
 				CBD2876E192D9EE100AA22C5 /* AVFoundation.framework in Frameworks */,
@@ -403,6 +412,9 @@
 		CBE3D4E4189594B600BB0671 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB60A92C19303C0000E59602 /* QuartzCore.framework */,
+				CB60A92A19303BF700E59602 /* MobileCoreServices.framework */,
+				CB60A92819303BED00E59602 /* MediaPlayer.framework */,
 				CBD28771192D9F9D00AA22C5 /* CoreMedia.framework */,
 				CBD2876F192D9F9100AA22C5 /* AssetsLibrary.framework */,
 				CBD2876D192D9EE100AA22C5 /* AVFoundation.framework */,
