@@ -13,6 +13,7 @@
 // Video Imports
 #import <MobileCoreServices/UTCoreTypes.h>
 #import <MediaPlayer/MediaPlayer.h>
+#import <AssetsLibrary/AssetsLibrary.h>
 
 @interface SDRRoomsListViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITableViewDelegate, UITableViewDataSource> {
     SDRRoomChannel *roomChannel;
@@ -20,8 +21,12 @@
 
 @property (nonatomic, strong) UITableView *roomsTable;
 @property (nonatomic, strong) SDRLeveredgeButton *takeVideoButton;
-//@property (nonatomic, assign) float tabBarHeight;
 
+// Video play from media library
 -(BOOL)startMediaBrowserFromViewController:(UIViewController *)controller usingDelegate:(id)delegate;
+
+// Video record and save to library
+-(BOOL)startCameraControllerFromViewController:(UIViewController *)controller usingDelegate:(id)delegate;
+-(void)video:(NSString *)videoPath didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo;
 
 @end

@@ -111,7 +111,7 @@
 }
 
 - (void)takeVideo:(SDRLeveredgeButton *)button {
-    NSLog(@"Implement take video");
+    [self startCameraControllerFromViewController:self usingDelegate:self];
 }
 
 - (void)playVideo:(SDRLeveredgeButton *)button {
@@ -192,6 +192,8 @@
 }
 
 #pragma mark - Video
+
+// Video Selection
 -(BOOL)startMediaBrowserFromViewController:(UIViewController *)controller usingDelegate:(id)delegate {
     //    Validations to pick from existent location
     if (([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeSavedPhotosAlbum] == NO)
@@ -211,19 +213,26 @@
     
     return YES;
 }
-
+// ** callbacks **
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     // Get the mediatype
     NSString *mediaType = [info objectForKey:UIImagePickerControllerMediaType];
-    // Dismiss the controller
     [self dismissViewControllerAnimated:YES completion:^{/* No callback*/}];
     // Handling the movie capture
     if(CFStringCompare((__bridge_retained CFStringRef)mediaType, kUTTypeMovie, 0)== kCFCompareEqualTo) {
-        // Play the video
-        MPMoviePlayerViewController *theMovie = [[MPMoviePlayerViewController alloc]initWithContentURL:[info objectForKey:UIImagePickerControllerMediaURL]];
-        [self presentMoviePlayerViewControllerAnimated:theMovie];
-        // Register for playback finished notification
-        [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(myMovieFinishedCallback:) name:MPMoviePlayerPlaybackDidFinishNotification object:theMovie];
+        NSString *moviePath = (NSString *)[[info objectForKey:UIImagePickerControllerMediaURL] path];
+        
+        if (UIVideoAtPathIsCompatibleWithSavedPhotosAlbum(moviePath)) {
+            // Save the video
+            UISaveVideoAtPathToSavedPhotosAlbum(moviePath, self,
+                                                @selector(video:didFinishSavingWithError:contextInfo:), nil);
+        } else {
+            // Play the video
+            MPMoviePlayerViewController *theMovie = [[MPMoviePlayerViewController alloc]initWithContentURL:[info objectForKey:UIImagePickerControllerMediaURL]];
+            [self presentMoviePlayerViewControllerAnimated:theMovie];
+            // Register for playback finished notification
+            [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(myMovieFinishedCallback:) name:MPMoviePlayerPlaybackDidFinishNotification object:theMovie];
+        }
     }
 }
 
@@ -239,4 +248,34 @@
     [self dismissViewControllerAnimated:YES completion:^{/* No callback*/}];
 }
 
+// Video Recording
+-(BOOL)startCameraControllerFromViewController:(UIViewController *)controller usingDelegate:(id)delegate {
+    // Validations to ensure no crash
+    if(([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]==NO)
+       ||(delegate == nil)
+       ||(controller == nil)) {
+        return NO;
+    }
+    // Get image picker
+    UIImagePickerController *cameraUI = [UIImagePickerController new];
+    cameraUI.sourceType = UIImagePickerControllerSourceTypeCamera;
+    // Enable choosing movie captured
+    cameraUI.mediaTypes = [[NSArray alloc]initWithObjects:(NSString *)kUTTypeMovie, nil];
+    // Disable user controls
+    cameraUI.allowsEditing = NO;
+    cameraUI.delegate = delegate;
+    // Display image picker
+    [controller presentViewController:cameraUI animated:YES completion:^{/*No callback*/}];
+    return YES;
+}
+
+-(void)video:(NSString *)videoPath didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo {
+    if(error){
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Error" message:@"Video Saving Failed" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alert show];
+    } else {
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Video Saved" message:@"Saved to Photo Album" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alert show];
+    }
+}
 @end
