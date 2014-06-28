@@ -7,9 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SDRRoom.h"
+#import "SDRRoomChannel.h"
 
-@interface SDRRoomStore : NSObject
+@interface SDRRoomStore : NSObject{
+    NSMutableArray *allRooms;
+}
 
 + (SDRRoomStore *)sharedStore;
+- (void)addUniqueRooms:(SDRRoom *)room;
+- (NSMutableArray *)allRooms;
+
+- (void)fetchRoomsWithCompletion:(void (^)(SDRRoomChannel *obj, NSError *err))block;
 
 @end

@@ -7,11 +7,15 @@
 //
 
 #import "SDRRoomsListViewController.h"
+#import "SDRRoomViewController.h"
 #import "SDRViewConstants.h"
+#import "SDRAppConstants.h"
 #import "SDRRoomsTableViewCell.h"
 #import "SDRRoomStore.h"
 #import "SDRRoomsTableViewCell.h"
 #import "SDRRoom.h"
+
+#import <AWSRuntime/AWSRuntime.h>
 
 @interface SDRRoomsListViewController ()
 
@@ -19,15 +23,33 @@
 
 @implementation SDRRoomsListViewController
 
+@synthesize s3 = _s3;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
         [self initAppearance];
-//        self.tabBarHeight = self.tabBarController.tabBar.frame.size.height;
+        [self initializeS3];
     }
     return self;
+}
+
+- (void)initializeS3 {
+    // Initialize the S3 Client.
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    // This sample App is for demonstration purposes only.
+    // It is not secure to embed your credentials into source code.
+    // DO NOT EMBED YOUR CREDENTIALS IN PRODUCTION APPS.
+    // We offer two solutions for getting credentials to your mobile App.
+    // Please read the following article to learn about Token Vending Machine:
+    // * http://aws.amazon.com/articles/Mobile/4611615499399490
+    // Or consider using web identity federation:
+    // * http://aws.amazon.com/articles/Mobile/4617974389850313
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    self.s3 = [[AmazonS3Client alloc] initWithAccessKey:kAccessKeyId withSecretKey:kSecretKey];
+    self.s3.endpoint = [AmazonEndpoints s3Endpoint:US_WEST_2];
 }
 
 - (void)viewDidLoad
@@ -77,7 +99,7 @@
     self.roomsTable.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     self.roomsTable.separatorColor = [UIColor blueColor];
     
-    [self.roomsTable setBackgroundColor:[UIColor grayColor]];
+    [self.roomsTable setBackgroundColor:[UIColor whiteColor]];
 }
 
 - (UITableView *)buildRoomsTable {
@@ -92,11 +114,11 @@
 - (void)renderTakeVideoButton {
     self.takeVideoButton = [self buildTakeVideoButton];
     [self.takeVideoButton setBackgroundColor:kLeveredgeBlue];
-    [self.takeVideoButton setTitle:@"Record Another Room" forState:UIControlStateNormal];
+    [self.takeVideoButton setTitle:@"Add a Room" forState:UIControlStateNormal];
     [self.takeVideoButton setTitleColor:kPureWhite forState:UIControlStateNormal];
     [self.takeVideoButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateSelected];
     [self.takeVideoButton.titleLabel setTextAlignment:NSTextAlignmentCenter];
-    [self.takeVideoButton addTarget:self action:@selector(takeVideo:) forControlEvents:UIControlEventTouchUpInside];
+    [self.takeVideoButton addTarget:self action:@selector(selectOrTakeVideo:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.takeVideoButton];
 }
 
@@ -110,8 +132,35 @@
     return takeVideoButton;
 }
 
-- (void)takeVideo:(SDRLeveredgeButton *)button {
-    [self startCameraControllerFromViewController:self usingDelegate:self];
+- (void)selectOrTakeVideo:(SDRLeveredgeButton *)button {
+    NSString *actionSheetTitle = @"Take a new video or use an existing one?";
+    NSString *newVideo = kTakeNewVideoButton;
+    NSString *existingVideo = kUseExistingVideoButton;
+    NSString *cancelTitle = @"Cancel";
+    
+    UIActionSheet *actionSheet = [[UIActionSheet alloc]
+                                  initWithTitle:actionSheetTitle
+                                  delegate:self
+                                  cancelButtonTitle:cancelTitle
+                                  destructiveButtonTitle:nil
+                                  otherButtonTitles:newVideo, existingVideo, nil];
+    
+    [actionSheet showInView:self.view];
+}
+
+-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    NSString *buttonTitle = [actionSheet buttonTitleAtIndex:buttonIndex];
+    
+    if  ([buttonTitle isEqualToString:kTakeNewVideoButton]) {
+        [self startCameraControllerFromViewController:self usingDelegate:self];
+    }
+    if ([buttonTitle isEqualToString:kUseExistingVideoButton]) {
+        [self startMediaBrowserFromViewController:self usingDelegate:self];
+    }
+    if ([buttonTitle isEqualToString:@"Cancel"]) {
+        [actionSheet dismissWithClickedButtonIndex:[actionSheet cancelButtonIndex] animated:YES];
+        actionSheet = nil;
+    }
 }
 
 - (void)playVideo:(SDRLeveredgeButton *)button {
@@ -143,6 +192,21 @@
     return cell;
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //  Init the detail view controller
+    SDRRoomViewController *roomViewController = [[SDRRoomViewController alloc]init];
+    
+    //  Find the selected room per touch
+    NSArray *rooms = [[SDRRoomStore sharedStore] allRooms];
+    
+    SDRRoom *selectedRoom = [rooms objectAtIndex:[indexPath row]];
+    
+    [roomViewController setViewWithRoom:selectedRoom];
+    
+    [[self navigationController] pushViewController:roomViewController animated:YES];
+}
+
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return kRoomsTableCellHeight;
@@ -163,7 +227,7 @@
 //            [self renderErrorMessage:err];
 //        }
 //    }
-//    [[SDRRoomStore sharedStore]fetchRoomsWithCompletion:completionBlock];
+//    [[SDRRoomStore sharedStore] fetchRoomsWithCompletion:completionBlock];
 //}
 
 - (void)setActivityIndicator {
@@ -226,6 +290,30 @@
             // Save the video
             UISaveVideoAtPathToSavedPhotosAlbum(moviePath, self,
                                                 @selector(video:didFinishSavingWithError:contextInfo:), nil);
+
+            NSError *error = nil;
+            NSData *videoData = [[NSData alloc] initWithContentsOfFile:moviePath
+                                                               options:NSDataReadingMappedIfSafe
+                                                                 error:&error];
+            
+            S3PutObjectRequest *por = [[S3PutObjectRequest alloc] initWithKey:@"mule-video" inBucket:@"mule.inventoryvideos"];
+            por.contentType = @"video/mp4";
+            por.data = videoData;
+            por.delegate = self;
+            [por setDelegate:self];
+            por.contentLength = [videoData length];
+            [self.s3 putObject:por];
+            
+            //  Create the Room add to store & push atop the stack
+            SDRRoom *newRoom = [SDRRoom new];
+            [newRoom setTitle:@"New Room Banana"];
+            [newRoom setVideo_url:@"placeholder.s3"];
+            [[SDRRoomStore sharedStore] addUniqueRooms:newRoom];
+            
+            SDRRoomViewController *roomViewController = [SDRRoomViewController new];
+            [roomViewController setViewWithRoom:newRoom];
+            
+            [[self navigationController] pushViewController:roomViewController                                                   animated:YES];
         } else {
             // Play the video
             MPMoviePlayerViewController *theMovie = [[MPMoviePlayerViewController alloc]initWithContentURL:[info objectForKey:UIImagePickerControllerMediaURL]];
