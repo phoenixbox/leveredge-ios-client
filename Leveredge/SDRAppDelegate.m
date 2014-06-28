@@ -7,7 +7,6 @@
 //
 
 #import "SDRAppDelegate.h"
-#import "TestFlight.h"
 #import "SDRLoginViewController.h"
 #import "SDRVendorsListViewController.h"
 #import "SDRRoomsListViewController.h"
