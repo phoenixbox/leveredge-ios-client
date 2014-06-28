@@ -19,6 +19,9 @@
 // PreQualified Routes
 #define kAPIPreQualifiedEndpoint @"http://10.0.0.8:3000/api/v1/pre_qualifications"
 
+// Rooms Routes
+#define kAPIRoomsIndex @"http://10.0.0.8:3000/api/v1/rooms"
+
 // Production
 // Vendor Routes
 #define kProdAPIVendorsIndex @"http://mule-rail.herokuapp.com/api/v1/vendors"
@@ -27,5 +30,13 @@
 
 // PreQualified Routes
 #define kProdAPIPreQualifiedEndpoint @"http://mule-rail.herokuapp.com/v1/pre_qualifications"
+
+// Amazon Constants
+#define kAccessKeyId @"AKIAIESK6XLNAJWROT4Q"
+#define kSecretKey @"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"
+
+// Constants for the Bucket and Object name.
+#define kVideoBucket @"mule.inventoryvideos"
+#define kVideoName @"tester"
 
 #endif

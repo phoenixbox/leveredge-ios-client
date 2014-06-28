@@ -55,5 +55,7 @@
 // Rooms List Template
 #define kRoomsTableCellIdentifier @"SDRRoomsTableCell"
 #define kRoomsTableCellHeight 100.0f
+#define kTakeNewVideoButton @"Take A New Video"
+#define kUseExistingVideoButton @"Use An Existing Video"
 
 #endif
