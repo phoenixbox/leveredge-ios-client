@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Leveredge/SDRVendorsListViewController.m"
-            timestampString = "422252506.3165"
+            timestampString = "425695859.507934"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -136,11 +136,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Leveredge/SDRVendorsListViewController.m"
-            timestampString = "422252506.3165"
+            timestampString = "425695859.507934"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "165"
-            endingLineNumber = "165"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "-addUniquesToVendorStore:"
             landmarkType = "5">
          </BreakpointContent>
@@ -292,11 +292,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Leveredge/SDRVendorStore.m"
-            timestampString = "419839407.788723"
+            timestampString = "425694320.368225"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "-fetchVendorsWithCompletion:"
             landmarkType = "5">
             <Locations>
@@ -354,11 +354,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Leveredge/SDRAppDelegate.m"
-            timestampString = "421901062.909517"
+            timestampString = "424155833.173128"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "-setTabItemImages:withTitle:andImageName:"
             landmarkType = "5">
          </BreakpointContent>
@@ -431,30 +431,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Leveredge/SDRRoomsListViewController.m"
-            timestampString = "422589850.40007"
+            filePath = "Leveredge/SDRHotelsListViewController.h"
+            timestampString = "426436412.123808"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "-buildRoomsTable"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Leveredge/SDRRoomsListViewController.h"
-            timestampString = "422607085.324398"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "@interface SDRRoomsListViewController"
-            landmarkType = "2">
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "-video:didFinishSavingWithError:contextInfo:"
+            landmarkType = "4">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

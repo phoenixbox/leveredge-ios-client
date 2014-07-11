@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/Amazon.EC2/Model/EC2ImageAttributeUnmarshaller.m \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/EC2ImageAttributeUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/EC2ImageAttribute.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/EC2LaunchPermission.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/EC2ProductCode.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/EC2BlockDeviceMapping.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/EC2EbsBlockDevice.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/EC2ResponseUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/../AmazonServiceResponseUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonUnmarshallerXMLParserDelegate.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonServiceResponse.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonServiceRequest.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonURLRequest.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonCredentials.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/../AmazonValueUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/../AmazonBoolValueUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/../AmazonListUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/EC2LaunchPermissionUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/EC2ProductCodeUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/EC2BlockDeviceMappingUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/EC2/EC2EbsBlockDeviceUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/AWSiOSSDK/AutoScaling/../AmazonServiceExceptionUnmarshaller.h

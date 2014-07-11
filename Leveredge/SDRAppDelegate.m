@@ -9,7 +9,7 @@
 #import "SDRAppDelegate.h"
 #import "SDRLoginViewController.h"
 #import "SDRVendorsListViewController.h"
-#import "SDRRoomsListViewController.h"
+#import "SDRHotelsListViewController.h"
 #import "SDRSelectionsViewController.h"
 #import "SDRViewConstants.h"
 
@@ -59,7 +59,7 @@
 
 - (void)initializeNavigationController{
     SDRVendorsListViewController *vendorsListViewController = [SDRVendorsListViewController new];
-    SDRRoomsListViewController *videosViewController = [SDRRoomsListViewController new];
+    SDRHotelsListViewController *videosViewController = [SDRHotelsListViewController new];
     SDRSelectionsViewController *leveredgeSelectionsViewController = [SDRSelectionsViewController new];
 
     UINavigationController *vendorsListViewNavController = [[UINavigationController alloc]initWithRootViewController:vendorsListViewController];
@@ -76,7 +76,7 @@
 - (void)styleTabBar:(UITabBar *)tabBar {
     [[UITabBar appearance] setBarTintColor:kLeveredgeBlue];
     [[UITabBar appearance] setSelectedImageTintColor:kPureWhite];
-    NSArray *tabBarTitlesMap = @[@"Food", @"Rooms", @"Selections"];
+    NSArray *tabBarTitlesMap = @[@"Food", @"Hotels", @"Selections"];
     NSArray *tabBarImagesMap = @[@"knifeAndFork", @"video", @"selections"];
     
     [[tabBar items] enumerateObjectsUsingBlock:^(UITabBarItem *item, NSUInteger index, BOOL *stop){

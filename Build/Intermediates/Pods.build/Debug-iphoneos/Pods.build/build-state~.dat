@@ -1,0 +1,93 @@
+TPods
+v6
+r1
+cCheck dependencies
+cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods.a normal arm64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c000000005355E716000000000000036B
+t1398138646
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005355E716000000000000019E
+t1398138646
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005355E71B0000000000A90C10
+t1398138651
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c000000005355E77F0000000000000ADC
+t1398138751
+s2780
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o
+t1401007813
+s3948
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods.LinkFileList
+c000000005381AEC50000000000000093
+t1401007813
+s147
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods-AFNetworking.a
+c000000005381AEC5000000000016F178
+t1401007813
+s1503608
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods-JSONModel.a
+c000000005381AEC40000000000070500
+t1401007812
+s460032
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods.a
+t2
+s0
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-dummy.m
+c000000005381AE5A0000000000000070
+t1401007706
+s112
+
+CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies78f14245e631b941^5bb14345e631b941^---0#1#1#--18"Check dependencies36"071BF0CC-6542-478F-880A-3446339DFD45-
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700613.266560
+e422700613.339929
+r1
+xCompileC
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-dummy.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-dummy.m237"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler00704445e631b941^0c065745e631b941^---0#0#1#-19%DVTDocumentLocation2@89"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-dummy.m0000000000000000^4116"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -isystem /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods/Headers -isystem /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods/Headers/AFNetworking -isystem /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods/Headers/JSONModel -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.d --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.dia -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-dummy.m -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o36"DFFE1B6A-2096-4B6A-B7AA-E587B70D16B5-
+bDB9C7F98-9E9E-4FC6-80EF-FD44817AFC19
+
+CLibtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods.a normal arm64
+s422700613.348006
+e422700613.385466
+r1
+xLibtool
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods.a
+xnormal
+xarm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Libtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods.a normal arm64116"Libtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods.a normal arm64e7365945e631b941^f3ae6245e631b941^---0#0#1#--1322"Libtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods.a normal arm64    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -filelist /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods.LinkFileList -framework Foundation -lPods-AFNetworking -lPods-JSONModel -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods.a36"90D9393C-C854-4F0C-9E73-9A88FB2B821C-
+bDB9C7F98-9E9E-4FC6-80EF-FD44817AFC19
+

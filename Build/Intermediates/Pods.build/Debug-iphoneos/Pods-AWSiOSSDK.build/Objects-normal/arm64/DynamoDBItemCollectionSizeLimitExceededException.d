@@ -1,0 +1,3 @@
+dependencies: \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/Amazon.DynamoDB/Model/DynamoDBItemCollectionSizeLimitExceededException.m \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/DynamoDB/DynamoDBItemCollectionSizeLimitExceededException.h

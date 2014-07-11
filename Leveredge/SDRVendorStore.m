@@ -43,18 +43,16 @@
 
 - (void)fetchVendorsWithCompletion:(void (^)(SDRVendorChannel *, NSError *))block {
     // Prepare the request URL
-//    NSString *requestString = [self authenticateRequest:kProdAPIVendorsIndex];
+    // NSString *requestString = [self authenticateRequest:kProdAPIVendorsIndex];
     NSString *requestString = [self authenticateRequest:kAPIVendorsIndex];
     NSURL *url = [NSURL URLWithString:requestString];
-    
-    //Append the user auth token parameter
     
     // Set the connection
     NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:1000.0];
     SDRVendorChannel *vendorChannel = [SDRVendorChannel new];
     SDRConnection *connection = [[SDRConnection alloc]initWithRequest:req];
     
-    // Set the connection success block - to trigger directors completion block
+    // Set the connection success block - to trigger directors completion block - the vendorsList
     [connection setCompletionBlock:^(SDRVendorChannel *obj, NSError *err){
         if(!err){
             // Cache the response if needed

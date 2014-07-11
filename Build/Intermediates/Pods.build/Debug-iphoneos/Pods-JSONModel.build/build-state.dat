@@ -1,0 +1,660 @@
+TPods-JSONModel
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-fkxboohqqbpkwffkpuhaoummdlfu/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONAPI.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONHTTPClient.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONKeyMapper.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+CoreData.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+networking.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelArray.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelClassProperty.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelError.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONValueTransformer.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/NSArray+JSONModel.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/Pods-JSONModel-dummy.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods-JSONModel.a normal arm64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c000000005355E716000000000000036B
+t1398138646
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005355E716000000000000019E
+t1398138646
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005355E71B0000000000A90C10
+t1398138651
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c000000005355E77F0000000000000ADC
+t1398138751
+s2780
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONAPI.o
+t1401007811
+s39468
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONHTTPClient.o
+t1401007811
+s66616
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONKeyMapper.o
+t1401007811
+s39816
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+CoreData.o
+t1401007812
+s26428
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+networking.o
+t1401007812
+s25740
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel.o
+t1401007812
+s129536
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelArray.o
+t1401007812
+s23364
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelClassProperty.o
+t1401007812
+s32136
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelError.o
+t1401007812
+s23184
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONValueTransformer.o
+t1401007812
+s38260
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/NSArray+JSONModel.o
+t1401007812
+s7312
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/Pods-JSONModel-dummy.o
+t1401007812
+s4284
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/Pods-JSONModel.LinkFileList
+c000000005381AEC300000000000007A0
+t1401007811
+s1952
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch.pch
+t1401007811
+s121900
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-fkxboohqqbpkwffkpuhaoummdlfu/Pods-JSONModel-prefix.pch.pch
+t1401007811
+s120892
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods-JSONModel.a
+t1401007812
+s460032
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.h
+c0000000053817DC9000000000000029C
+t1400995273
+s668
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.m
+c0000000053817DC9000000000000118D
+t1400995273
+s4493
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h
+c0000000053817DC9000000000000368D
+t1400995273
+s13965
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.m
+c0000000053817DC9000000000000B970
+t1400995273
+s47472
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h
+c0000000053817DC90000000000000BBE
+t1400995273
+s3006
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.m
+c0000000053817DC90000000000000E39
+t1400995273
+s3641
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.h
+c0000000053817DC90000000000000DA3
+t1400995273
+s3491
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m
+c0000000053817DC90000000000000AFC
+t1400995273
+s2812
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h
+c0000000053817DC90000000000001263
+t1400995273
+s4707
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.m
+c0000000053817DC900000000000012FB
+t1400995273
+s4859
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.h
+c0000000053817DC90000000000000870
+t1400995273
+s2160
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.m
+c0000000053817DC9000000000000069F
+t1400995273
+s1695
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.h
+c0000000053817DC9000000000000113F
+t1400995273
+s4415
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m
+c0000000053817DC900000000000019AB
+t1400995273
+s6571
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.h
+c0000000053817DC90000000000002190
+t1400995273
+s8592
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m
+c0000000053817DC90000000000003F69
+t1400995273
+s16233
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.h
+c0000000053817DC9000000000000115D
+t1400995273
+s4445
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m
+c0000000053817DC90000000000000F6B
+t1400995273
+s3947
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h
+c0000000053817DC90000000000001097
+t1400995273
+s4247
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m
+c0000000053817DC90000000000001B0E
+t1400995273
+s6926
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h
+c0000000053817DC90000000000001CAE
+t1400995273
+s7342
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m
+c0000000053817DC90000000000001999
+t1400995273
+s6553
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-dummy.m
+c000000005381AE5A0000000000000084
+t1401007706
+s132
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-prefix.pch
+c000000005381AE5A000000000000004D
+t1401007706
+s77
+
+N/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-environment.h
+c000000005381AE5A0000000000000890
+t1401007706
+s2192
+
+CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa33cf73e2948b941^7fd9f93e2948b941^---0#1#1#--18"Check dependencies36"BF062B44-0568-4B63-9F71-E5601C8006E1-
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONAPI.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700611.669088
+e422700611.955624
+r1
+xCompileC
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONAPI.o
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m281"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONAPI.o JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7176ab43e631b941^8ba5f443e631b941^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m0000000000000000^4398"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONAPI.o JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONAPI.d --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONAPI.dia -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONAPI.o36"496A2189-987A-4D8F-9D8E-A3B5B36270C3-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONHTTPClient.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700611.669089
+e422700611.971202
+r1
+xCompileC
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONHTTPClient.o
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m295"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONHTTPClient.o JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler1e6eab43e631b941^16a5f843e631b941^---0#0#1#-19%DVTDocumentLocation2@133"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m0000000000000000^4440"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONHTTPClient.o JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONHTTPClient.d --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONHTTPClient.dia -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONHTTPClient.o36"C3AB2DAA-7FED-4414-ABE5-C769FA165701-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONKeyMapper.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700611.721083
+e422700611.963802
+r1
+xCompileC
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONKeyMapper.o
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m298"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONKeyMapper.o JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler97c9b843e631b941^02b7f643e631b941^---0#0#1#-19%DVTDocumentLocation2@137"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m0000000000000000^4444"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONKeyMapper.o JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONKeyMapper.d --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONKeyMapper.dia -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONKeyMapper.o36"2D8E43DB-B2E6-40AB-993D-99AACE1648DA-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+CoreData.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700611.957932
+e422700612.055302
+r1
+xCompileC
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+CoreData.o
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.m
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.m293"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+CoreData.o JSONModel/JSONModel/JSONModel/JSONModel+CoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4373f543e631b941^78430e44e631b941^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.m0000000000000000^4444"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+CoreData.o JSONModel/JSONModel/JSONModel/JSONModel+CoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+CoreData.d --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+CoreData.dia -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.m -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+CoreData.o36"07D69EF6-1A2C-41EA-9A62-56C5FC34517A-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+networking.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700611.966267
+e422700612.050509
+r1
+xCompileC
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+networking.o
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m307"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+networking.o JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler6893f743e631b941^6dfd0c44e631b941^---0#0#1#-19%DVTDocumentLocation2@139"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m0000000000000000^4476"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+networking.o JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+networking.d --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+networking.dia -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel+networking.o36"F4C47963-3B8C-4228-91F8-BD0265D78049-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700612.052973
+e422700612.413309
+r1
+xCompileC
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel.o
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.m
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.m275"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel.o JSONModel/JSONModel/JSONModel/JSONModel.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb8c80d44e631b941^4c556a44e631b941^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.m0000000000000000^4390"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel.o JSONModel/JSONModel/JSONModel/JSONModel.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel.d --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel.dia -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.m -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModel.o36"1B8748FF-1E23-49AA-A18A-0883FEE579B3-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelArray.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700612.129237
+e422700612.215700
+r1
+xCompileC
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelArray.o
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.m
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.m285"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelArray.o JSONModel/JSONModel/JSONModel/JSONModelArray.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler944d2144e631b941^dd613744e631b941^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.m0000000000000000^4420"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelArray.o JSONModel/JSONModel/JSONModel/JSONModelArray.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelArray.d --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelArray.dia -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.m -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelArray.o36"C15C0C1C-1B56-4BC1-B3C7-A1FDC1FCEAFA-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelClassProperty.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700612.184285
+e422700612.274832
+r1
+xCompileC
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelClassProperty.o
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m301"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelClassProperty.o JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc3672f44e631b941^618a4a44e631b941^---0#0#1#-19%DVTDocumentLocation2@131"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m0000000000000000^4468"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelClassProperty.o JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelClassProperty.d --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelClassProperty.dia -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelClassProperty.o36"95EF5A2E-3A99-40B5-8065-74AA81ACF633-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelError.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700612.277603
+e422700612.381608
+r1
+xCompileC
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelError.o
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.m
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.m285"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelError.o JSONModel/JSONModel/JSONModel/JSONModelError.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler87524744e631b941^03ea6144e631b941^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.m0000000000000000^4420"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelError.o JSONModel/JSONModel/JSONModel/JSONModelError.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelError.d --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelError.dia -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.m -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONModelError.o36"DE38BCFD-6AC4-40AF-A41B-CAD15EEAF7F8-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONValueTransformer.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700612.384872
+e422700612.490719
+r1
+xCompileC
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONValueTransformer.o
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m312"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONValueTransformer.o JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd4b96244e631b941^6dca7d44e631b941^---0#0#1#-19%DVTDocumentLocation2@144"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m0000000000000000^4486"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONValueTransformer.o JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONValueTransformer.d --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONValueTransformer.dia -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONValueTransformer.o36"6CDC632A-5921-44C6-A25D-B62CB9677F10-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/NSArray+JSONModel.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700612.416887
+e422700612.483690
+r1
+xCompileC
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/NSArray+JSONModel.o
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.m
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.h
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.m301"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/NSArray+JSONModel.o JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler6bf06a44e631b941^9a227c44e631b941^---0#0#1#-19%DVTDocumentLocation2@136"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.m0000000000000000^4458"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/NSArray+JSONModel.o JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/NSArray+JSONModel.d --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/NSArray+JSONModel.dia -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.m -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/NSArray+JSONModel.o36"5292D788-5D28-4F87-BB82-787AECDAAFE5-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/Pods-JSONModel-dummy.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700612.492683
+e422700612.555919
+r1
+xCompileC
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/Pods-JSONModel-dummy.o
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-dummy.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-dummy.m267"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/Pods-JSONModel-dummy.o Pods-JSONModel-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc9577e44e631b941^f0888e44e631b941^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-dummy.m0000000000000000^4362"CompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/Pods-JSONModel-dummy.o Pods-JSONModel-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -include /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-fkxboohqqbpkwffkpuhaoummdlfu/Pods-JSONModel-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/Pods-JSONModel-dummy.d --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/Pods-JSONModel-dummy.dia -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-dummy.m -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/Pods-JSONModel-dummy.o36"D0B35881-E2BA-424C-9F45-ADD83A4E1D95-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7/JSONAPI.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7/JSONHTTPClient.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7/JSONKeyMapper.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7/JSONModel+CoreData.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7/JSONModel+networking.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7/JSONModel.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7/JSONModelArray.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7/JSONModelClassProperty.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7/JSONModelError.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7/JSONValueTransformer.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7/NSArray+JSONModel.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7/Pods-JSONModel-dummy.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7s/JSONAPI.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7s/JSONHTTPClient.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONHTTPClient.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7s/JSONKeyMapper.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONKeyMapper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7s/JSONModel+CoreData.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7s/JSONModel+networking.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONModel+networking.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7s/JSONModel.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7s/JSONModelArray.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelArray.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7s/JSONModelClassProperty.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelClassProperty.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7s/JSONModelError.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModelError.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7s/JSONValueTransformer.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelTransformations/JSONValueTransformer.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7s/NSArray+JSONModel.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/JSONModel/JSONModel/JSONModelCategories/NSArray+JSONModel.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7s/Pods-JSONModel-dummy.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCreateUniversalBinary /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods-JSONModel.a normal armv7\ armv7s\ arm64
+r0
+
+CLibtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/libPods-JSONModel.a normal arm64
+r0
+
+CLibtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7/libPods-JSONModel.a normal armv7
+r0
+
+CLibtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/armv7s/libPods-JSONModel.a normal armv7s
+r0
+
+CLibtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods-JSONModel.a normal arm64
+s422700612.702861
+e422700612.730365
+r1
+xLibtool
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods-JSONModel.a
+xnormal
+xarm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Libtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods-JSONModel.a normal arm64126"Libtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods-JSONModel.a normal arm64ad16b444e631b941^4418bb44e631b941^---0#0#1#--1325"Libtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods-JSONModel.a normal arm64    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -filelist /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/Pods-JSONModel.LinkFileList -framework Foundation -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods-JSONModel.a36"35483121-ED0A-4BC0-9A87-E7B0D56BA9FA-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CProcessPCH /Users/shanerogers/Library/Developer/Xcode/DerivedData/Leveredge-evntcpmfczyclwdvgztluwfvjoup/Index/PrecompiledHeaders/Pods-JSONModel-prefix-astlwzzpqiyacxedcqeyelayhrdd_ast/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/shanerogers/Library/Developer/Xcode/DerivedData/Leveredge-evntcpmfczyclwdvgztluwfvjoup/Index/PrecompiledHeaders/Pods-JSONModel-prefix-ddzairylbqfpexaexufvvcjflhrx_ast/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/shanerogers/Library/Developer/Xcode/DerivedData/Leveredge-evntcpmfczyclwdvgztluwfvjoup/Index/PrecompiledHeaders/Pods-JSONModel-prefix-dyksincrifzjriaqqkrcdpakfrch_ast/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/shanerogers/Library/Developer/Xcode/DerivedData/Leveredge-evntcpmfczyclwdvgztluwfvjoup/Index/PrecompiledHeaders/Pods-JSONModel-prefix-ezxcfiurscycnygeifsxpskkxrvc_ast/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/shanerogers/Library/Developer/Xcode/DerivedData/Leveredge-evntcpmfczyclwdvgztluwfvjoup/Index/PrecompiledHeaders/Pods-JSONModel-prefix-fxhvawaupanfjqchdbakjxggmubk_ast/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/shanerogers/Library/Developer/Xcode/DerivedData/Leveredge-evntcpmfczyclwdvgztluwfvjoup/Index/PrecompiledHeaders/Pods-JSONModel-prefix-gxkbzstscmvfdtaqoqcwzzzyonaq_ast/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-andzohdduvnmtdggdymfedhnhkeo/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-axvoxbzdwccruzanlfmpohneofev/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700611.397674
+e422700611.660447
+r1
+xProcessPCH
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch.pch
+xPods-JSONModel-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-prefix.pch
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile Pods-JSONModel-prefix.pch281"ProcessPCH /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler03056643e631b941^382ca943e631b941^---0#0#1#-19%DVTDocumentLocation2@102"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-prefix.pch0000000000000000^4262"ProcessPCH /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch.dia -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch.d -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-prefix.pch -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-bvuzfwiqrteqhravvqbhrqukscew/Pods-JSONModel-prefix.pch.pch36"80E8ED22-AF46-4C9F-ADEE-F4A733A2FFDD-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+
+CProcessPCH /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-eyzthzfecotdlnfivxkaehoxvyoi/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-fdhqbgzbtkshvkfmhkicckruttxl/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-fkxboohqqbpkwffkpuhaoummdlfu/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422700611.399375
+e422700611.660447
+r1
+xProcessPCH
+x/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-fkxboohqqbpkwffkpuhaoummdlfu/Pods-JSONModel-prefix.pch.pch
+xPods-JSONModel-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-prefix.pch
+d/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile Pods-JSONModel-prefix.pch281"ProcessPCH /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-fkxboohqqbpkwffkpuhaoummdlfu/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler76896643e631b941^bd1da943e631b941^---0#0#1#-19%DVTDocumentLocation2@102"file://localhost/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-prefix.pch0000000000000000^4228"ProcessPCH /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-fkxboohqqbpkwffkpuhaoummdlfu/Pods-JSONModel-prefix.pch.pch Pods-JSONModel-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1/bin:/Users/shanerogers/.rvm/gems/ruby-2.1.1@global/bin:/Users/shanerogers/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/shanerogers/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-generated-files.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-own-target-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-all-target-headers.hmap -iquote /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Pods-JSONModel-project-headers.hmap -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources/arm64 -I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/DerivedSources -F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-fkxboohqqbpkwffkpuhaoummdlfu/Pods-JSONModel-prefix.pch.dia -MMD -MT dependencies -MF /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-fkxboohqqbpkwffkpuhaoummdlfu/Pods-JSONModel-prefix.pch.d -c /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-JSONModel-prefix.pch -o /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/PrecompiledHeaders/Pods-JSONModel-prefix-fkxboohqqbpkwffkpuhaoummdlfu/Pods-JSONModel-prefix.pch.pch36"73775A25-F13C-4C8C-9B01-F2B7A56B558D-
+b7FEFFFD8-8F96-4820-BD29-B76B7AD15800
+

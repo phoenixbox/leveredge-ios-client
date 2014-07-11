@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/Amazon.SimpleDB/Model/SimpleDBSelectResponse.m \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/SimpleDBSelectResponse.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/SimpleDBItem.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/SimpleDBAttribute.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/SimpleDBResponse.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/../AmazonServiceResponse.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonServiceRequest.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonURLRequest.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonCredentials.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/SimpleDBInvalidParameterValueException.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/SimpleDBInvalidQueryExpressionException.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/SimpleDBRequestTimeoutException.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/SimpleDBInvalidNumberPredicatesException.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/SimpleDBNoSuchDomainException.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/SimpleDBInvalidNextTokenException.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/SimpleDBTooManyRequestedAttributesException.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/SimpleDBMissingParameterException.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/SimpleDB/SimpleDBInvalidNumberValueTestsException.h

@@ -1,0 +1,3 @@
+dependencies: \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/Amazon.DynamoDB/Model/DynamoDBKeySchemaElement.m \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/DynamoDB/DynamoDBKeySchemaElement.h

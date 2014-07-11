@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/Amazon.ElasticLoadBalancing/Model/ElasticLoadBalancingLoadBalancerDescriptionUnmarshaller.m \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingLoadBalancerDescriptionUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingLoadBalancerDescription.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingListenerDescription.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingListener.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingPolicies.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingAppCookieStickinessPolicy.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingLBCookieStickinessPolicy.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingBackendServerDescription.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingInstance.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingHealthCheck.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingSourceSecurityGroup.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingResponseUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/../AmazonServiceResponseUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonUnmarshallerXMLParserDelegate.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonServiceResponse.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonServiceRequest.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonURLRequest.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonCredentials.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/../AmazonValueUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/../AmazonBoolValueUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/../AmazonListUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingListenerDescriptionUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingListenerUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingPoliciesUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingAppCookieStickinessPolicyUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingLBCookieStickinessPolicyUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingBackendServerDescriptionUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingInstanceUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingHealthCheckUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/ElasticLoadBalancing/ElasticLoadBalancingSourceSecurityGroupUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/AWSiOSSDK/AutoScaling/../AmazonServiceExceptionUnmarshaller.h

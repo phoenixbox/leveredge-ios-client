@@ -1,0 +1,806 @@
+TPods-AFNetworking
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-brfhlouiolpzrpdeaidpjfhniggh/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperation.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperationManager.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPSessionManager.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkReachabilityManager.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFSecurityPolicy.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLConnectionOperation.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLRequestSerialization.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLResponseSerialization.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLSessionManager.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/Pods-AFNetworking-dummy.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIAlertView+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIButton+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIImageView+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIProgressView+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIRefreshControl+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIWebView+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005355E71900000000004D7BC0
+t1398138649
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005355E71B0000000000A90C10
+t1398138651
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005355E71B0000000000210E90
+t1398138651
+s2166416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c000000005355E71C0000000000186D60
+t1398138652
+s1600864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005355E71C00000000001A2B00
+t1398138652
+s1714944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c000000005355E73A00000000000003B4
+t1398138682
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005355E744000000000000019E
+t1398138692
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c000000005355E77F0000000000000ADC
+t1398138751
+s2780
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperation.o
+t1405053273
+s48028
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperationManager.o
+t1405053273
+s58184
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPSessionManager.o
+t1405053273
+s68492
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o
+t1405053273
+s36736
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkReachabilityManager.o
+t1405053273
+s47992
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFSecurityPolicy.o
+t1405053273
+s47176
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLConnectionOperation.o
+t1405053273
+s212708
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLRequestSerialization.o
+t1405053273
+s240372
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLResponseSerialization.o
+t1405053273
+s96848
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLSessionManager.o
+t1405053274
+s212100
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/Pods-AFNetworking-dummy.o
+t1405053273
+s3936
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/Pods-AFNetworking.LinkFileList
+c0000000053BF69590000000000000CA6
+t1405053273
+s3238
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking.o
+t1405053273
+s51316
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIAlertView+AFNetworking.o
+t1405053274
+s29536
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIButton+AFNetworking.o
+t1405053274
+s78584
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIImageView+AFNetworking.o
+t1405053274
+s74972
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIProgressView+AFNetworking.o
+t1405053274
+s70764
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIRefreshControl+AFNetworking.o
+t1405053274
+s52692
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIWebView+AFNetworking.o
+t1405053274
+s70212
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-brfhlouiolpzrpdeaidpjfhniggh/Pods-AFNetworking-prefix.pch.pch
+t1405053273
+s127220
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch.pch
+t1405053273
+s127628
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a
+t1405053274
+s1517208
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+c0000000053817CE30000000000001192
+t1400995043
+s4498
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+c0000000053817CE30000000000001CFD
+t1400995043
+s7421
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h
+c0000000053817CE300000000000048F0
+t1400995043
+s18672
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m
+c0000000053817CE3000000000000291C
+t1400995043
+s10524
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h
+c0000000053817CE300000000000038E4
+t1400995043
+s14564
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m
+c0000000053817CE30000000000003019
+t1400995043
+s12313
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+c0000000053817CE30000000000001D1F
+t1400995043
+s7455
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m
+c0000000053817CE30000000000002520
+t1400995043
+s9504
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+c0000000053817CE3000000000000141B
+t1400995043
+s5147
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m
+c0000000053817CE30000000000002A47
+t1400995043
+s10823
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+c0000000053817CE30000000000004621
+t1400995043
+s17953
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+c0000000053817CE300000000000068B9
+t1400995043
+s26809
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+c0000000053817CE30000000000005009
+t1400995043
+s20489
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m
+c0000000053817CE3000000000000B7BC
+t1400995043
+s47036
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+c0000000053817CE300000000000027A4
+t1400995043
+s10148
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m
+c0000000053817CE30000000000005DA7
+t1400995043
+s23975
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+c0000000053817CE30000000000006DC8
+t1400995043
+s28104
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m
+c0000000053817CE3000000000000A00A
+t1400995043
+s40970
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h
+c0000000053817CE30000000000000EC1
+t1400995043
+s3777
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
+c0000000053817CE3000000000000190C
+t1400995043
+s6412
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h
+c0000000053817CE300000000000009C9
+t1400995043
+s2505
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m
+c0000000053817CE30000000000000F19
+t1400995043
+s3865
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.h
+c0000000053817CE3000000000000143A
+t1400995043
+s5178
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m
+c0000000053817CE30000000000001642
+t1400995043
+s5698
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h
+c0000000053817CE30000000000001F95
+t1400995043
+s8085
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m
+c0000000053817CE30000000000001D5B
+t1400995043
+s7515
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h
+c0000000053817CE30000000000001C53
+t1400995043
+s7251
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m
+c0000000053817CE30000000000001D77
+t1400995043
+s7543
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h
+c0000000053817CE30000000000000D89
+t1400995043
+s3465
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m
+c0000000053817CE30000000000001EDC
+t1400995043
+s7900
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h
+c0000000053817CE300000000000009BC
+t1400995043
+s2492
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m
+c0000000053817CE30000000000000EFC
+t1400995043
+s3836
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h
+c0000000053817CE30000000000001734
+t1400995043
+s5940
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m
+c0000000053817CE30000000000001927
+t1400995043
+s6439
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-dummy.m
+c000000005381AE5A000000000000008A
+t1401007706
+s138
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-prefix.pch
+c000000005381AE5A000000000000004D
+t1401007706
+s77
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-environment.h
+c000000005381AE5A0000000000000890
+t1401007706
+s2192
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m
+r0
+
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb20dac6ca26fb941^ba82ad6ca26fb941^---0#1#1#--18"Check dependencies36"6104F427-01D5-46A3-9CDB-5C94069E3AD7-
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperation.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.172881
+e426746073.325010
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperation.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m306"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperation.o AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler276b2cd9a06fb941^dcd553d9a06fb941^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m0000000000000000^4354"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperation.o AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperation.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperation.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperation.o36"758FD974-88C6-403B-80AC-D2D891341310-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperationManager.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.172877
+e426746073.363520
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperationManager.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m320"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperationManager.o AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf9692cd9a06fb941^ab255dd9a06fb941^---0#0#1#-19%DVTDocumentLocation2@131"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m0000000000000000^4396"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperationManager.o AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperationManager.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperationManager.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPRequestOperationManager.o36"01349855-AB49-4335-9033-FBC7FF045518-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPSessionManager.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.173307
+e426746073.400177
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPSessionManager.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m302"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPSessionManager.o AFNetworking/AFNetworking/AFHTTPSessionManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler84802cd9a06fb941^a29666d9a06fb941^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m0000000000000000^4342"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPSessionManager.o AFNetworking/AFNetworking/AFHTTPSessionManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPSessionManager.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPSessionManager.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFHTTPSessionManager.o36"1E6001DA-04A0-429D-86BD-8B4FDA8623BC-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.182432
+e426746073.326729
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m334"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compileraddd2ed9a06fb941^94da53d9a06fb941^---0#0#1#-19%DVTDocumentLocation2@141"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m0000000000000000^4432"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager.o36"DC3CB3ED-7835-43C3-9719-961523CBF52B-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkReachabilityManager.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.327865
+e426746073.480349
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkReachabilityManager.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m318"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkReachabilityManager.o AFNetworking/AFNetworking/AFNetworkReachabilityManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb51854d9a06fb941^6a687bd9a06fb941^---0#0#1#-19%DVTDocumentLocation2@130"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m0000000000000000^4390"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkReachabilityManager.o AFNetworking/AFNetworking/AFNetworkReachabilityManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkReachabilityManager.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkReachabilityManager.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFNetworkReachabilityManager.o36"4CDAA068-306B-4F07-9E95-6F4D3DA9F358-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFSecurityPolicy.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.328566
+e426746073.484208
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFSecurityPolicy.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m294"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFSecurityPolicy.o AFNetworking/AFNetworking/AFSecurityPolicy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerfe4554d9a06fb941^51f57bd9a06fb941^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m0000000000000000^4318"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFSecurityPolicy.o AFNetworking/AFNetworking/AFSecurityPolicy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFSecurityPolicy.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFSecurityPolicy.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFSecurityPolicy.o36"9EE68B39-180D-4558-A22F-B3EDC58A3B30-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLConnectionOperation.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.401650
+e426746073.745765
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLConnectionOperation.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m310"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLConnectionOperation.o AFNetworking/AFNetworking/AFURLConnectionOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler93fe66d9a06fb941^d9eabed9a06fb941^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m0000000000000000^4366"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLConnectionOperation.o AFNetworking/AFNetworking/AFURLConnectionOperation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLConnectionOperation.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLConnectionOperation.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLConnectionOperation.o36"2F649B4B-BCBF-4974-B2BD-311190F92008-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLRequestSerialization.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.485570
+e426746073.816046
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLRequestSerialization.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m312"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLRequestSerialization.o AFNetworking/AFNetworking/AFURLRequestSerialization.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler787b7cd9a06fb941^96e8d0d9a06fb941^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m0000000000000000^4372"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLRequestSerialization.o AFNetworking/AFNetworking/AFURLRequestSerialization.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLRequestSerialization.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLRequestSerialization.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLRequestSerialization.o36"D78FEED5-8659-4098-A8F8-2CF281C891D5-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLResponseSerialization.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.600716
+e426746073.768959
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLResponseSerialization.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m314"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLResponseSerialization.o AFNetworking/AFNetworking/AFURLResponseSerialization.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler6af599d9a06fb941^12fbc4d9a06fb941^---0#0#1#-19%DVTDocumentLocation2@128"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m0000000000000000^4378"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLResponseSerialization.o AFNetworking/AFNetworking/AFURLResponseSerialization.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLResponseSerialization.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLResponseSerialization.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLResponseSerialization.o36"CF3AFE1B-E0D2-4387-94BD-63D7FB23D0A3-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLSessionManager.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.721252
+e426746074.034148
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLSessionManager.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m300"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLSessionManager.o AFNetworking/AFNetworking/AFURLSessionManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerffccb8d9a06fb941^0ebe08daa06fb941^---0#0#1#-19%DVTDocumentLocation2@121"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m0000000000000000^4336"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLSessionManager.o AFNetworking/AFNetworking/AFURLSessionManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLSessionManager.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLSessionManager.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/AFURLSessionManager.o36"77B56A8D-4DE0-479C-A3B7-C371A297C73A-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/Pods-AFNetworking-dummy.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.770417
+e426746073.830134
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/Pods-AFNetworking-dummy.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-dummy.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-dummy.m282"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/Pods-AFNetworking-dummy.o Pods-AFNetworking-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilere78fc5d9a06fb941^0e84d4d9a06fb941^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-dummy.m0000000000000000^4297"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/Pods-AFNetworking-dummy.o Pods-AFNetworking-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-brfhlouiolpzrpdeaidpjfhniggh/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/Pods-AFNetworking-dummy.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/Pods-AFNetworking-dummy.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-dummy.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/Pods-AFNetworking-dummy.o36"79472F0D-9BCC-4200-8EC5-CD269EB3CD9A-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.831559
+e426746073.960875
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m340"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerae0dd5d9a06fb941^f8fbf5d9a06fb941^---0#0#1#-19%DVTDocumentLocation2@144"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m0000000000000000^4450"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking.o36"621593A6-6BB2-49F3-BA77-39A24D992CBA-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIAlertView+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.931447
+e426746074.039563
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIAlertView+AFNetworking.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m316"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIAlertView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc2a2eed9a06fb941^56470adaa06fb941^---0#0#1#-19%DVTDocumentLocation2@132"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m0000000000000000^4378"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIAlertView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIAlertView+AFNetworking.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIAlertView+AFNetworking.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIAlertView+AFNetworking.o36"489C34F6-541D-4DFC-B289-E31EEB0FF38E-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIButton+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746074.035060
+e426746074.202947
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIButton+AFNetworking.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m310"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIButton+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler642209daa06fb941^410c34daa06fb941^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m0000000000000000^4360"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIButton+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIButton+AFNetworking.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIButton+AFNetworking.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIButton+AFNetworking.o36"53AAAC85-3EA3-4C18-9313-6AF82B41836D-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIImageView+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746074.036168
+e426746074.204357
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIImageView+AFNetworking.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m316"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIImageView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler3b7109daa06fb941^766c34daa06fb941^---0#0#1#-19%DVTDocumentLocation2@132"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m0000000000000000^4378"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIImageView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIImageView+AFNetworking.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIImageView+AFNetworking.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIImageView+AFNetworking.o36"224A1C60-66A1-48C4-988D-373A08D754B4-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIProgressView+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746074.041269
+e426746074.206718
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIProgressView+AFNetworking.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m322"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIProgressView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilera3b10adaa06fb941^a7ec34daa06fb941^---0#0#1#-19%DVTDocumentLocation2@135"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m0000000000000000^4396"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIProgressView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIProgressView+AFNetworking.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIProgressView+AFNetworking.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIProgressView+AFNetworking.o36"106FFC9E-5CE3-4E8F-8563-52CEF7B1A826-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIRefreshControl+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746074.205317
+e426746074.319155
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIRefreshControl+AFNetworking.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m326"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIRefreshControl+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerddb534daa06fb941^31b551daa06fb941^---0#0#1#-19%DVTDocumentLocation2@137"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m0000000000000000^4408"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIRefreshControl+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIRefreshControl+AFNetworking.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIRefreshControl+AFNetworking.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIRefreshControl+AFNetworking.o36"E19446EB-7764-4E04-AC86-710A1FB94A23-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIWebView+AFNetworking.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746074.239623
+e426746074.349444
+r1
+xCompileC
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIWebView+AFNetworking.o
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m312"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIWebView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilercb823ddaa06fb941^5c7559daa06fb941^---0#0#1#-19%DVTDocumentLocation2@130"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m0000000000000000^4366"CompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIWebView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIWebView+AFNetworking.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIWebView+AFNetworking.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/UIWebView+AFNetworking.o36"6B951D01-193A-44DD-9F8B-587FC94F7263-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CLibtool /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a normal x86_64
+s426746074.360182
+e426746074.376964
+r1
+xLibtool
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Libtool /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a normal x86_64134"Libtool /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a normal x86_642f4e5cdaa06fb941^808160daa06fb941^---0#0#1#--1218"Libtool /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a normal x86_64    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -filelist /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/x86_64/Pods-AFNetworking.LinkFileList -framework CoreGraphics -framework Foundation -framework MobileCoreServices -framework Security -framework SystemConfiguration -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a36"947D0DDF-B249-4FD6-B884-A84187E2FCBA-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CProcessPCH /Users/shanerogers/Library/Developer/Xcode/DerivedData/Leveredge-cnbvdcnqyrnpfeaumjgxjvgzfizn/Index/PrecompiledHeaders/Pods-AFNetworking-prefix-aefxzudpabvbpkgadbikqamvapeg_ast/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/shanerogers/Library/Developer/Xcode/DerivedData/Leveredge-cnbvdcnqyrnpfeaumjgxjvgzfizn/Index/PrecompiledHeaders/Pods-AFNetworking-prefix-fapxcenvngqzuidigiuqhgjelkxf_ast/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-brfhlouiolpzrpdeaidpjfhniggh/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.087096
+e426746073.159180
+r1
+xProcessPCH
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-brfhlouiolpzrpdeaidpjfhniggh/Pods-AFNetworking-prefix.pch.pch
+xPods-AFNetworking-prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-prefix.pch
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-AFNetworking-prefix.pch288"ProcessPCH /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-brfhlouiolpzrpdeaidpjfhniggh/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4f7716d9a06fb941^f0c428d9a06fb941^---0#0#1#-19%DVTDocumentLocation2@102"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-prefix.pch0000000000000000^4128"ProcessPCH /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-brfhlouiolpzrpdeaidpjfhniggh/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-brfhlouiolpzrpdeaidpjfhniggh/Pods-AFNetworking-prefix.pch.dia -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-brfhlouiolpzrpdeaidpjfhniggh/Pods-AFNetworking-prefix.pch.d -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-prefix.pch -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-brfhlouiolpzrpdeaidpjfhniggh/Pods-AFNetworking-prefix.pch.pch36"0B3B8D7B-9EDC-4A05-AB1E-FED81DEE3856-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+
+CProcessPCH /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426746073.085009
+e426746073.164432
+r1
+xProcessPCH
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch.pch
+xPods-AFNetworking-prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-prefix.pch
+d/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-AFNetworking-prefix.pch288"ProcessPCH /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc8eb15d9a06fb941^ad182ad9a06fb941^---0#0#1#-19%DVTDocumentLocation2@102"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-prefix.pch0000000000000000^4139"ProcessPCH /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/BuildHeaders/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -fobjc-arc --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch.dia -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch.d -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-AFNetworking-prefix.pch -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fpxponizrvbesndlrevbicnijsqr/Pods-AFNetworking-prefix.pch.pch36"190BAA16-8332-42AF-90BF-A2B079856312-
+bD63FE067-D35D-4F91-81C7-8A3400C565E0
+

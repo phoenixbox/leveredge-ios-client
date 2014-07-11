@@ -52,9 +52,9 @@
 #define kCommentCopySampleThree @"Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
 #define kCommentCopySampleFour @"Vestibulum id ligula porta felis euismod semper."
 
-// Rooms List Template
-#define kRoomsTableCellIdentifier @"SDRRoomsTableCell"
-#define kRoomsTableCellHeight 100.0f
+// hotels List Template
+#define khotelsTableCellIdentifier @"SDRHotelsTableCell"
+#define khotelsTableCellHeight 100.0f
 #define kTakeNewVideoButton @"Take A New Video"
 #define kUseExistingVideoButton @"Use An Existing Video"
 

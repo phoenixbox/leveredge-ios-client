@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB35D95E19063AA000CD8F75 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB35D95A19063AA000CD8F75 /* libTestFlight.a */; };
+		5F866AF8510C411297519C14 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C64A35BB9BE04865B12E6230 /* libPods.a */; };
+		CB1102DD1937704A0047684C /* SDRHotelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1102DC1937704A0047684C /* SDRHotelViewController.m */; };
+		CB2F740C195F9FD10072570F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2F740B195F9FD10072570F /* SystemConfiguration.framework */; };
 		CB4447CB18D4082800F3854B /* leveredgeLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4447CA18D4082800F3854B /* leveredgeLogo@2x.png */; };
 		CB4447CD18D4116000F3854B /* leveredgeLogoHero@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4447CC18D4116000F3854B /* leveredgeLogoHero@2x.png */; };
 		CB4447CF18D4165900F3854B /* filterIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4447CE18D4165900F3854B /* filterIcon@2x.png */; };
@@ -34,16 +36,18 @@
 		CB8B6D5618A6B1E100E63566 /* SDRLeveredgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5518A6B1E100E63566 /* SDRLeveredgeButton.m */; };
 		CB8B6D5918A6B6FE00E63566 /* SDRCommentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5818A6B6FE00E63566 /* SDRCommentsView.m */; };
 		CB8B6D5C18A6C94A00E63566 /* SDRCommentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5B18A6C94A00E63566 /* SDRCommentViewCell.m */; };
+		CB961AE01931E266009CF03A /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB961ADF1931E266009CF03A /* AWSS3.framework */; };
+		CB961AE21931E273009CF03A /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB961AE11931E273009CF03A /* AWSRuntime.framework */; };
 		CBD2875E1925B09400AA22C5 /* videoHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD2875C1925B09400AA22C5 /* videoHighlighted@2x.png */; };
 		CBD2875F1925B09400AA22C5 /* videoUnhighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD2875D1925B09400AA22C5 /* videoUnhighlighted@2x.png */; };
-		CBD287621925B24F00AA22C5 /* SDRRoomsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD287611925B24F00AA22C5 /* SDRRoomsListViewController.m */; };
-		CBD28769192D98A500AA22C5 /* SDRRoomsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD28768192D98A500AA22C5 /* SDRRoomsTableViewCell.m */; };
-		CBD2876C192D9D7500AA22C5 /* SDRRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD2876B192D9D7500AA22C5 /* SDRRoom.m */; };
+		CBD287621925B24F00AA22C5 /* SDRHotelsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD287611925B24F00AA22C5 /* SDRHotelsListViewController.m */; };
+		CBD28769192D98A500AA22C5 /* SDRHotelsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD28768192D98A500AA22C5 /* SDRHotelsTableViewCell.m */; };
+		CBD2876C192D9D7500AA22C5 /* SDRHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD2876B192D9D7500AA22C5 /* SDRHotel.m */; };
 		CBD2876E192D9EE100AA22C5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD2876D192D9EE100AA22C5 /* AVFoundation.framework */; };
 		CBD28770192D9F9100AA22C5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD2876F192D9F9100AA22C5 /* AssetsLibrary.framework */; };
 		CBD28772192D9F9D00AA22C5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD28771192D9F9D00AA22C5 /* CoreMedia.framework */; };
-		CBD28775192DA71500AA22C5 /* SDRRoomStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD28774192DA71500AA22C5 /* SDRRoomStore.m */; };
-		CBD28778192DAA6C00AA22C5 /* SDRRoomChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD28777192DAA6C00AA22C5 /* SDRRoomChannel.m */; };
+		CBD28775192DA71500AA22C5 /* SDRHotelStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD28774192DA71500AA22C5 /* SDRHotelStore.m */; };
+		CBD28778192DAA6C00AA22C5 /* SDRHotelChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD28777192DAA6C00AA22C5 /* SDRHotelChannel.m */; };
 		CBE3D4E6189594B600BB0671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E5189594B600BB0671 /* Foundation.framework */; };
 		CBE3D4E8189594B600BB0671 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */; };
 		CBE3D4EA189594B600BB0671 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E9189594B600BB0671 /* UIKit.framework */; };
@@ -71,10 +75,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CB35D95A19063AA000CD8F75 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		CB35D95B19063AA000CD8F75 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		CB35D95C19063AA000CD8F75 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
-		CB35D95D19063AA000CD8F75 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		C64A35BB9BE04865B12E6230 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1102DB1937704A0047684C /* SDRHotelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRHotelViewController.h; sourceTree = "<group>"; };
+		CB1102DC1937704A0047684C /* SDRHotelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRHotelViewController.m; sourceTree = "<group>"; };
+		CB2F740B195F9FD10072570F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CB4447CA18D4082800F3854B /* leveredgeLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leveredgeLogo@2x.png"; sourceTree = "<group>"; };
 		CB4447CC18D4116000F3854B /* leveredgeLogoHero@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leveredgeLogoHero@2x.png"; sourceTree = "<group>"; };
 		CB4447CE18D4165900F3854B /* filterIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "filterIcon@2x.png"; sourceTree = "<group>"; };
@@ -118,21 +122,23 @@
 		CB8B6D5A18A6C94A00E63566 /* SDRCommentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRCommentViewCell.h; sourceTree = "<group>"; };
 		CB8B6D5B18A6C94A00E63566 /* SDRCommentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRCommentViewCell.m; sourceTree = "<group>"; };
 		CB8B6D5D18A7347100E63566 /* SDRDynamicRowHeightTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDRDynamicRowHeightTableViewCell.h; sourceTree = "<group>"; };
+		CB961ADF1931E266009CF03A /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = "../../../Downloads/Amazon/aws-ios-sdk-1.7.1/AWSS3.framework"; sourceTree = "<group>"; };
+		CB961AE11931E273009CF03A /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSRuntime.framework; path = "../../../Downloads/Amazon/aws-ios-sdk-1.7.1/AWSRuntime.framework"; sourceTree = "<group>"; };
 		CBD2875C1925B09400AA22C5 /* videoHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoHighlighted@2x.png"; sourceTree = "<group>"; };
 		CBD2875D1925B09400AA22C5 /* videoUnhighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoUnhighlighted@2x.png"; sourceTree = "<group>"; };
-		CBD287601925B24F00AA22C5 /* SDRRoomsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRRoomsListViewController.h; sourceTree = "<group>"; };
-		CBD287611925B24F00AA22C5 /* SDRRoomsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRRoomsListViewController.m; sourceTree = "<group>"; };
-		CBD28767192D98A500AA22C5 /* SDRRoomsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRRoomsTableViewCell.h; sourceTree = "<group>"; };
-		CBD28768192D98A500AA22C5 /* SDRRoomsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRRoomsTableViewCell.m; sourceTree = "<group>"; };
-		CBD2876A192D9D7500AA22C5 /* SDRRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRRoom.h; sourceTree = "<group>"; };
-		CBD2876B192D9D7500AA22C5 /* SDRRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRRoom.m; sourceTree = "<group>"; };
+		CBD287601925B24F00AA22C5 /* SDRHotelsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRHotelsListViewController.h; sourceTree = "<group>"; };
+		CBD287611925B24F00AA22C5 /* SDRHotelsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRHotelsListViewController.m; sourceTree = "<group>"; };
+		CBD28767192D98A500AA22C5 /* SDRHotelsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRHotelsTableViewCell.h; sourceTree = "<group>"; };
+		CBD28768192D98A500AA22C5 /* SDRHotelsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRHotelsTableViewCell.m; sourceTree = "<group>"; };
+		CBD2876A192D9D7500AA22C5 /* SDRHotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRHotel.h; sourceTree = "<group>"; };
+		CBD2876B192D9D7500AA22C5 /* SDRHotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRHotel.m; sourceTree = "<group>"; };
 		CBD2876D192D9EE100AA22C5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CBD2876F192D9F9100AA22C5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		CBD28771192D9F9D00AA22C5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		CBD28773192DA71500AA22C5 /* SDRRoomStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRRoomStore.h; sourceTree = "<group>"; };
-		CBD28774192DA71500AA22C5 /* SDRRoomStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRRoomStore.m; sourceTree = "<group>"; };
-		CBD28776192DAA6C00AA22C5 /* SDRRoomChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRRoomChannel.h; sourceTree = "<group>"; };
-		CBD28777192DAA6C00AA22C5 /* SDRRoomChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRRoomChannel.m; sourceTree = "<group>"; };
+		CBD28773192DA71500AA22C5 /* SDRHotelStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRHotelStore.h; sourceTree = "<group>"; };
+		CBD28774192DA71500AA22C5 /* SDRHotelStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRHotelStore.m; sourceTree = "<group>"; };
+		CBD28776192DAA6C00AA22C5 /* SDRHotelChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRHotelChannel.h; sourceTree = "<group>"; };
+		CBD28777192DAA6C00AA22C5 /* SDRHotelChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRHotelChannel.m; sourceTree = "<group>"; };
 		CBE3D4E2189594B600BB0671 /* Leveredge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leveredge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE3D4E5189594B600BB0671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -154,6 +160,7 @@
 		CBE3D5191895A4D100BB0671 /* SDRViewConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDRViewConstants.h; sourceTree = "<group>"; };
 		CBF5E1C718A2E6B30051A49F /* SDRCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRCarousel.h; sourceTree = "<group>"; };
 		CBF5E1C818A2E6B30051A49F /* SDRCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRCarousel.m; sourceTree = "<group>"; };
+		E396222AA1DE4DB5A1D7F428 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +168,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2F740C195F9FD10072570F /* SystemConfiguration.framework in Frameworks */,
+				CB961AE21931E273009CF03A /* AWSRuntime.framework in Frameworks */,
+				CB961AE01931E266009CF03A /* AWSS3.framework in Frameworks */,
 				CB60A92D19303C0000E59602 /* QuartzCore.framework in Frameworks */,
 				CB60A92B19303BF700E59602 /* MobileCoreServices.framework in Frameworks */,
 				CB60A92919303BED00E59602 /* MediaPlayer.framework in Frameworks */,
@@ -170,7 +180,7 @@
 				CBE3D4E8189594B600BB0671 /* CoreGraphics.framework in Frameworks */,
 				CBE3D4EA189594B600BB0671 /* UIKit.framework in Frameworks */,
 				CBE3D4E6189594B600BB0671 /* Foundation.framework in Frameworks */,
-				CB35D95E19063AA000CD8F75 /* libTestFlight.a in Frameworks */,
+				5F866AF8510C411297519C14 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,26 +197,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CB35D958190639D100CD8F75 /* Third Party */ = {
-			isa = PBXGroup;
-			children = (
-				CB35D95919063AA000CD8F75 /* TestFlightSDK */,
-			);
-			name = "Third Party";
-			sourceTree = "<group>";
-		};
-		CB35D95919063AA000CD8F75 /* TestFlightSDK */ = {
-			isa = PBXGroup;
-			children = (
-				CB35D95A19063AA000CD8F75 /* libTestFlight.a */,
-				CB35D95B19063AA000CD8F75 /* TestFlight+AsyncLogging.h */,
-				CB35D95C19063AA000CD8F75 /* TestFlight+ManualSessions.h */,
-				CB35D95D19063AA000CD8F75 /* TestFlight.h */,
-			);
-			name = TestFlightSDK;
-			path = ../../../ios/TestFlightSDK;
-			sourceTree = "<group>";
-		};
 		CB4447D918D4F28900F3854B /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,7 +293,7 @@
 		CB7C04F0189ED583009CAD15 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CBD2877C192DAC9D00AA22C5 /* Room */,
+				CBD2877C192DAC9D00AA22C5 /* Hotel */,
 				CBD2877B192DAC9200AA22C5 /* User */,
 				CBD2877A192DAC8700AA22C5 /* Vendor */,
 			);
@@ -317,8 +307,8 @@
 				CB7C04ED189ED32F009CAD15 /* SDRVendorStore.m */,
 				CB7C050018A091E6009CAD15 /* SDRAuthStore.h */,
 				CB7C050118A091E6009CAD15 /* SDRAuthStore.m */,
-				CBD28773192DA71500AA22C5 /* SDRRoomStore.h */,
-				CBD28774192DA71500AA22C5 /* SDRRoomStore.m */,
+				CBD28773192DA71500AA22C5 /* SDRHotelStore.h */,
+				CBD28774192DA71500AA22C5 /* SDRHotelStore.m */,
 			);
 			name = Stores;
 			sourceTree = "<group>";
@@ -353,8 +343,8 @@
 		CBD28766192D984500AA22C5 /* Rooms */ = {
 			isa = PBXGroup;
 			children = (
-				CBD28767192D98A500AA22C5 /* SDRRoomsTableViewCell.h */,
-				CBD28768192D98A500AA22C5 /* SDRRoomsTableViewCell.m */,
+				CBD28767192D98A500AA22C5 /* SDRHotelsTableViewCell.h */,
+				CBD28768192D98A500AA22C5 /* SDRHotelsTableViewCell.m */,
 			);
 			name = Rooms;
 			sourceTree = "<group>";
@@ -379,15 +369,15 @@
 			name = User;
 			sourceTree = "<group>";
 		};
-		CBD2877C192DAC9D00AA22C5 /* Room */ = {
+		CBD2877C192DAC9D00AA22C5 /* Hotel */ = {
 			isa = PBXGroup;
 			children = (
-				CBD2876A192D9D7500AA22C5 /* SDRRoom.h */,
-				CBD2876B192D9D7500AA22C5 /* SDRRoom.m */,
-				CBD28776192DAA6C00AA22C5 /* SDRRoomChannel.h */,
-				CBD28777192DAA6C00AA22C5 /* SDRRoomChannel.m */,
+				CBD2876A192D9D7500AA22C5 /* SDRHotel.h */,
+				CBD2876B192D9D7500AA22C5 /* SDRHotel.m */,
+				CBD28776192DAA6C00AA22C5 /* SDRHotelChannel.h */,
+				CBD28777192DAA6C00AA22C5 /* SDRHotelChannel.m */,
 			);
-			name = Room;
+			name = Hotel;
 			sourceTree = "<group>";
 		};
 		CBE3D4D9189594B600BB0671 = {
@@ -397,6 +387,7 @@
 				CBE3D504189594B600BB0671 /* LeveredgeTests */,
 				CBE3D4E4189594B600BB0671 /* Frameworks */,
 				CBE3D4E3189594B600BB0671 /* Products */,
+				E396222AA1DE4DB5A1D7F428 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -412,6 +403,9 @@
 		CBE3D4E4189594B600BB0671 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB2F740B195F9FD10072570F /* SystemConfiguration.framework */,
+				CB961AE11931E273009CF03A /* AWSRuntime.framework */,
+				CB961ADF1931E266009CF03A /* AWSS3.framework */,
 				CB60A92C19303C0000E59602 /* QuartzCore.framework */,
 				CB60A92A19303BF700E59602 /* MobileCoreServices.framework */,
 				CB60A92819303BED00E59602 /* MediaPlayer.framework */,
@@ -422,6 +416,7 @@
 				CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */,
 				CBE3D4E9189594B600BB0671 /* UIKit.framework */,
 				CBE3D4FE189594B600BB0671 /* XCTest.framework */,
+				C64A35BB9BE04865B12E6230 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -429,7 +424,6 @@
 		CBE3D4EB189594B600BB0671 /* Leveredge */ = {
 			isa = PBXGroup;
 			children = (
-				CB35D958190639D100CD8F75 /* Third Party */,
 				CBF5E1CA18A2E6D10051A49F /* View Controls */,
 				CB7C04E7189EC713009CAD15 /* Data Layer */,
 				CB7C04DF189DA014009CAD15 /* Assets */,
@@ -534,8 +528,10 @@
 		CBED85FC193023C10080EE2A /* Rooms */ = {
 			isa = PBXGroup;
 			children = (
-				CBD287601925B24F00AA22C5 /* SDRRoomsListViewController.h */,
-				CBD287611925B24F00AA22C5 /* SDRRoomsListViewController.m */,
+				CB1102DB1937704A0047684C /* SDRHotelViewController.h */,
+				CB1102DC1937704A0047684C /* SDRHotelViewController.m */,
+				CBD287601925B24F00AA22C5 /* SDRHotelsListViewController.h */,
+				CBD287611925B24F00AA22C5 /* SDRHotelsListViewController.m */,
 			);
 			name = Rooms;
 			sourceTree = "<group>";
@@ -556,9 +552,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBE3D50E189594B600BB0671 /* Build configuration list for PBXNativeTarget "Leveredge" */;
 			buildPhases = (
+				557687F3D3A146BE82D1DB90 /* Check Pods Manifest.lock */,
 				CBE3D4DE189594B600BB0671 /* Sources */,
 				CBE3D4DF189594B600BB0671 /* Frameworks */,
 				CBE3D4E0189594B600BB0671 /* Resources */,
+				D30A1FEE23A144DBA58F0187 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -654,6 +652,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		557687F3D3A146BE82D1DB90 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D30A1FEE23A144DBA58F0187 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CBE3D4DE189594B600BB0671 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -661,25 +692,26 @@
 			files = (
 				CB7C04EB189EC865009CAD15 /* SDRVendor.m in Sources */,
 				CB7C04D9189D92C1009CAD15 /* SDRVendorsListViewController.m in Sources */,
-				CBD28778192DAA6C00AA22C5 /* SDRRoomChannel.m in Sources */,
+				CBD28778192DAA6C00AA22C5 /* SDRHotelChannel.m in Sources */,
 				CB8B6D5918A6B6FE00E63566 /* SDRCommentsView.m in Sources */,
 				CB7C050218A091E6009CAD15 /* SDRAuthStore.m in Sources */,
 				CB7C04F9189F0C39009CAD15 /* SDRVendorViewController.m in Sources */,
-				CBD28775192DA71500AA22C5 /* SDRRoomStore.m in Sources */,
+				CBD28775192DA71500AA22C5 /* SDRHotelStore.m in Sources */,
+				CB1102DD1937704A0047684C /* SDRHotelViewController.m in Sources */,
 				CB4447D418D4AE4D00F3854B /* SDRSelectionsViewController.m in Sources */,
 				CB7C04DE189D9AEE009CAD15 /* SDRVendorsTableCell.m in Sources */,
 				CB8B6D5C18A6C94A00E63566 /* SDRCommentViewCell.m in Sources */,
 				CBF5E1C918A2E6B30051A49F /* SDRCarousel.m in Sources */,
 				CBE3D4F6189594B600BB0671 /* SDRAppDelegate.m in Sources */,
-				CBD28769192D98A500AA22C5 /* SDRRoomsTableViewCell.m in Sources */,
+				CBD28769192D98A500AA22C5 /* SDRHotelsTableViewCell.m in Sources */,
 				CB7C04F6189ED5C0009CAD15 /* SDRConnection.m in Sources */,
-				CBD2876C192D9D7500AA22C5 /* SDRRoom.m in Sources */,
+				CBD2876C192D9D7500AA22C5 /* SDRHotel.m in Sources */,
 				CB4447E618D4F9D000F3854B /* SDRFilterTableViewController.m in Sources */,
 				CBE3D5171895961300BB0671 /* SDRLoginViewController.m in Sources */,
 				CBE3D4F2189594B600BB0671 /* main.m in Sources */,
 				CB7C04FF18A08F72009CAD15 /* SDRUser.m in Sources */,
 				CB7C04E6189EC6FD009CAD15 /* SDRVendorChannel.m in Sources */,
-				CBD287621925B24F00AA22C5 /* SDRRoomsListViewController.m in Sources */,
+				CBD287621925B24F00AA22C5 /* SDRHotelsListViewController.m in Sources */,
 				CB7C04EE189ED32F009CAD15 /* SDRVendorStore.m in Sources */,
 				CB8B6D5618A6B1E100E63566 /* SDRLeveredgeButton.m in Sources */,
 			);
@@ -797,11 +829,16 @@
 		};
 		CBE3D50F189594B600BB0671 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E396222AA1DE4DB5A1D7F428 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/shanerogers/Downloads/Amazon/aws-ios-sdk-1.7.1",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Leveredge/Leveredge-Prefix.pch";
 				INFOPLIST_FILE = "Leveredge/Leveredge-Info.plist";
@@ -811,17 +848,23 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		CBE3D510189594B600BB0671 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E396222AA1DE4DB5A1D7F428 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/shanerogers/Downloads/Amazon/aws-ios-sdk-1.7.1",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Leveredge/Leveredge-Prefix.pch";
 				INFOPLIST_FILE = "Leveredge/Leveredge-Info.plist";
@@ -831,6 +874,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

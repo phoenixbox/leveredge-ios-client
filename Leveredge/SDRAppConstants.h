@@ -19,8 +19,8 @@
 // PreQualified Routes
 #define kAPIPreQualifiedEndpoint @"http://10.0.0.8:3000/api/v1/pre_qualifications"
 
-// Rooms Routes
-#define kAPIRoomsIndex @"http://10.0.0.8:3000/api/v1/rooms"
+// Hotels Routes
+#define kAPIHotelsIndex @"http://10.0.0.8:3000/api/v1/hotels"
 
 // Production
 // Vendor Routes

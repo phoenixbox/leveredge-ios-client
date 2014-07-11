@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/Amazon.CloudWatch/Model/CloudWatchGetMetricStatisticsResponseUnmarshaller.m \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/CloudWatchGetMetricStatisticsResponseUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/CloudWatchGetMetricStatisticsResponse.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/CloudWatchDatapoint.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/CloudWatchResponse.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/../AmazonServiceResponse.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonServiceRequest.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonURLRequest.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonCredentials.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/CloudWatchInvalidParameterValueException.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/CloudWatchInternalServiceException.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/CloudWatchInvalidParameterCombinationException.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/CloudWatchMissingRequiredParameterException.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/CloudWatchResponseUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/../AmazonServiceResponseUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/AmazonUnmarshallerXMLParserDelegate.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/../AmazonValueUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/../AmazonBoolValueUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/../AmazonListUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/AWSiOSSDK/src/include/CloudWatch/CloudWatchDatapointUnmarshaller.h \
+  /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/AWSiOSSDK/AutoScaling/../AmazonServiceExceptionUnmarshaller.h

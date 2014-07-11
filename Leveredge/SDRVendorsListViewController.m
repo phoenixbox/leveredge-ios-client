@@ -27,7 +27,6 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
         [self initAppearance];
         [self fetchVendors];
     }
@@ -43,13 +42,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
     [self renderVendorsTable];
 }
 
 - (void)initAppearance
 {
-    // Set appearance info
     self.navigationController.navigationBar.translucent = NO;
     
     [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackOpaque];

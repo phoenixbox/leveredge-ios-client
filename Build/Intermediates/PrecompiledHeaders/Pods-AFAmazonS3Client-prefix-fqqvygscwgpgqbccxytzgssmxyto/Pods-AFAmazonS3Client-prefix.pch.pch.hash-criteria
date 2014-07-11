@@ -1,0 +1,32 @@
+Contents of /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-AFAmazonS3Client-prefix.pch
+-x
+objective-c
+-arch
+arm64
+-std=gnu99
+-fmodules
+-fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache
+-fpascal-strings
+-O0
+-DDEBUG=1
+-DCOCOAPODS=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+-g
+-miphoneos-version-min=7.1
+-iquote
+-iquote
+-I/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/include
+-I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders
+-I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/BuildHeaders/AFAmazonS3Client
+-I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers
+-I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFAmazonS3Client
+-I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/AFNetworking
+-I/Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Headers/JSONModel
+-F/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos
+-fobjc-arc
+-DOS_OBJECT_USE_OBJC=0
+arm64-apple-darwin12.5.0
+"4.2.1 Compatible Apple LLVM 5.1 (clang-503.0.40)"
+SDK_PRODUCT_BUILD_VERSION=11D167
+11D167
