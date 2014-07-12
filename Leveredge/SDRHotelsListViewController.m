@@ -80,28 +80,52 @@
 }
 
 -(void)initFilterForm {
-    // RESTART: Filter form dynamic - nilArgument stringByAppendingString
-    self.filterFormView = [[UIView alloc]initWithFrame:CGRectMake(0,-568,320, 568)];
+    self.filterFormView = [[UIView alloc] initWithFrame:CGRectMake(0,-568,320, 568)];
+    [self.filterFormView setBackgroundColor:kLeveredgeBlue];
     [self.view addSubview:self.filterFormView];
+    [self applyFilterFormDynamics];
+    [self addFilterViewComponents];
+}
 
+- (void)applyFilterFormDynamics {
     // Init the animator with self.view as the reference view
-    self.animator = [[UIDynamicAnimator alloc]initWithReferenceView:self.view];
+    self.animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
     // Init the gravity behavior with the filter form view
     self.gravity = [[UIGravityBehavior alloc]initWithItems:@[self.filterFormView]];
     // Apply the gravity property to it
     self.gravity.angle = -M_PI_2;
+    self.gravity.magnitude = 1.0;
     // Add the behavior to the animator
     [self.animator addBehavior:self.gravity];
     
     // Init collision with the filter form view - Add boundaries to the top and bottom of the page
     self.collision = [[UICollisionBehavior alloc] initWithItems:@[self.filterFormView]];
-    CGSize filterViewSize = self.filterFormView.bounds.size;
-    CGSize viewSize = self.view.frame.size;
+    CGSize filterFormSize = self.filterFormView.bounds.size;
+    CGSize listViewSize = self.view.bounds.size;
     
-    [self.collision addBoundaryWithIdentifier:@"TopOfView" fromPoint:CGPointMake(0,-filterViewSize.height) toPoint:CGPointMake(filterViewSize.width, -filterViewSize.height)];
-    [self.collision addBoundaryWithIdentifier:@"BottomOfView" fromPoint:CGPointMake(0,viewSize.width) toPoint:CGPointMake(viewSize.width,viewSize.height)];
-    
+    [self.collision addBoundaryWithIdentifier:@"TopOfView"
+                                    fromPoint:CGPointMake(0., -filterFormSize.height)
+                                      toPoint:CGPointMake(listViewSize.width, -filterFormSize.height)];
+    [self.collision addBoundaryWithIdentifier:@"BottomOfView"
+                                    fromPoint:CGPointMake(0., listViewSize.height)
+                                      toPoint:CGPointMake(listViewSize.width, listViewSize.height)];
     [self.animator addBehavior:self.collision];
+}
+
+
+- (void)addFilterViewComponents {
+    // TODO: Programatically set the center of the apply button
+    UIButton *applyFilterButton = [[UIButton alloc] initWithFrame:CGRectMake(35.0f,200.0f, 250.0f, 40.0f)];
+    [applyFilterButton setTitle:@"Apply" forState:UIControlStateNormal];
+    [applyFilterButton setBackgroundColor:kLoginButtonColor];
+    [applyFilterButton setTitleColor:kPureWhite forState:UIControlStateNormal];
+    [applyFilterButton addTarget:self action:@selector(applyFilters:) forControlEvents:UIControlEventTouchUpInside];
+    [self.filterFormView addSubview:applyFilterButton];
+}
+
+- (void)applyFilters:(UIButton *)applyButton{
+    self.gravity.angle = -M_PI_2;
+    self.navigationItem.rightBarButtonItem.enabled = YES;
 }
 
 - (void)addNavigationItems{
@@ -111,9 +135,8 @@
 }
 
 - (void)toggleFilter {
-    self.gravity.angle = -M_PI_2;
-    self.navigationItem.rightBarButtonItem.enabled = YES;
-    NSLog(@"Toggle Filter Tapped");
+    self.gravity.angle = M_PI_2;
+    self.navigationItem.rightBarButtonItem.enabled = NO;
 }
 
 - (void)didReceiveMemoryWarning

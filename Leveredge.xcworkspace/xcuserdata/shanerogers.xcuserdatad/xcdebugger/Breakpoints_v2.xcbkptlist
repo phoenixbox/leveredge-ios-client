@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Leveredge/SDRHotelsListViewController.m"
-            timestampString = "426436412.123808"
+            timestampString = "426833998.041835"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "348"
-            endingLineNumber = "348"
+            startingLineNumber = "369"
+            endingLineNumber = "369"
             landmarkName = "-imagePickerController:didFinishPickingMediaWithInfo:"
             landmarkType = "5">
          </BreakpointContent>
