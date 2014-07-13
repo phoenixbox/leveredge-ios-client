@@ -7,8 +7,11 @@
 //
 
 #import "SDRSelectionsViewController.h"
+#import "SDRSlideMenu.h"
 
 @interface SDRSelectionsViewController ()
+
+@property (nonatomic, strong) SDRSlideMenu *_slideMenu;
 
 @end
 
@@ -28,7 +31,41 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    // TODO: Shoould the target be the controller or the view?
+    [self initSlideMenuView];
+    [self setupMenuGestures];
 }
+
+- (void)setupMenuGestures {
+    UISwipeGestureRecognizer *showMenuGesture = [[UISwipeGestureRecognizer alloc]
+                                                 initWithTarget:self
+                                                 action:@selector(showMenu:)];
+    showMenuGesture.direction = UISwipeGestureRecognizerDirectionLeft;
+    
+    [self.view addGestureRecognizer:showMenuGesture];
+}
+
+- (void)initSlideMenuView {
+    CGRect desiredMenuFrame = CGRectMake(0.0,20.0,150.0,self.view.frame.size.height);
+    self._slideMenu = [[SDRSlideMenu alloc] initWithFrame:desiredMenuFrame
+                                               targetView:self.view
+                                                direction:menuDirectionLeftToRight
+                                                  options:@[@"Download", @"Upload", @"E-mail", @"Settings", @"About"]
+                                            optionImages:@[@"download", @"upload", @"email", @"settings", @"info"]];
+}
+
+- (void)showMenu:(UIGestureRecognizer *)gestureRecognizer {
+    [self._slideMenu showMenu];
+}
+
+- (void)showMenuWithGesture:(UISwipeGestureRecognizer *)gesture {
+}
+
+- (void)hideMenuWithGesture:(UISwipeGestureRecognizer *)gesture {
+    
+};
+
 
 - (void)didReceiveMemoryWarning
 {

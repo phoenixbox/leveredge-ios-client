@@ -48,6 +48,7 @@
 		CBD28772192D9F9D00AA22C5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD28771192D9F9D00AA22C5 /* CoreMedia.framework */; };
 		CBD28775192DA71500AA22C5 /* SDRHotelStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD28774192DA71500AA22C5 /* SDRHotelStore.m */; };
 		CBD28778192DAA6C00AA22C5 /* SDRHotelChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD28777192DAA6C00AA22C5 /* SDRHotelChannel.m */; };
+		CBDAE0001971EFFA007CA10F /* SDRSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDADFFF1971EFFA007CA10F /* SDRSlideMenu.m */; };
 		CBE3D4E6189594B600BB0671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E5189594B600BB0671 /* Foundation.framework */; };
 		CBE3D4E8189594B600BB0671 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */; };
 		CBE3D4EA189594B600BB0671 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3D4E9189594B600BB0671 /* UIKit.framework */; };
@@ -139,6 +140,8 @@
 		CBD28774192DA71500AA22C5 /* SDRHotelStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRHotelStore.m; sourceTree = "<group>"; };
 		CBD28776192DAA6C00AA22C5 /* SDRHotelChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRHotelChannel.h; sourceTree = "<group>"; };
 		CBD28777192DAA6C00AA22C5 /* SDRHotelChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRHotelChannel.m; sourceTree = "<group>"; };
+		CBDADFFE1971EFFA007CA10F /* SDRSlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRSlideMenu.h; sourceTree = "<group>"; };
+		CBDADFFF1971EFFA007CA10F /* SDRSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRSlideMenu.m; sourceTree = "<group>"; };
 		CBE3D4E2189594B600BB0671 /* Leveredge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leveredge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE3D4E5189594B600BB0671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBE3D4E7189594B600BB0671 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -231,20 +234,21 @@
 		CB7C04DA189D92CA009CAD15 /* Presentation Layer */ = {
 			isa = PBXGroup;
 			children = (
-				CB7C04DB189D9ACE009CAD15 /* Controls */,
+				CB7C04DB189D9ACE009CAD15 /* Components */,
 				CBE3D5141895957D00BB0671 /* ViewControllers */,
 			);
 			name = "Presentation Layer";
 			sourceTree = "<group>";
 		};
-		CB7C04DB189D9ACE009CAD15 /* Controls */ = {
+		CB7C04DB189D9ACE009CAD15 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				CBD28766192D984500AA22C5 /* Rooms */,
+				CBDADFFD1971EFCA007CA10F /* Selections */,
+				CBD28766192D984500AA22C5 /* Hotels */,
 				CB8B6D5318A6B1CA00E63566 /* Global */,
 				CB7C04E3189DA10B009CAD15 /* Vendors */,
 			);
-			name = Controls;
+			name = Components;
 			sourceTree = "<group>";
 		};
 		CB7C04DF189DA014009CAD15 /* Assets */ = {
@@ -340,13 +344,13 @@
 			name = Global;
 			sourceTree = "<group>";
 		};
-		CBD28766192D984500AA22C5 /* Rooms */ = {
+		CBD28766192D984500AA22C5 /* Hotels */ = {
 			isa = PBXGroup;
 			children = (
 				CBD28767192D98A500AA22C5 /* SDRHotelsTableViewCell.h */,
 				CBD28768192D98A500AA22C5 /* SDRHotelsTableViewCell.m */,
 			);
-			name = Rooms;
+			name = Hotels;
 			sourceTree = "<group>";
 		};
 		CBD2877A192DAC8700AA22C5 /* Vendor */ = {
@@ -378,6 +382,15 @@
 				CBD28777192DAA6C00AA22C5 /* SDRHotelChannel.m */,
 			);
 			name = Hotel;
+			sourceTree = "<group>";
+		};
+		CBDADFFD1971EFCA007CA10F /* Selections */ = {
+			isa = PBXGroup;
+			children = (
+				CBDADFFE1971EFFA007CA10F /* SDRSlideMenu.h */,
+				CBDADFFF1971EFFA007CA10F /* SDRSlideMenu.m */,
+			);
+			name = Selections;
 			sourceTree = "<group>";
 		};
 		CBE3D4D9189594B600BB0671 = {
@@ -473,7 +486,7 @@
 				CBED85F8193023400080EE2A /* Vendors */,
 				CBED85FA193023A40080EE2A /* Selections */,
 				CBED85FB193023B90080EE2A /* Secondary */,
-				CBED85FC193023C10080EE2A /* Rooms */,
+				CBED85FC193023C10080EE2A /* Hotels */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -525,7 +538,7 @@
 			name = Secondary;
 			sourceTree = "<group>";
 		};
-		CBED85FC193023C10080EE2A /* Rooms */ = {
+		CBED85FC193023C10080EE2A /* Hotels */ = {
 			isa = PBXGroup;
 			children = (
 				CB1102DB1937704A0047684C /* SDRHotelViewController.h */,
@@ -533,7 +546,7 @@
 				CBD287601925B24F00AA22C5 /* SDRHotelsListViewController.h */,
 				CBD287611925B24F00AA22C5 /* SDRHotelsListViewController.m */,
 			);
-			name = Rooms;
+			name = Hotels;
 			sourceTree = "<group>";
 		};
 		CBF5E1CA18A2E6D10051A49F /* View Controls */ = {
@@ -708,6 +721,7 @@
 				CBD2876C192D9D7500AA22C5 /* SDRHotel.m in Sources */,
 				CB4447E618D4F9D000F3854B /* SDRFilterTableViewController.m in Sources */,
 				CBE3D5171895961300BB0671 /* SDRLoginViewController.m in Sources */,
+				CBDAE0001971EFFA007CA10F /* SDRSlideMenu.m in Sources */,
 				CBE3D4F2189594B600BB0671 /* main.m in Sources */,
 				CB7C04FF18A08F72009CAD15 /* SDRUser.m in Sources */,
 				CB7C04E6189EC6FD009CAD15 /* SDRVendorChannel.m in Sources */,
