@@ -51,7 +51,7 @@
     // POST INITIALIZATION
     [self setupBackgroundView];
     [self setupMenuView];
-//    [self setupOptionsTableView];
+    [self setupOptionsTableView];
     [self setInitialTableViewSettings];
     [self setupSwipeGestureRecognizer];
     [self initDynamicProperties];
@@ -107,15 +107,15 @@
 }
 
 -(void)setupOptionsTableView {
-//    self._optionsTableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0, 0.0, self._menuFrame.size.width, self._menuFrame.size.height) style:UITableViewStylePlain];
-//    [self._optionsTableView setBackgroundColor:[UIColor clearColor]];
-//    // TODO: Try to add scroll with nested menu items
-//    [self._optionsTableView setScrollEnabled:NO];
-//    [self._optionsTableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
-//    [self._menuView addSubview:self._optionsTableView];
-//    
-//    [self._optionsTableView setDelegate:self];
-//    [self._optionsTableView setDataSource:self];
+    self._optionsTableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0, 0.0, self._menuFrame.size.width, self._menuFrame.size.height) style:UITableViewStylePlain];
+    [self._optionsTableView setBackgroundColor:[UIColor clearColor]];
+    // TODO: Try to add scroll with nested menu items
+    [self._optionsTableView setScrollEnabled:NO];
+    [self._optionsTableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    [self._menuView addSubview:self._optionsTableView];
+    
+    [self._optionsTableView setDelegate:self];
+    [self._optionsTableView setDataSource:self];
 }
 
 -(void)setInitialTableViewSettings {
@@ -220,5 +220,46 @@
     [pushBehavior setMagnitude:magnitude];
     [self._animator addBehavior:pushBehavior];
 };
+
+#pragma mark - UITable Delegate & DataSource Protocol Methods
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    // TODO: Implement sections with accordian style submenus
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [self._menuOptions count];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return self.optionCellHeight;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"optionCell"];
+    
+    if(cell == nil){
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"optionCell"];
+        // Note: Map selectionStytle to an NSNumber to this [NSNumber numberWithInt:UITableViewCellSelectionStyleGray]
+        // Note the use of intValue message for lookup with correct type
+        [cell setSelectionStyle:[[self.tableSettings objectForKey:@"selectionStyle"]intValue]];
+
+        // Key into the menuOptions passed in on initialization
+        [cell.textLabel setText:[self._menuOptions objectAtIndex:indexPath.row]];
+        [cell.textLabel setFont:[self.tableSettings objectForKey:@"font"]];
+        [cell.textLabel setTextAlignment:[[self.tableSettings objectForKey:@"textAlignment"] intValue]];
+        [cell.textLabel setTextColor:[self.tableSettings objectForKey:@"textColor"]];
+        
+//        if (self._menuOptionImages != nil) {
+//            [cell.imageView setImage:[UIImage imageNamed:[self._menuOptionImages objectAtIndex:indexPath.row]]];
+//            [cell.imageView setTintColor:[UIColor whiteColor]];
+//        }
+        
+        [cell setBackgroundColor:[UIColor clearColor]];
+    }
+    
+    return cell;
+}
 
 @end

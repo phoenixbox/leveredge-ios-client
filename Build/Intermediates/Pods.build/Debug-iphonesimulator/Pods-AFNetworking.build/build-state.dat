@@ -484,7 +484,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf46a6c1ced72b941^50fc6c1ced72b941^---0#1#1#--18"Check dependencies36"EAB349E8-BD0E-4BD1-8F70-AF7BCB6DF297-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesfbebc140f372b941^5569c340f372b941^---0#1#1#--18"Check dependencies36"94AEE15C-ECC1-410F-A14D-234B7882438E-
 
 CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/i386/AFHTTPRequestOperation.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s426961990.104146

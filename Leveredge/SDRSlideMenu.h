@@ -13,7 +13,7 @@ typedef enum MenuDirectionOptionTypes{
     menuDirectionLeftToRight
 } MenuDirectionOptions;
 
-@interface SDRSlideMenu : NSObject // <UITableViewDelegate, UITableViewDataSource>
+@interface SDRSlideMenu : NSObject <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UIColor *menuBackgroundColor;
 @property (nonatomic, strong) NSMutableDictionary *tableSettings;

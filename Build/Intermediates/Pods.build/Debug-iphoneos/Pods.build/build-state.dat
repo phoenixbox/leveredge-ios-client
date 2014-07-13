@@ -2,8 +2,8 @@ TPods
 v6
 r1
 cCheck dependencies
-cCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods.a normal arm64
+cCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/libPods.a normal arm64
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
 c0000000053119F860000000000000132
@@ -29,6 +29,34 @@ N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/
 c000000005355E77F0000000000000ADC
 t1398138751
 s2780
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o
+t1401007813
+s3948
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods.LinkFileList
+c0000000053C2BBFC0000000000000090
+t1405271036
+s144
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/libPods-AFNetworking.a
+c0000000053C2BBFC000000000016F0B0
+t1405271036
+s1503408
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/libPods-JSONModel.a
+c0000000053C2BBFB0000000000070478
+t1405271035
+s459896
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/libPods.a
+t1401007813
+s1967648
+
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m
+c000000005381AE5A0000000000000070
+t1401007706
+s112
 
 N/Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o
 t1401007813
@@ -58,12 +86,18 @@ c000000005381AE5A0000000000000070
 t1401007706
 s112
 
+CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m
+r0
+
 CBuild AST from /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-dummy.m
 r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies19c9fe3e2948b941^766dff3e2948b941^---0#1#1#--18"Check dependencies36"D89E68D1-615D-4C95-892F-25CB0EED4965-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies00ad457cf372b941^b439467cf372b941^---0#1#1#--18"Check dependencies36"09426220-5A74-4788-AC2A-E521B8374201-
+
+CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
 
 CCompileC /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Pods/Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s422700613.266560
@@ -88,6 +122,17 @@ r0
 
 CCreateUniversalBinary /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/libPods.a normal armv7\ armv7s\ arm64
 r0
+
+CLibtool /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/libPods.a normal arm64
+s426963836.277759
+e426963836.315086
+r1
+xLibtool
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/libPods.a
+xnormal
+xarm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Libtool /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/libPods.a normal arm64113"Libtool /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/libPods.a normal arm64a52c477cf372b941^15a9507cf372b941^---0#0#1#--1046"Libtool /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/libPods.a normal arm64    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos -filelist /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods.LinkFileList -framework Foundation -lPods-AFNetworking -lPods-JSONModel -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/libPods.a36"75405B2B-9DC5-4507-8904-1A8D2AE5AFB8-
+b8B51858F-81E1-4856-88F4-154B2B95FDA5
 
 CLibtool /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/libPods.a normal arm64
 r0

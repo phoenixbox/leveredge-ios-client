@@ -1,13 +1,14 @@
 dependencies: \
-  /Users/shanerogers/projects/mule_moving/mule_ios_client/Leveredge/SDRAppDelegate.m \
-  /Users/shanerogers/projects/mule_moving/mule_ios_client/Leveredge/SDRAppDelegate.h \
-  /Users/shanerogers/projects/mule_moving/mule_ios_client/Leveredge/SDRLoginViewController.h \
-  /Users/shanerogers/projects/mule_moving/mule_ios_client/Leveredge/SDRVendorsListViewController.h \
-  /Users/shanerogers/projects/mule_moving/mule_ios_client/Leveredge/SDRFilterTableViewController.h \
-  /Users/shanerogers/projects/mule_moving/mule_ios_client/Leveredge/SDRRoomsListViewController.h \
-  /Users/shanerogers/projects/mule_moving/mule_ios_client/Leveredge/SDRRoomChannel.h \
-  /Users/shanerogers/projects/mule_moving/mule_ios_client/Leveredge/JSONSerializable.h \
-  /Users/shanerogers/projects/mule_moving/mule_ios_client/Leveredge/SDRLeveredgeButton.h \
+  /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRAppDelegate.m \
+  /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRAppDelegate.h \
+  /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRLoginViewController.h \
+  /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRVendorsListViewController.h \
+  /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRFilterTableViewController.h \
+  /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRHotelsListViewController.h \
+  /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRHotelChannel.h \
+  /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRHotel.h \
+  /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/JSONSerializable.h \
+  /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRLeveredgeButton.h \
   /Users/shanerogers/Downloads/Amazon/aws-ios-sdk-1.7.1/AWSS3.framework/Headers/AWSS3.h \
   /Users/shanerogers/Downloads/Amazon/aws-ios-sdk-1.7.1/AWSS3.framework/Headers/AmazonS3Client.h \
   /Users/shanerogers/Downloads/Amazon/aws-ios-sdk-1.7.1/AWSRuntime.framework/Headers/AmazonWebServiceClient.h \
@@ -147,5 +148,5 @@ dependencies: \
   /Users/shanerogers/Downloads/Amazon/aws-ios-sdk-1.7.1/AWSS3.framework/Headers/S3RestoreObjectResponse.h \
   /Users/shanerogers/Downloads/Amazon/aws-ios-sdk-1.7.1/AWSS3.framework/Headers/S3TransferManager.h \
   /Users/shanerogers/Downloads/Amazon/aws-ios-sdk-1.7.1/AWSS3.framework/Headers/S3TransferOperation.h \
-  /Users/shanerogers/projects/mule_moving/mule_ios_client/Leveredge/SDRSelectionsViewController.h \
-  /Users/shanerogers/projects/mule_moving/mule_ios_client/Leveredge/SDRViewConstants.h
+  /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRSelectionsViewController.h \
+  /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRViewConstants.h
