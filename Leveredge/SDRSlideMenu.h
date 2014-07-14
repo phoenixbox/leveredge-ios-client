@@ -23,6 +23,6 @@ typedef enum MenuDirectionOptionTypes{
 // NOTE: Interesting use of enum type here as an argument
 - (id)initWithFrame:(CGRect)frame targetView:(UIView *)targetView direction:(MenuDirectionOptions)direction options:(NSArray *)options optionImages:(NSArray *)optionImages;
 
-- (void)showMenu; 
+-(void)showMenuWithSelectionHandler:(void(^)(NSInteger selectedOptionIndex))handler;
 
 @end

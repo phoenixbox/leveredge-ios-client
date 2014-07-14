@@ -24,6 +24,9 @@
 @property (nonatomic) CGRect _menuInitialFrame;
 @property (nonatomic) BOOL _isMenuShown;
 
+// Block to be executed on selection
+@property (nonatomic, strong) void(^_selectionHandler)(NSInteger);
+
 -(void)setupMenuView;
 
 -(void)setupBackgroundView;
@@ -62,9 +65,11 @@
 
 #pragma mark - Public method implementation
 
-// Parent view hooks into this method to trigger the toggle and reset the show state
--(void)showMenu{
+// Parent view triggers this function passing in a block that is persisted as the selection handler
+-(void)showMenuWithSelectionHandler:(void (^)(NSInteger))handler {
     if (!self._isMenuShown) {
+        self._selectionHandler = handler;
+        
         [self toggleMenu];
         
         self._isMenuShown = YES;
@@ -139,9 +144,6 @@
 
 -(void)hideMenuWithGesture:(UISwipeGestureRecognizer *)gesture {
     [self toggleMenu];
-}
-
--(void)showMenuWithSelectionHandler {
 }
 
 -(void)toggleMenu {
@@ -260,6 +262,12 @@
     }
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (self._selectionHandler) {
+        self._selectionHandler(indexPath.row);
+    }
 }
 
 @end
