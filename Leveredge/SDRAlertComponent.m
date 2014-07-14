@@ -76,7 +76,7 @@
     [self._alertView.layer setBorderWidth:1.0];
     // NOTE: use the QuartzColor reference that corresponds to the recievers color
     [self._alertView.layer setBorderColor:[UIColor blackColor].CGColor];
-    // What is the state of the frame cahced for?
+    // What is the state of the frame cached for?
     self._initialAlertViewFrame = self._alertView.frame;
 }
 
@@ -114,7 +114,7 @@
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [button setTitleColor:kLeveredgeGrey forState:UIControlStateHighlighted];
         [button setBackgroundColor:kQLYellow];
-        [button addTarget:self action:@selector(handleButtonTap) forControlEvents:UIControlEventTouchUpInside];
+        [button addTarget:self action:@selector(handleButtonTap:) forControlEvents:UIControlEventTouchUpInside];
         // NOTE: Use of a tag for identifying UIElements when we trigger the selector
         [button setTag:i+1];
         
@@ -124,7 +124,37 @@
 
 }
 
-- (void)handleButtonTap {
+// Dismissing the alert needs to use behaviors as well
+- (void)handleButtonTap:(UIButton *)tappedButton {
+    // Flush the behaviors again
+    [self._animator removeAllBehaviors];
+    
+    // Push to nudge the alertView downwards
+    UIPushBehavior *pushBehavior = [[UIPushBehavior alloc]initWithItems:@[self._alertView] mode:UIPushBehaviorModeInstantaneous];
+    // Angle defines the direction of the push magnitude to override inital gravity behavior
+    [pushBehavior setAngle:M_PI_2 magnitude:20.0];
+    [self._animator addBehavior:pushBehavior];
+    
+    UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[self._alertView]];
+    // Gravity acceleration is 1000 points per second²
+    [gravityBehavior setGravityDirection:CGVectorMake(0.0,-1.0)];
+    [self._animator addBehavior:gravityBehavior];
+    
+    // Define an off-screen collision boundary - dynamic item elasticity will cause a bounce effect
+    UICollisionBehavior *collisionBehavior = [[UICollisionBehavior alloc]initWithItems:@[self._alertView]];
+    // Now use the cached alertView initial frame
+    [collisionBehavior addBoundaryWithIdentifier:@"alertCollisionBoundary"
+                                       fromPoint:CGPointMake(self._initialAlertViewFrame.origin.x, self._initialAlertViewFrame.origin.y -10.0)
+                                         toPoint:CGPointMake(self._initialAlertViewFrame.origin.x + self._initialAlertViewFrame.size.width, self._initialAlertViewFrame.origin.y-10.0)];
+    [self._animator addBehavior:collisionBehavior];
+    
+    UIDynamicItemBehavior *itemBehavior = [[UIDynamicItemBehavior alloc]initWithItems:@[self._alertView]];
+    [itemBehavior setElasticity:0.4];
+    [self._animator addBehavior:itemBehavior];
+    
+    [UIView animateWithDuration:2.0 animations:^{
+        [self._backgroundView setAlpha:0.0];
+    }];
 }
 
 #pragma mark - Public Methods
