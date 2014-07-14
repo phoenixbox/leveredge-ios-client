@@ -77,7 +77,9 @@
 }
 
 -(void)showAlert {
-    [self._alertView showAlertView];
+    [self._alertView showAlertViewWithSelectionHandler:^(NSInteger buttonIndex, NSString *buttonTitle){
+        NSLog(@"Button number %ld was tapped, it's title is: %@", buttonIndex, buttonTitle);
+    }];
 }
 
 - (void)showMenu:(UIGestureRecognizer *)gestureRecognizer {

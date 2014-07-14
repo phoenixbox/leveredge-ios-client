@@ -22,6 +22,9 @@
 @property (nonatomic, strong) NSArray *_buttonTitles;
 @property (nonatomic) CGRect _initialAlertViewFrame;
 
+// Dismissal selection handler
+@property (nonatomic, strong) void(^_selectionHandler)(NSInteger, NSString *);
+
 -(void)setupAlertView;
 -(void)setupBackgroundView;
 
@@ -125,7 +128,10 @@
 }
 
 // Dismissing the alert needs to use behaviors as well
-- (void)handleButtonTap:(UIButton *)tappedButton {
+- (void)handleButtonTap:(UIButton *)sender {
+    // Execute the handler
+    self._selectionHandler(sender.tag,sender.titleLabel.text);
+    
     // Flush the behaviors again
     [self._animator removeAllBehaviors];
     
@@ -159,7 +165,8 @@
 
 #pragma mark - Public Methods
 
-- (void)showAlertView {
+- (void)showAlertViewWithSelectionHandler:(void (^)(NSInteger, NSString *))handler {
+    self._selectionHandler = handler;
     // Wipe the animations to start
     [self._animator removeAllBehaviors];
     // Behavior belongs to the _alertView - snapping to the _targetView

@@ -12,6 +12,6 @@
 
 - (id)initAlertWithTitle:(NSString *)title message:(NSString *)message buttonTitles:(NSArray *)buttonTitles targetView:(UIView *)target;
 
-- (void)showAlertView;
+- (void)showAlertViewWithSelectionHandler:(void (^)(NSInteger buttonIndex, NSString *buttonTitle))handler;
 
 @end
