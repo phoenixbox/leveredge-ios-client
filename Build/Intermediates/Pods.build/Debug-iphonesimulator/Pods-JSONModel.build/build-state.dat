@@ -166,8 +166,8 @@ t1405267680
 s128108
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/libPods-JSONModel.a
-t1405269191
-s416240
+t1405297045
+s447856
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/JSONModel/JSONModel/JSONModel/JSONModel+CoreData.h
 c0000000053817DC9000000000000029C
@@ -332,7 +332,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies774bf6145973b941^661239155973b941^---0#1#1#--18"Check dependencies36"9E79AD30-1629-4A41-85F6-C28590B584CC-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesddb419616473b941^3ab21a616473b941^---0#1#1#--18"Check dependencies36"E391F1FF-1C95-46C1-8031-B2F2E965DAD7-
 
 CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JSONModel.build/Objects-normal/i386/JSONAPI.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s426961990.039990

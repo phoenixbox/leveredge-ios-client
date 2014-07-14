@@ -59,8 +59,8 @@ t1405297045
 s447856
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/libPods.a
-t1405269192
-s1846192
+t1405297045
+s1968704
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m
 c000000005381AE5A0000000000000070
@@ -72,7 +72,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies25594f155973b941^ddd14f155973b941^---0#1#1#--18"Check dependencies36"771B73ED-4A29-4E9E-9579-D8F5C50062A4-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies782620616473b941^acad20616473b941^---0#1#1#--18"Check dependencies36"C3CEA5FC-109C-4F05-9933-243350303AC6-
 
 CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s426961991.689891

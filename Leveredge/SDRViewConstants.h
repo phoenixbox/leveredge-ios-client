@@ -15,7 +15,7 @@
 #define kLoginButtonColor [UIColor colorWithRed:190/255.0f green:190/255.0f blue:190/255.0f alpha:1.0f]
 #define kAlphaWhite30 [UIColor colorWithWhite:255.0f alpha:0.3f]
 #define kLeveredgeBlue [UIColor colorWithRed:61/255.0f green:154/255.0f blue:232/255.0f alpha:1.0f]
-#define kQLYellow [UIColor colorWithRed:192/255.0f green:245/255.0f blue:65/255.0f alpha:1.0f]
+#define kLeveredgeGrey [UIColor colorWithRed:167/255.0f green:167/255.0f blue:167/255.0f alpha:1.0f]
 #define kLeveredgeSmallPadding 5.0f
 #define kLeveredgeDeselectedGrey [UIColor colorWithRed:206/255.0f green:206/255.0f blue:206/255.0f alpha:1.0f]
 
@@ -53,10 +53,13 @@
 #define kCommentCopySampleThree @"Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
 #define kCommentCopySampleFour @"Vestibulum id ligula porta felis euismod semper."
 
-// hotels List Template
+// Hotels List Template
 #define khotelsTableCellIdentifier @"SDRHotelsTableCell"
 #define khotelsTableCellHeight 100.0f
 #define kTakeNewVideoButton @"Take A New Video"
 #define kUseExistingVideoButton @"Use An Existing Video"
+
+// Selections List
+#define kQLYellow [UIColor colorWithRed:192/255.0f green:245/255.0f blue:65/255.0f alpha:1.0f]
 
 #endif

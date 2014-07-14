@@ -240,8 +240,8 @@ t1405269190
 s126324
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a
-t1405269191
-s1426752
+t1405297045
+s1517208
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
 c0000000053817CE30000000000001192
@@ -484,7 +484,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc9c7f6145973b941^321c3f155973b941^---0#1#1#--18"Check dependencies36"6758F0EC-124C-4897-9828-8866758C2603-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc0b319616473b941^07b61a616473b941^---0#1#1#--18"Check dependencies36"28521BA2-7E98-4A28-8134-641828FC28B5-
 
 CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/i386/AFHTTPRequestOperation.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s426961990.104146

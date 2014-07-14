@@ -111,7 +111,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "146"
             endingLineNumber = "146"
-            landmarkName = "-hideMenuWithGesture:"
+            landmarkName = "-setupSwipeGestureRecognizer"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -127,7 +127,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "136"
             endingLineNumber = "136"
-            landmarkName = "-setupSwipeGestureRecognizer"
+            landmarkName = "-setInitialTableViewSettings"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

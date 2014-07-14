@@ -107,6 +107,10 @@
     }
     self._menuView = [[UIView alloc] initWithFrame:self._menuInitialFrame];
     [self._menuView setBackgroundColor:kQLYellow];
+    
+    [self._menuView.layer setBorderWidth:1.0];
+    [self._menuView.layer setBorderColor:kLeveredgeGrey.CGColor];
+    
     [self._targetView addSubview:self._menuView];
 }
 
