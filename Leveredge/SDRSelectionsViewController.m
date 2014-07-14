@@ -56,7 +56,16 @@
 }
 
 - (void)showMenu:(UIGestureRecognizer *)gestureRecognizer {
-    [self._slideMenu showMenu];
+    // The selectedOptionIndex is passed back from the execution of the block
+    // when the user selects one of the table cells
+    [self._slideMenu showMenuWithSelectionHandler:^(NSInteger selectedOptionIndex){
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"SlideMenu Selection"
+                            message:[NSString stringWithFormat:@"You selected cell number: %ld", selectedOptionIndex+1]
+                                                       delegate:nil
+                                              cancelButtonTitle:@"Dismiss"
+                                              otherButtonTitles:@"Okay", nil];
+        [alert show];
+    }];
 }
 
 - (void)showMenuWithGesture:(UISwipeGestureRecognizer *)gesture {
