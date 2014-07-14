@@ -7,11 +7,15 @@
 //
 
 #import "SDRSelectionsViewController.h"
+
+// Component Imports
 #import "SDRSlideMenu.h"
+#import "SDRAlertComponent.h"
 
 @interface SDRSelectionsViewController ()
 
 @property (nonatomic, strong) SDRSlideMenu *_slideMenu;
+@property (nonatomic, strong) SDRAlertComponent *_alertView;
 
 @end
 
@@ -32,9 +36,19 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    [self addNavigationItems];
+
     // TODO: Shoould the target be the controller or the view?
     [self initSlideMenuView];
     [self setupMenuGestures];
+    
+    [self initAlertView];
+}
+
+- (void)addNavigationItems{
+    UIImage *filterImage = [UIImage imageNamed:@"alertIcon"];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:filterImage landscapeImagePhone:filterImage style:UIBarButtonItemStylePlain target:self action:@selector(showAlert)];
+    [self.navigationItem.rightBarButtonItem setTintColor:[UIColor whiteColor]];
 }
 
 - (void)setupMenuGestures {
@@ -53,6 +67,17 @@
                                                 direction:menuDirectionLeftToRight
                                                   options:@[@"Download", @"Upload", @"E-mail", @"Settings", @"About"]
                                             optionImages:@[@"download", @"upload", @"email", @"settings", @"info"]];
+}
+
+- (void)initAlertView {
+    self._alertView = [[SDRAlertComponent alloc]initAlertWithTitle:@"Hello There!"
+                                                           message:@"I am the Alert Message"
+                                                      buttonTitles:@[@"Good", @"Grand", @"Great"]
+                                                        targetView:self.view];
+}
+
+-(void)showAlert {
+    [self._alertView showAlertView];
 }
 
 - (void)showMenu:(UIGestureRecognizer *)gestureRecognizer {

@@ -39,6 +39,7 @@
 		CB8B6D5C18A6C94A00E63566 /* SDRCommentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5B18A6C94A00E63566 /* SDRCommentViewCell.m */; };
 		CB961AE01931E266009CF03A /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB961ADF1931E266009CF03A /* AWSS3.framework */; };
 		CB961AE21931E273009CF03A /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB961AE11931E273009CF03A /* AWSRuntime.framework */; };
+		CBA355B219737301005E6B29 /* alertIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA355B119737301005E6B29 /* alertIcon@2x.png */; };
 		CBD2875E1925B09400AA22C5 /* videoHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD2875C1925B09400AA22C5 /* videoHighlighted@2x.png */; };
 		CBD2875F1925B09400AA22C5 /* videoUnhighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD2875D1925B09400AA22C5 /* videoUnhighlighted@2x.png */; };
 		CBD287621925B24F00AA22C5 /* SDRHotelsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD287611925B24F00AA22C5 /* SDRHotelsListViewController.m */; };
@@ -128,6 +129,7 @@
 		CB8B6D5D18A7347100E63566 /* SDRDynamicRowHeightTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDRDynamicRowHeightTableViewCell.h; sourceTree = "<group>"; };
 		CB961ADF1931E266009CF03A /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = "../../../Downloads/Amazon/aws-ios-sdk-1.7.1/AWSS3.framework"; sourceTree = "<group>"; };
 		CB961AE11931E273009CF03A /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSRuntime.framework; path = "../../../Downloads/Amazon/aws-ios-sdk-1.7.1/AWSRuntime.framework"; sourceTree = "<group>"; };
+		CBA355B119737301005E6B29 /* alertIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertIcon@2x.png"; sourceTree = "<group>"; };
 		CBD2875C1925B09400AA22C5 /* videoHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoHighlighted@2x.png"; sourceTree = "<group>"; };
 		CBD2875D1925B09400AA22C5 /* videoUnhighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoUnhighlighted@2x.png"; sourceTree = "<group>"; };
 		CBD287601925B24F00AA22C5 /* SDRHotelsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRHotelsListViewController.h; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 		CB4447E318D4F2B600F3854B /* NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				CBA355B119737301005E6B29 /* alertIcon@2x.png */,
 				CB4447CE18D4165900F3854B /* filterIcon@2x.png */,
 				CB4447D018D4176300F3854B /* filterIconSmall@2x.png */,
 			);
@@ -650,6 +653,7 @@
 				CB4447DE18D4F2A500F3854B /* knifeAndForkHighlighted@2x.png in Resources */,
 				CBD2875F1925B09400AA22C5 /* videoUnhighlighted@2x.png in Resources */,
 				CBE3D4F0189594B600BB0671 /* InfoPlist.strings in Resources */,
+				CBA355B219737301005E6B29 /* alertIcon@2x.png in Resources */,
 				CB4447CF18D4165900F3854B /* filterIcon@2x.png in Resources */,
 				CB7C04E2189DA02F009CAD15 /* littleowl@2x.jpg in Resources */,
 				CB4447E018D4F2A500F3854B /* selectionsHighlighted@2x.png in Resources */,

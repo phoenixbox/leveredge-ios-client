@@ -10,6 +10,8 @@
 
 @interface SDRAlertComponent : NSObject
 
--(id)initAlertWithTitle:(NSString *)title message:(NSString *)message buttonTitles:(NSArray *)buttonTitles targetView:(UIView *)target;
+- (id)initAlertWithTitle:(NSString *)title message:(NSString *)message buttonTitles:(NSArray *)buttonTitles targetView:(UIView *)target;
+
+- (void)showAlertView;
 
 @end
