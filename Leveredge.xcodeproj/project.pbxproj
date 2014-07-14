@@ -33,6 +33,7 @@
 		CB7C04F9189F0C39009CAD15 /* SDRVendorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04F8189F0C39009CAD15 /* SDRVendorViewController.m */; };
 		CB7C04FF18A08F72009CAD15 /* SDRUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C04FE18A08F72009CAD15 /* SDRUser.m */; };
 		CB7C050218A091E6009CAD15 /* SDRAuthStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C050118A091E6009CAD15 /* SDRAuthStore.m */; };
+		CB7C166B19735D5A00AEABB4 /* SDRAlertComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7C166A19735D5A00AEABB4 /* SDRAlertComponent.m */; };
 		CB8B6D5618A6B1E100E63566 /* SDRLeveredgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5518A6B1E100E63566 /* SDRLeveredgeButton.m */; };
 		CB8B6D5918A6B6FE00E63566 /* SDRCommentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5818A6B6FE00E63566 /* SDRCommentsView.m */; };
 		CB8B6D5C18A6C94A00E63566 /* SDRCommentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5B18A6C94A00E63566 /* SDRCommentViewCell.m */; };
@@ -116,6 +117,8 @@
 		CB7C04FE18A08F72009CAD15 /* SDRUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRUser.m; sourceTree = "<group>"; };
 		CB7C050018A091E6009CAD15 /* SDRAuthStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRAuthStore.h; sourceTree = "<group>"; };
 		CB7C050118A091E6009CAD15 /* SDRAuthStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRAuthStore.m; sourceTree = "<group>"; };
+		CB7C166919735D5A00AEABB4 /* SDRAlertComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRAlertComponent.h; sourceTree = "<group>"; };
+		CB7C166A19735D5A00AEABB4 /* SDRAlertComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRAlertComponent.m; sourceTree = "<group>"; };
 		CB8B6D5418A6B1E100E63566 /* SDRLeveredgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRLeveredgeButton.h; sourceTree = "<group>"; };
 		CB8B6D5518A6B1E100E63566 /* SDRLeveredgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRLeveredgeButton.m; sourceTree = "<group>"; };
 		CB8B6D5718A6B6FE00E63566 /* SDRCommentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRCommentsView.h; sourceTree = "<group>"; };
@@ -389,6 +392,8 @@
 			children = (
 				CBDADFFE1971EFFA007CA10F /* SDRSlideMenu.h */,
 				CBDADFFF1971EFFA007CA10F /* SDRSlideMenu.m */,
+				CB7C166919735D5A00AEABB4 /* SDRAlertComponent.h */,
+				CB7C166A19735D5A00AEABB4 /* SDRAlertComponent.m */,
 			);
 			name = Selections;
 			sourceTree = "<group>";
@@ -703,6 +708,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7C166B19735D5A00AEABB4 /* SDRAlertComponent.m in Sources */,
 				CB7C04EB189EC865009CAD15 /* SDRVendor.m in Sources */,
 				CB7C04D9189D92C1009CAD15 /* SDRVendorsListViewController.m in Sources */,
 				CBD28778192DAA6C00AA22C5 /* SDRHotelChannel.m in Sources */,

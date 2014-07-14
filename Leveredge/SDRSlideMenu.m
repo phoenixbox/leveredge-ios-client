@@ -10,8 +10,7 @@
 #import "SDRViewConstants.h"
 
 @interface SDRSlideMenu()
-// TODO: Investigate the class extension here
-// TODO: Investigate the private attribute declaration paradigm here vs _attribute paradigm
+
 @property (nonatomic, strong) UIView *_menuView;
 @property (nonatomic, strong) UIView *_backgroundView;
 @property (nonatomic, strong) UIView *_targetView;
