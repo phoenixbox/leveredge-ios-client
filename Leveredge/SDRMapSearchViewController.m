@@ -7,8 +7,15 @@
 //
 
 #import "SDRMapSearchViewController.h"
+#import "SDRViewConstants.h"
 
-@interface SDRMapSearchViewController ()
+// Location Modules
+#import <MapKit/MapKit.h>
+
+@interface SDRMapSearchViewController () <MKMapViewDelegate>
+
+@property (nonatomic, strong) MKMapView *_vendorsMapView;
+@property (nonatomic) CGSize _searchViewSize;
 
 @end
 
@@ -27,6 +34,50 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    // Extract view protocol where they all adhere to the functions for appearance initialization
+    self._searchViewSize = self.view.frame.size;
+    [self initAppearance];
+    [self addMapToView];
+    [self findOrRequestLocation];
+}
+
+- (void)initAppearance
+{
+    self.navigationController.navigationBar.translucent = NO;
+    
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackOpaque];
+    [[UINavigationBar appearance] setBarTintColor:kLeveredgeBlue];
+    
+    [[UIToolbar appearance] setBarStyle:UIBarStyleBlackOpaque];
+    [[UIToolbar appearance] setBarTintColor:kLeveredgeBlue];
+    [self setHeaderLogo];
+//    [self addNavigationItems];
+}
+
+- (void)setHeaderLogo {
+    [[self navigationItem] setTitleView:nil];
+    UIImageView *logoView = [[UIImageView alloc]initWithFrame:CGRectMake(0.0f, 0.0f,100.0f, 40.0f)];
+    logoView.contentMode = UIViewContentModeScaleAspectFill;
+    UIImage *logoImage = [UIImage imageNamed:@"leveredgeLogo.png"];
+    [logoView setImage:logoImage];
+    self.navigationItem.titleView = logoView;
+}
+
+//- (void)addNavigationItems{
+//    UIImage *filterImage = [UIImage imageNamed:@"filterIconSmall.png"];
+//    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:filterImage landscapeImagePhone:filterImage style:UIBarButtonItemStylePlain target:self action:@selector(toggleFilter:)];
+//    [self.navigationItem.rightBarButtonItem setTintColor:[UIColor whiteColor]];
+//}
+
+- (void)addMapToView {
+    self.view.backgroundColor = [UIColor whiteColor];
+    self._vendorsMapView = [[MKMapView alloc]initWithFrame:CGRectMake(0.0, 0.0, self._searchViewSize.width, self._searchViewSize.height*0.8)];
+    
+    [self._vendorsMapView setMapType:MKMapTypeStandard];
+    self._vendorsMapView.delegate = self;
+
+    [self._vendorsMapView setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight];
+    [self.view addSubview:self._vendorsMapView];
 }
 
 - (void)didReceiveMemoryWarning
