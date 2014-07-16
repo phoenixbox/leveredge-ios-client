@@ -2,6 +2,7 @@ dependencies: \
   /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRAppDelegate.m \
   /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRAppDelegate.h \
   /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRLoginViewController.h \
+  /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapSearchViewController.h \
   /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRVendorsListViewController.h \
   /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRFilterTableViewController.h \
   /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRHotelsListViewController.h \

@@ -39,6 +39,9 @@
 		CB8B6D5C18A6C94A00E63566 /* SDRCommentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8B6D5B18A6C94A00E63566 /* SDRCommentViewCell.m */; };
 		CB961AE01931E266009CF03A /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB961ADF1931E266009CF03A /* AWSS3.framework */; };
 		CB961AE21931E273009CF03A /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB961AE11931E273009CF03A /* AWSRuntime.framework */; };
+		CB9F4758197627BE006CFE55 /* mapHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9F4757197627BE006CFE55 /* mapHighlighted@2x.png */; };
+		CB9F475A197627C5006CFE55 /* mapUnhighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9F4759197627C5006CFE55 /* mapUnhighlighted@2x.png */; };
+		CB9F475E197628B8006CFE55 /* SDRMapSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9F475D197628B8006CFE55 /* SDRMapSearchViewController.m */; };
 		CBA355B219737301005E6B29 /* alertIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA355B119737301005E6B29 /* alertIcon@2x.png */; };
 		CBD2875E1925B09400AA22C5 /* videoHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD2875C1925B09400AA22C5 /* videoHighlighted@2x.png */; };
 		CBD2875F1925B09400AA22C5 /* videoUnhighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD2875D1925B09400AA22C5 /* videoUnhighlighted@2x.png */; };
@@ -129,6 +132,10 @@
 		CB8B6D5D18A7347100E63566 /* SDRDynamicRowHeightTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDRDynamicRowHeightTableViewCell.h; sourceTree = "<group>"; };
 		CB961ADF1931E266009CF03A /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = "../../../Downloads/Amazon/aws-ios-sdk-1.7.1/AWSS3.framework"; sourceTree = "<group>"; };
 		CB961AE11931E273009CF03A /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSRuntime.framework; path = "../../../Downloads/Amazon/aws-ios-sdk-1.7.1/AWSRuntime.framework"; sourceTree = "<group>"; };
+		CB9F4757197627BE006CFE55 /* mapHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapHighlighted@2x.png"; sourceTree = "<group>"; };
+		CB9F4759197627C5006CFE55 /* mapUnhighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapUnhighlighted@2x.png"; sourceTree = "<group>"; };
+		CB9F475C197628B8006CFE55 /* SDRMapSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRMapSearchViewController.h; sourceTree = "<group>"; };
+		CB9F475D197628B8006CFE55 /* SDRMapSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRMapSearchViewController.m; sourceTree = "<group>"; };
 		CBA355B119737301005E6B29 /* alertIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertIcon@2x.png"; sourceTree = "<group>"; };
 		CBD2875C1925B09400AA22C5 /* videoHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoHighlighted@2x.png"; sourceTree = "<group>"; };
 		CBD2875D1925B09400AA22C5 /* videoUnhighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoUnhighlighted@2x.png"; sourceTree = "<group>"; };
@@ -208,6 +215,8 @@
 		CB4447D918D4F28900F3854B /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				CB9F4759197627C5006CFE55 /* mapUnhighlighted@2x.png */,
+				CB9F4757197627BE006CFE55 /* mapHighlighted@2x.png */,
 				CBD2875C1925B09400AA22C5 /* videoHighlighted@2x.png */,
 				CBD2875D1925B09400AA22C5 /* videoUnhighlighted@2x.png */,
 				CB4447DA18D4F2A500F3854B /* knifeAndForkHighlighted@2x.png */,
@@ -350,6 +359,15 @@
 			name = Global;
 			sourceTree = "<group>";
 		};
+		CB9F475B1976289F006CFE55 /* MapSearch */ = {
+			isa = PBXGroup;
+			children = (
+				CB9F475C197628B8006CFE55 /* SDRMapSearchViewController.h */,
+				CB9F475D197628B8006CFE55 /* SDRMapSearchViewController.m */,
+			);
+			name = MapSearch;
+			sourceTree = "<group>";
+		};
 		CBD28766192D984500AA22C5 /* Hotels */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,6 +508,7 @@
 		CBE3D5141895957D00BB0671 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CB9F475B1976289F006CFE55 /* MapSearch */,
 				CBED85F9193023470080EE2A /* Login */,
 				CBED85F8193023400080EE2A /* Vendors */,
 				CBED85FA193023A40080EE2A /* Selections */,
@@ -653,11 +672,13 @@
 				CB4447DE18D4F2A500F3854B /* knifeAndForkHighlighted@2x.png in Resources */,
 				CBD2875F1925B09400AA22C5 /* videoUnhighlighted@2x.png in Resources */,
 				CBE3D4F0189594B600BB0671 /* InfoPlist.strings in Resources */,
+				CB9F475A197627C5006CFE55 /* mapUnhighlighted@2x.png in Resources */,
 				CBA355B219737301005E6B29 /* alertIcon@2x.png in Resources */,
 				CB4447CF18D4165900F3854B /* filterIcon@2x.png in Resources */,
 				CB7C04E2189DA02F009CAD15 /* littleowl@2x.jpg in Resources */,
 				CB4447E018D4F2A500F3854B /* selectionsHighlighted@2x.png in Resources */,
 				CBE3D4F8189594B600BB0671 /* Images.xcassets in Resources */,
+				CB9F4758197627BE006CFE55 /* mapHighlighted@2x.png in Resources */,
 				CB4447D118D4176300F3854B /* filterIconSmall@2x.png in Resources */,
 				CB4447CD18D4116000F3854B /* leveredgeLogoHero@2x.png in Resources */,
 				CBD2875E1925B09400AA22C5 /* videoHighlighted@2x.png in Resources */,
@@ -735,6 +756,7 @@
 				CBE3D4F2189594B600BB0671 /* main.m in Sources */,
 				CB7C04FF18A08F72009CAD15 /* SDRUser.m in Sources */,
 				CB7C04E6189EC6FD009CAD15 /* SDRVendorChannel.m in Sources */,
+				CB9F475E197628B8006CFE55 /* SDRMapSearchViewController.m in Sources */,
 				CBD287621925B24F00AA22C5 /* SDRHotelsListViewController.m in Sources */,
 				CB7C04EE189ED32F009CAD15 /* SDRVendorStore.m in Sources */,
 				CB8B6D5618A6B1E100E63566 /* SDRLeveredgeButton.m in Sources */,

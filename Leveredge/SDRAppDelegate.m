@@ -8,6 +8,7 @@
 
 #import "SDRAppDelegate.h"
 #import "SDRLoginViewController.h"
+#import "SDRMapSearchViewController.h"
 #import "SDRVendorsListViewController.h"
 #import "SDRHotelsListViewController.h"
 #import "SDRSelectionsViewController.h"
@@ -57,17 +58,19 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-- (void)initializeNavigationController{
+- (void)initializeNavigationControllers{
+    SDRMapSearchViewController *mapSearchViewController = [SDRMapSearchViewController new];
     SDRVendorsListViewController *vendorsListViewController = [SDRVendorsListViewController new];
-    SDRHotelsListViewController *videosViewController = [SDRHotelsListViewController new];
+    SDRHotelsListViewController *hotelsListViewController = [SDRHotelsListViewController new];
     SDRSelectionsViewController *leveredgeSelectionsViewController = [SDRSelectionsViewController new];
 
+    UINavigationController *mapSearchViewNavController = [[UINavigationController alloc]initWithRootViewController:mapSearchViewController];
     UINavigationController *vendorsListViewNavController = [[UINavigationController alloc]initWithRootViewController:vendorsListViewController];
-    UINavigationController *videosListViewController = [[UINavigationController alloc] initWithRootViewController:videosViewController];
+    UINavigationController *videosListViewNavController = [[UINavigationController alloc] initWithRootViewController:hotelsListViewController];
     UINavigationController *leveredgeSelectionsViewNavController = [[UINavigationController alloc]initWithRootViewController:leveredgeSelectionsViewController];
 
     UITabBarController *leveredgeTabBarController = [UITabBarController new];
-    [leveredgeTabBarController setViewControllers:@[vendorsListViewNavController, videosListViewController, leveredgeSelectionsViewNavController]];
+    [leveredgeTabBarController setViewControllers:@[mapSearchViewNavController, vendorsListViewNavController, videosListViewNavController, leveredgeSelectionsViewNavController]];
     [self styleTabBar:leveredgeTabBarController.tabBar];
     
     [[self window] setRootViewController:leveredgeTabBarController];
@@ -76,8 +79,8 @@
 - (void)styleTabBar:(UITabBar *)tabBar {
     [[UITabBar appearance] setBarTintColor:kLeveredgeBlue];
     [[UITabBar appearance] setSelectedImageTintColor:kPureWhite];
-    NSArray *tabBarTitlesMap = @[@"Food", @"Hotels", @"Selections"];
-    NSArray *tabBarImagesMap = @[@"knifeAndFork", @"video", @"selections"];
+    NSArray *tabBarTitlesMap = @[@"Map", @"Food", @"Hotels", @"Selections"];
+    NSArray *tabBarImagesMap = @[@"map", @"knifeAndFork", @"video", @"selections"];
     
     [[tabBar items] enumerateObjectsUsingBlock:^(UITabBarItem *item, NSUInteger index, BOOL *stop){
         [self setTabItemImages:item withTitle:[tabBarTitlesMap objectAtIndex:index] andImageName:[tabBarImagesMap objectAtIndex:index]];

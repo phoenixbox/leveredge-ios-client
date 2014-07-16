@@ -126,7 +126,7 @@
     void(^completionBlock)(SDRUser *obj, NSError *err)=^(SDRUser *obj, NSError *err){
         if(!err){
             SDRAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-            [appDelegate initializeNavigationController];
+            [appDelegate initializeNavigationControllers];
         } else {
             [self renderErrorMessage:err];
             NSLog(@"Error point");
