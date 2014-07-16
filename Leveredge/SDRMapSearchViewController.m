@@ -12,9 +12,10 @@
 // Location Modules
 #import <MapKit/MapKit.h>
 
-@interface SDRMapSearchViewController () <MKMapViewDelegate>
+@interface SDRMapSearchViewController () <MKMapViewDelegate, CLLocationManagerDelegate>
 
 @property (nonatomic, strong) MKMapView *_vendorsMapView;
+@property (nonatomic, strong) CLLocationManager *_myLocationManager;
 @property (nonatomic) CGSize _searchViewSize;
 
 @end
@@ -78,6 +79,17 @@
 
     [self._vendorsMapView setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight];
     [self.view addSubview:self._vendorsMapView];
+}
+
+- (void)findOrRequestLocation {
+    if ([CLLocationManager locationServicesEnabled]) {
+        self._myLocationManager = [CLLocationManager new];
+        [self._myLocationManager setDelegate:self];
+        
+        [self._myLocationManager startUpdatingLocation];
+    } else {
+        NSLog(@"Ask the user to turn on location services");
+    }
 }
 
 - (void)didReceiveMemoryWarning
