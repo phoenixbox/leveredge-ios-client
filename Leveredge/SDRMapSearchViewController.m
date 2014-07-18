@@ -150,8 +150,14 @@
         [annotationView setCanShowCallout:YES];
     }
     
+    // Display Custom Image
+    UIImage *QLLogo = [UIImage imageNamed:@"qlLogoUnhighlighted"];
+    if (QLLogo != nil){
+        annotationView.image = QLLogo;
+    }
+    
     // Ensure the color of the pin matches the color of the annotation
-    annotationView.pinColor = senderAnnotation.pinColor;
+//    annotationView.pinColor = senderAnnotation.pinColor;
     
     result = annotationView;
     
