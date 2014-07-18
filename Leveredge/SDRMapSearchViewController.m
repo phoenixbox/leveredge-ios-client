@@ -99,6 +99,9 @@
     // We will geocode our restaurant pins and put them on them map later :)
     CLLocationCoordinate2D examplePin = CLLocationCoordinate2DMake(50.82191692907181, -0.13811767101287842);
     SDRMapAnnotation *exampleAnnotation = [[SDRMapAnnotation alloc]initWithCoordinates:examplePin title:@"First Pin" subtitle:@"Gonna be an iOS wizard"];
+    
+    exampleAnnotation.pinColor = MKPinAnnotationColorPurple;
+    
     [self._vendorsMapView addAnnotation:exampleAnnotation];
 }
 
@@ -117,6 +120,42 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (MKAnnotationView *)mapView:(MKMapView *)mapView
+            viewForAnnotation:(id <MKAnnotation>)annotation {
+    MKAnnotationView *result = nil;
+    
+    if([annotation isKindOfClass:[SDRMapAnnotation class]]==NO){
+        return result;
+    }
+ 
+    if ([mapView isEqual: self._vendorsMapView] == NO){
+        return result;
+    }
+    
+    // Typecast the annotation that the MapView has fired this delegate message
+    SDRMapAnnotation *senderAnnotation = (SDRMapAnnotation *)annotation;
+    
+    // Use the annotation class method to get the resusable identifier for the pin being created
+    NSString *reusablePinIdentifier = [SDRMapAnnotation reusableIdentifierforPinColor:senderAnnotation.pinColor];
+    
+    // Use this identifier as the reusable annotation identifier on the map view
+    MKPinAnnotationView *annotationView = (MKPinAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:reusablePinIdentifier];
+    
+    if(annotationView == nil){
+        annotationView = [[MKPinAnnotationView alloc]initWithAnnotation:senderAnnotation reuseIdentifier:reusablePinIdentifier];
+        
+        // Ensure we can see the callout for the pin
+        [annotationView setCanShowCallout:YES];
+    }
+    
+    // Ensure the color of the pin matches the color of the annotation
+    annotationView.pinColor = senderAnnotation.pinColor;
+    
+    result = annotationView;
+    
+    return result;
 }
 
 /*

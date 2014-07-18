@@ -8,6 +8,10 @@
 
 #import "SDRMapAnnotation.h"
 
+NSString *const kReusablePinRed = @"Red";
+NSString *const kReusablePinGreen = @"Green";
+NSString *const kReusablePinPurple = @"Purple";
+
 @implementation SDRMapAnnotation
 
 - (instancetype) initWithCoordinates:(CLLocationCoordinate2D)paramCoordinates
@@ -21,8 +25,30 @@
         _coordinate = paramCoordinates;
         _title = title;
         _subtitle = subtitle;
-    }
+        _pinColor = MKPinAnnotationColorPurple;
+    };
     return self;
+}
+
++ (NSString *) reusableIdentifierforPinColor:(MKPinAnnotationColor)paramColor {
+    NSString *result = nil;
+    
+    switch (paramColor) {
+        case MKPinAnnotationColorRed:{
+            result = kReusablePinRed;
+            break;
+        }
+        case MKPinAnnotationColorGreen:{
+            result = kReusablePinGreen;
+            break;
+        }
+        case MKPinAnnotationColorPurple:{
+            result = kReusablePinPurple;
+            break;
+        }
+    }
+    
+    return result;
 }
 
 @end

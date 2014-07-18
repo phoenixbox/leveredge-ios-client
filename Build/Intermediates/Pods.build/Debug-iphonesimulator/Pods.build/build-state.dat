@@ -39,6 +39,10 @@ c0000000053C5FECF0000000000000098
 t1405484751
 s152
 
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/StaticAnalyzer/Pods/Pods/normal/x86_64/Pods-dummy.plist
+t2
+s0
+
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a
 c0000000053C5FECF0000000000172698
 t1405484751
@@ -58,12 +62,21 @@ c000000005381AE5A0000000000000070
 t1401007706
 s112
 
+CAnalyze /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m
+s427355205.532990
+e427355206.329307
+r1
+xAnalyze
+x/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Analyze /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m20"Analyze Pods-dummy.m978f8845ec78b941^93525446ec78b941^---0#0#1#-19%DVTDocumentLocation2@86"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m0000000000000000^4140"Analyze Pods-dummy.m    cd /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__clang_analyzer__ -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-config -Xclang path-diagnostics-alternate=true -Xclang -analyzer-config -Xclang report-in-main-source-file=true -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork -mios-simulator-version-min=7.1 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/x86_64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphonesimulator -isystem /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods/Headers -isystem /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods/Headers/AFNetworking -isystem /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods/Headers/JSONModel --analyze /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/StaticAnalyzer/Pods/Pods/normal/x86_64/Pods-dummy.plist36"B04930DE-11D2-4C77-97EC-A34620388B35-
+bA0A5ECF0-BEB9-4189-97F8-44910042CC51
+
 CBuild AST from /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m
 r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa56b6a3ce478b941^7ff76a3ce478b941^---0#1#1#--18"Check dependencies36"44E385EB-1552-47C7-BFCE-8C1175FA0413-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4d0f1eb3ef78b941^874f1eb3ef78b941^---0#1#1#--18"Check dependencies36"AB475645-42CA-4985-84EE-11A9119EF273-
 
 CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427177551.984160
