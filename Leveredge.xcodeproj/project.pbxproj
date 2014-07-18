@@ -42,6 +42,7 @@
 		CB9F4758197627BE006CFE55 /* mapHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9F4757197627BE006CFE55 /* mapHighlighted@2x.png */; };
 		CB9F475A197627C5006CFE55 /* mapUnhighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9F4759197627C5006CFE55 /* mapUnhighlighted@2x.png */; };
 		CB9F475E197628B8006CFE55 /* SDRMapSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9F475D197628B8006CFE55 /* SDRMapSearchViewController.m */; };
+		CB9F47621978DFF8006CFE55 /* SDRMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9F47611978DFF8006CFE55 /* SDRMapAnnotation.m */; };
 		CBA355B219737301005E6B29 /* alertIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA355B119737301005E6B29 /* alertIcon@2x.png */; };
 		CBD2875E1925B09400AA22C5 /* videoHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD2875C1925B09400AA22C5 /* videoHighlighted@2x.png */; };
 		CBD2875F1925B09400AA22C5 /* videoUnhighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD2875D1925B09400AA22C5 /* videoUnhighlighted@2x.png */; };
@@ -136,6 +137,8 @@
 		CB9F4759197627C5006CFE55 /* mapUnhighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapUnhighlighted@2x.png"; sourceTree = "<group>"; };
 		CB9F475C197628B8006CFE55 /* SDRMapSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRMapSearchViewController.h; sourceTree = "<group>"; };
 		CB9F475D197628B8006CFE55 /* SDRMapSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRMapSearchViewController.m; sourceTree = "<group>"; };
+		CB9F47601978DFF8006CFE55 /* SDRMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRMapAnnotation.h; sourceTree = "<group>"; };
+		CB9F47611978DFF8006CFE55 /* SDRMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRMapAnnotation.m; sourceTree = "<group>"; };
 		CBA355B119737301005E6B29 /* alertIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertIcon@2x.png"; sourceTree = "<group>"; };
 		CBD2875C1925B09400AA22C5 /* videoHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoHighlighted@2x.png"; sourceTree = "<group>"; };
 		CBD2875D1925B09400AA22C5 /* videoUnhighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoUnhighlighted@2x.png"; sourceTree = "<group>"; };
@@ -258,6 +261,7 @@
 		CB7C04DB189D9ACE009CAD15 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				CB9F475F1978DFE6006CFE55 /* MapSearch */,
 				CBDADFFD1971EFCA007CA10F /* Selections */,
 				CBD28766192D984500AA22C5 /* Hotels */,
 				CB8B6D5318A6B1CA00E63566 /* Global */,
@@ -364,6 +368,15 @@
 			children = (
 				CB9F475C197628B8006CFE55 /* SDRMapSearchViewController.h */,
 				CB9F475D197628B8006CFE55 /* SDRMapSearchViewController.m */,
+			);
+			name = MapSearch;
+			sourceTree = "<group>";
+		};
+		CB9F475F1978DFE6006CFE55 /* MapSearch */ = {
+			isa = PBXGroup;
+			children = (
+				CB9F47601978DFF8006CFE55 /* SDRMapAnnotation.h */,
+				CB9F47611978DFF8006CFE55 /* SDRMapAnnotation.m */,
 			);
 			name = MapSearch;
 			sourceTree = "<group>";
@@ -752,6 +765,7 @@
 				CBD2876C192D9D7500AA22C5 /* SDRHotel.m in Sources */,
 				CB4447E618D4F9D000F3854B /* SDRFilterTableViewController.m in Sources */,
 				CBE3D5171895961300BB0671 /* SDRLoginViewController.m in Sources */,
+				CB9F47621978DFF8006CFE55 /* SDRMapAnnotation.m in Sources */,
 				CBDAE0001971EFFA007CA10F /* SDRSlideMenu.m in Sources */,
 				CBE3D4F2189594B600BB0671 /* main.m in Sources */,
 				CB7C04FF18A08F72009CAD15 /* SDRUser.m in Sources */,

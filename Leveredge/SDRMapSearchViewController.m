@@ -8,6 +8,7 @@
 
 #import "SDRMapSearchViewController.h"
 #import "SDRViewConstants.h"
+#import "SDRMapAnnotation.h"
 
 // Location Modules
 #import <MapKit/MapKit.h>
@@ -40,6 +41,8 @@
     [self initAppearance];
     [self addMapToView];
     [self findOrRequestLocation];
+    
+    [self addMapAnnotations];
 }
 
 - (void)initAppearance
@@ -90,6 +93,24 @@
     } else {
         NSLog(@"Ask the user to turn on location services");
     }
+}
+
+- (void)addMapAnnotations {
+    // We will geocode our restaurant pins and put them on them map later :)
+    CLLocationCoordinate2D examplePin = CLLocationCoordinate2DMake(50.82191692907181, -0.13811767101287842);
+    SDRMapAnnotation *exampleAnnotation = [[SDRMapAnnotation alloc]initWithCoordinates:examplePin title:@"First Pin" subtitle:@"Gonna be an iOS wizard"];
+    [self._vendorsMapView addAnnotation:exampleAnnotation];
+}
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
+    [locations enumerateObjectsUsingBlock:^(CLLocation *location, NSUInteger index, BOOL *stop){
+        NSLog(@"Latitude %f",location.coordinate.latitude);
+        NSLog(@"Latitude %f",location.coordinate.longitude);
+    }];
+}
+
+- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
+    NSLog(@"%@", error);
 }
 
 - (void)didReceiveMemoryWarning
