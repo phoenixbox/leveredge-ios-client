@@ -10,13 +10,17 @@
 #import "SDRViewConstants.h"
 #import "SDRMapAnnotation.h"
 
-// Location Modules
+// Map Module
 #import <MapKit/MapKit.h>
+// Location module
+#import <CoreLocation/CoreLocation.h>
+
 
 @interface SDRMapSearchViewController () <MKMapViewDelegate, CLLocationManagerDelegate>
 
 @property (nonatomic, strong) MKMapView *_vendorsMapView;
 @property (nonatomic, strong) CLLocationManager *_myLocationManager;
+@property (nonatomic, strong) CLGeocoder *_geocoder;
 @property (nonatomic) CGSize _searchViewSize;
 
 @end
@@ -43,6 +47,7 @@
     [self findOrRequestLocation];
     
     [self addMapAnnotations];
+    [self geoCodeHome];
 }
 
 - (void)initAppearance
@@ -103,6 +108,32 @@
     exampleAnnotation.pinColor = MKPinAnnotationColorPurple;
     
     [self._vendorsMapView addAnnotation:exampleAnnotation];
+}
+
+- (void)geoCodeHome{
+    NSString *home = @"1303 Alpine Ave, Boulder, CO 80304, USA";
+    self._geocoder = [CLGeocoder new];
+    
+    [self._geocoder geocodeAddressString:home completionHandler:^(NSArray *placemarks, NSError *error){
+        NSLog(@"Found %lu placemarks", (unsigned long)[placemarks count]);
+        // 3 scenarios - found placemarks - no placemarks - error
+        if([placemarks count]>0 && error == nil){
+            // Placemarks will have a CLLocation instance w/lat and longs attributes of float type
+            [placemarks enumerateObjectsUsingBlock:^(CLPlacemark *placemark, NSUInteger idx, BOOL *stop) {
+                float latitude = placemark.location.coordinate.latitude;
+                float longitude = placemark.location.coordinate.longitude;
+                
+                CLLocationCoordinate2D pin = CLLocationCoordinate2DMake(latitude,longitude);
+                SDRMapAnnotation *pinAnnotation = [[SDRMapAnnotation alloc]initWithCoordinates:pin title:@"Home" subtitle:@"Dublin"];
+                pinAnnotation.pinColor = MKPinAnnotationColorGreen;
+                [self._vendorsMapView addAnnotation:pinAnnotation];
+            }];
+        }else if ([placemarks count]==0 && error == nil){
+            NSLog(@"No placemarks match that geocode query address");
+        }else if (error != nil){
+            NSLog(@"An error has occurred: %@", error);
+        }
+    }];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
