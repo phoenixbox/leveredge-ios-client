@@ -24,6 +24,7 @@ cCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Obj
 cCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRHotel.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRHotel.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRFilterTableViewController.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRFilterTableViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRLoginViewController.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRLoginViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapAnnotation.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapAnnotation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRSlideMenu.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRSlideMenu.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/main.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRUser.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRUser.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -32,7 +33,6 @@ cCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Obj
 cCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRVendorStore.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRVendorStore.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRLeveredgeButton.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRLeveredgeButton.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapSearchViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapAnnotation.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapAnnotation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Leveredge normal arm64
 cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/leveredgeLogo@2x.png Leveredge/leveredgeLogo@2x.png
 cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/knifeAndForkUnhighlighted@2x.png Leveredge/knifeAndForkUnhighlighted@2x.png
@@ -40,12 +40,12 @@ cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products
 cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/knifeAndForkHighlighted@2x.png Leveredge/knifeAndForkHighlighted@2x.png
 cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/videoUnhighlighted@2x.png Leveredge/videoUnhighlighted@2x.png
 cCopyStringsFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/en.lproj/InfoPlist.strings Leveredge/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/qlLogoUnhighlighted@2x.png Leveredge/qlLogoUnhighlighted@2x.png
 cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/mapUnhighlighted@2x.png Leveredge/mapUnhighlighted@2x.png
 cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/alertIcon@2x.png Leveredge/alertIcon@2x.png
 cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/filterIcon@2x.png Leveredge/filterIcon@2x.png
 cCpResource Leveredge/littleowl@2x.jpg Build/Products/Debug-iphoneos/Leveredge.app/littleowl@2x.jpg
 cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/selectionsHighlighted@2x.png Leveredge/selectionsHighlighted@2x.png
-cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/qlLogoUnhighlighted@2x.png Leveredge/qlLogoUnhighlighted@2x.png
 cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/mapHighlighted@2x.png Leveredge/mapHighlighted@2x.png
 cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/filterIconSmall@2x.png Leveredge/filterIconSmall@2x.png
 cCopyPNGFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/leveredgeLogoHero@2x.png Leveredge/leveredgeLogoHero@2x.png
@@ -1227,8 +1227,8 @@ t1405817071
 s19688
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.o
-t1405817072
-s111612
+t1405817554
+s112272
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRSelectionsViewController.o
 t1405484899
@@ -1293,11 +1293,11 @@ t1405271036
 s117640
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app
-t1405817072
+t1405817555
 s884
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app.dSYM
-t1405485361
+t1405817072
 s102
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Info.plist
@@ -1305,8 +1305,8 @@ t1401007815
 s1481
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Leveredge
-t1405817072
-s2039824
+t1405817555
+s2039932
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/PkgInfo
 t1401007815
@@ -1579,6 +1579,11 @@ c0000000053C5F1D00000000000001B4A
 t1405481424
 s6986
 
+N/Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapAnnotation.h
+c0000000053C8B4B400000000000003F7
+t1405662388
+s1015
+
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapAnnotation.m
 c0000000053C8B7F5000000000000058A
 t1405663221
@@ -1590,9 +1595,9 @@ t1405482882
 s243
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapSearchViewController.m
-c0000000053CB108A00000000000027A3
-t1405816970
-s10147
+c0000000053CB12CD00000000000028B3
+t1405817549
+s10419
 
 N/Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRSelectionsViewController.h
 c0000000053C2AEA400000000000000F6
@@ -2480,16 +2485,16 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies46cef26e487bb941^9198086f487bb941^---0#1#1#--18"Check dependencies36"632775D5-71AB-41E6-BDB6-1B9A329BF4FA-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3a9663514a7bb941^ad34a5514a7bb941^---0#1#1#--18"Check dependencies36"587D084E-CABA-425B-8DCB-2E66D4AFCD3A-
 
 CCodeSign /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app
-s427509873.650798
-e427509874.011935
+s427510357.214878
+e427510357.575955
 r1
 xCodeSign
 x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"CodeSign Build/Products/Debug-iphoneos/Leveredge.app52"CodeSign Build/Products/Debug-iphoneos/Leveredge.app91d0a671487bb941^c30e0372487bb941^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/0000000000000000^1072"CodeSign Build/Products/Debug-iphoneos/Leveredge.app    cd /Users/shanerogers/projects/ios/Leveredge/ios_client    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Shane Rogers (AAA27M4R82)" and provisioning profile "iOS Team Provisioning Profile: *" (539048E1-1121-45F2-ACC3-5C12B19437FD)    /usr/bin/codesign --force --sign D397DAA71A2FCA96F32FBE2B5E549DB9A7BD854E --resource-rules=/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/ResourceRules.plist --entitlements /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Leveredge.xcent /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app36"823E46CF-DD56-4DE8-8115-250290326902-
-b041F8867-D5A5-488B-9A67-5BE8754852F8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"CodeSign Build/Products/Debug-iphoneos/Leveredge.app52"CodeSign Build/Products/Debug-iphoneos/Leveredge.appb41d37554a7bb941^3f7293554a7bb941^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/0000000000000000^1072"CodeSign Build/Products/Debug-iphoneos/Leveredge.app    cd /Users/shanerogers/projects/ios/Leveredge/ios_client    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Shane Rogers (AAA27M4R82)" and provisioning profile "iOS Team Provisioning Profile: *" (539048E1-1121-45F2-ACC3-5C12B19437FD)    /usr/bin/codesign --force --sign D397DAA71A2FCA96F32FBE2B5E549DB9A7BD854E --resource-rules=/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/ResourceRules.plist --entitlements /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Leveredge.xcent /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app36"EA38552F-5920-4030-BF62-AF1F39BFE8CD-
+b4E93A79E-51D1-47A5-A44D-C41DE9934D01
 
 CCodeSign /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/Leveredge.app
 s424157591.162940
@@ -3450,8 +3455,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile
 b041F8867-D5A5-488B-9A67-5BE8754852F8
 
 CCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapSearchViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s427509871.086318
-e427509872.014170
+s427510353.709932
+e427510354.699514
 r1
 xCompileC
 xBuild/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.o
@@ -3464,8 +3469,8 @@ d/Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapSearchView
 d/Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapSearchViewController.h
 d/Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRViewConstants.h
 d/Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapAnnotation.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapSearchViewController.m233"CompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.o Leveredge/SDRMapSearchViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler0b45166f487bb941^e8a00370487bb941^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapSearchViewController.m0000000000000000^4266"CompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.o Leveredge/SDRMapSearchViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Leveredge-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Leveredge-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Leveredge-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Leveredge-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/DerivedSources/arm64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos -F/Users/shanerogers/Downloads/Amazon/aws-ios-sdk-1.7.1 -isystem /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -isystem /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -isystem /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Leveredge-Prefix-dpeknrmgfbntordljzobiwnnnvfx/Leveredge-Prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapSearchViewController.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.o36"7E7300CE-A3E5-4A44-BB54-876296EBA0EA-
-b041F8867-D5A5-488B-9A67-5BE8754852F8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapSearchViewController.m233"CompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.o Leveredge/SDRMapSearchViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler6adab5514a7bb941^e013b3524a7bb941^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapSearchViewController.m0000000000000000^4266"CompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.o Leveredge/SDRMapSearchViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanerogers/projects/ios/Leveredge/ios_client    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/shanerogers/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Leveredge-generated-files.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Leveredge-own-target-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Leveredge-all-target-headers.hmap -iquote /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Leveredge-project-headers.hmap -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/include -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/DerivedSources/arm64 -I/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/DerivedSources -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos -F/Users/shanerogers/Downloads/Amazon/aws-ios-sdk-1.7.1 -isystem /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers -isystem /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/AFNetworking -isystem /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Headers/JSONModel -include /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/PrecompiledHeaders/Leveredge-Prefix-dpeknrmgfbntordljzobiwnnnvfx/Leveredge-Prefix.pch -MMD -MT dependencies -MF /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.d --serialize-diagnostics /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.dia -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Leveredge/SDRMapSearchViewController.m -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRMapSearchViewController.o36"B64271AA-1CCA-4603-84A3-BD987A9DF23F-
+b4E93A79E-51D1-47A5-A44D-C41DE9934D01
 
 CCompileC Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/SDRRoom.o /Users/shanerogers/projects/mule_moving/mule_ios_client/Leveredge/SDRRoom.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s424157588.005168
@@ -4641,14 +4646,14 @@ CCreateUniversalBinary /Users/shanerogers/projects/mule_moving/mule_ios_client/B
 r0
 
 CGenerateDSYMFile /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app.dSYM /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Leveredge
-s427509872.581761
-e427509872.800520
+s427510355.131756
+e427510355.318512
 r1
 xGenerateDSYMFile
 x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app.dSYM
 x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Leveredge
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Generate /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app.dSYM119"GenerateDSYMFile Build/Products/Debug-iphoneos/Leveredge.app.dSYM Build/Products/Debug-iphoneos/Leveredge.app/Leveredgedffe9470487bb941^b7f0cc70487bb941^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app.dSYM/0000000000000000^680"GenerateDSYMFile Build/Products/Debug-iphoneos/Leveredge.app.dSYM Build/Products/Debug-iphoneos/Leveredge.app/Leveredge    cd /Users/shanerogers/projects/ios/Leveredge/ios_client    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Leveredge -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app.dSYM36"8CB28541-D47D-454D-B213-29DAB9247D64-
-b041F8867-D5A5-488B-9A67-5BE8754852F8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Generate /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app.dSYM119"GenerateDSYMFile Build/Products/Debug-iphoneos/Leveredge.app.dSYM Build/Products/Debug-iphoneos/Leveredge.app/Leveredgedecb21534a7bb941^a88a51534a7bb941^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app.dSYM/0000000000000000^680"GenerateDSYMFile Build/Products/Debug-iphoneos/Leveredge.app.dSYM Build/Products/Debug-iphoneos/Leveredge.app/Leveredge    cd /Users/shanerogers/projects/ios/Leveredge/ios_client    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Leveredge -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app.dSYM36"61BC4456-8D02-462E-AF14-A8EA183EE997-
+b4E93A79E-51D1-47A5-A44D-C41DE9934D01
 
 CGenerateDSYMFile /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/Leveredge.app.dSYM /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Leveredge
 s424157593.374117
@@ -4670,8 +4675,8 @@ CLd /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Lev
 r0
 
 CLd /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Leveredge normal arm64
-s427509872.033141
-e427509872.492072
+s427510354.711194
+e427510355.117089
 r1
 xLd
 x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Leveredge
@@ -4736,7 +4741,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
@@ -4764,9 +4768,10 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Link /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Leveredge69"Ld Build/Products/Debug-iphoneos/Leveredge.app/Leveredge normal arm64a2980870487bb941^55fa7d70487bb941^---0#0#1#--1811"Ld Build/Products/Debug-iphoneos/Leveredge.app/Leveredge normal arm64    cd /Users/shanerogers/projects/ios/Leveredge/ios_client    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos -L/Users/shanerogers/projects/ios/TestFlightSDK -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos -F/Users/shanerogers/Downloads/Amazon/aws-ios-sdk-1.7.1 -filelist /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/Leveredge.LinkFileList -dead_strip -ObjC -framework CoreGraphics -framework MobileCoreServices -framework Security -framework SystemConfiguration -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework SystemConfiguration -framework AWSRuntime -framework AWSS3 -framework QuartzCore -framework MobileCoreServices -framework MediaPlayer -framework CoreMedia -framework AssetsLibrary -framework AVFoundation -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/Leveredge_dependency_info.dat -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Leveredge36"7887DD15-72A9-4332-8F96-940E9840066D-
-b041F8867-D5A5-488B-9A67-5BE8754852F8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Link /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Leveredge69"Ld Build/Products/Debug-iphoneos/Leveredge.app/Leveredge normal arm64ae2bb6524a7bb941^a9fa1d534a7bb941^---0#0#1#--1811"Ld Build/Products/Debug-iphoneos/Leveredge.app/Leveredge normal arm64    cd /Users/shanerogers/projects/ios/Leveredge/ios_client    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos -L/Users/shanerogers/projects/ios/TestFlightSDK -F/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos -F/Users/shanerogers/Downloads/Amazon/aws-ios-sdk-1.7.1 -filelist /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/Leveredge.LinkFileList -dead_strip -ObjC -framework CoreGraphics -framework MobileCoreServices -framework Security -framework SystemConfiguration -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework SystemConfiguration -framework AWSRuntime -framework AWSS3 -framework QuartzCore -framework MobileCoreServices -framework MediaPlayer -framework CoreMedia -framework AssetsLibrary -framework AVFoundation -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/Leveredge_dependency_info.dat -o /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Leveredge36"06A305DE-1349-47F0-ACAD-4E08E7F61453-
+b4E93A79E-51D1-47A5-A44D-C41DE9934D01
 
 CLd /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Objects-normal/arm64/Leveredge normal arm64
 r0
@@ -4871,14 +4876,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /
 b19DE9723-8FD0-40EB-9C94-6619C3806362
 
 CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-557687F3D3A146BE82D1DB90.sh
-s427509871.038441
-e427509871.063668
+s427510353.650133
+e427510353.682659
 r1
 xPhaseScriptExecution
 xCheck Pods Manifest.lock
 x/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-557687F3D3A146BE82D1DB90.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'149"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-557687F3D3A146BE82D1DB90.sh315f0a6f487bb941^cf4c106f487bb941^---0#0#1#--380"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-557687F3D3A146BE82D1DB90.sh    cd /Users/shanerogers/projects/ios/Leveredge/ios_client    /bin/sh -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-557687F3D3A146BE82D1DB90.sh36"13DEF69C-C9CB-451E-BA51-7A46FFB055B5-
-b041F8867-D5A5-488B-9A67-5BE8754852F8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'149"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-557687F3D3A146BE82D1DB90.sh423fa7514a7bb941^8cbdaf514a7bb941^---0#0#1#--380"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-557687F3D3A146BE82D1DB90.sh    cd /Users/shanerogers/projects/ios/Leveredge/ios_client    /bin/sh -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-557687F3D3A146BE82D1DB90.sh36"5205CAF3-1112-4E5B-9861-D8C7C0C5B062-
+b4E93A79E-51D1-47A5-A44D-C41DE9934D01
 
 CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-557687F3D3A146BE82D1DB90.sh
 s424159551.146962
@@ -4891,8 +4896,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run cus
 b43453141-5CAE-4F6F-859B-FD1F6DC318BF
 
 CPhaseScriptExecution Copy\ Pods\ Resources /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-D30A1FEE23A144DBA58F0187.sh
-s427509872.809961
-e427509873.637579
+s427510355.327534
+e427510357.201355
 r1
 xPhaseScriptExecution
 xCopy Pods Resources
@@ -4901,12 +4906,12 @@ obuilding file list ... done
 o
 osent 29 bytes  received 20 bytes  98.00 bytes/sec
 ototal size is 0  speedup is 0.00
-o2014-07-19 18:44:33.542 IBCocoaTouchImageCatalogTool[31704:303] CFPreferences: user home directory at file:///Users/shanerogers/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o2014-07-19 18:52:37.096 IBCocoaTouchImageCatalogTool[31799:303] CFPreferences: user home directory at file:///Users/shanerogers/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
 o/* com.apple.actool.compilation-results */
 o/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Assets.car
 o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'144"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-D30A1FEE23A144DBA58F0187.sh83dacf70487bb941^793aa371487bb941^-494"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.002014-07-19 18:44:33.542 IBCocoaTouchImageCatalogTool[31704:303] CFPreferences: user home directory at file:///Users/shanerogers/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Assets.car6(21%IDEActivityLogMessage2@28"building file list ... done-427509872#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-427509872#29#50#-0#-----2@33"total size is 0  speedup is 0.00-427509872#79#33#-0#-----2@230"2014-07-19 18:44:33.542 IBCocoaTouchImageCatalogTool[31704:303] CFPreferences: user home directory at file:///Users/shanerogers/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-427509873#112#230#-0#-----2@43"/* com.apple.actool.compilation-results */-427509873#342#43#-0#-----2@108"/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Assets.car-427509873#385#108#-0#-----0#0#1#--375"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-D30A1FEE23A144DBA58F0187.sh    cd /Users/shanerogers/projects/ios/Leveredge/ios_client    /bin/sh -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-D30A1FEE23A144DBA58F0187.sh36"2075D475-54CF-400A-B245-3E8305865296-
-b041F8867-D5A5-488B-9A67-5BE8754852F8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'144"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-D30A1FEE23A144DBA58F0187.sh54aa54534a7bb941^118c33554a7bb941^-494"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.002014-07-19 18:52:37.096 IBCocoaTouchImageCatalogTool[31799:303] CFPreferences: user home directory at file:///Users/shanerogers/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Assets.car6(21%IDEActivityLogMessage2@28"building file list ... done-427510355#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-427510355#29#50#-0#-----2@33"total size is 0  speedup is 0.00-427510355#79#33#-0#-----2@230"2014-07-19 18:52:37.096 IBCocoaTouchImageCatalogTool[31799:303] CFPreferences: user home directory at file:///Users/shanerogers/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-427510357#112#230#-0#-----2@43"/* com.apple.actool.compilation-results */-427510357#342#43#-0#-----2@108"/Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Products/Debug-iphoneos/Leveredge.app/Assets.car-427510357#385#108#-0#-----0#0#1#--375"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-D30A1FEE23A144DBA58F0187.sh    cd /Users/shanerogers/projects/ios/Leveredge/ios_client    /bin/sh -c /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-D30A1FEE23A144DBA58F0187.sh36"92713B0A-27DB-43E4-AC62-8678BEA8B212-
+b4E93A79E-51D1-47A5-A44D-C41DE9934D01
 
 CPhaseScriptExecution Copy\ Pods\ Resources /Users/shanerogers/projects/mule_moving/mule_ios_client/Build/Intermediates/Leveredge.build/Debug-iphoneos/Leveredge.build/Script-D30A1FEE23A144DBA58F0187.sh
 s424157593.540570

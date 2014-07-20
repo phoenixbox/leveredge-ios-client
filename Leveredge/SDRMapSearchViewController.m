@@ -86,6 +86,12 @@
     self._vendorsMapView.delegate = self;
 
     [self._vendorsMapView setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight];
+
+    // Set the initial zoom level
+    CLLocationCoordinate2D noLocation;
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(noLocation, 500, 500);
+    MKCoordinateRegion adjustedRegion = [self._vendorsMapView regionThatFits:viewRegion];
+    [self._vendorsMapView setRegion:adjustedRegion animated:YES];
     
     // Display the user
     self._vendorsMapView.showsUserLocation = YES;

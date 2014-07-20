@@ -94,7 +94,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1408ef6e487bb941^4085ef6e487bb941^---0#1#1#--18"Check dependencies36"B69AE8A0-B587-4584-9499-90E3315D83BF-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies800b5e514a7bb941^c02160514a7bb941^---0#1#1#--18"Check dependencies36"9DD63725-F65B-4958-A7BB-5A6371AE5285-
 
 CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0
