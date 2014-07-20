@@ -86,7 +86,58 @@
     self._vendorsMapView.delegate = self;
 
     [self._vendorsMapView setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight];
+    
+    // Display the user
+    self._vendorsMapView.showsUserLocation = YES;
+    // Enable tracking mode which overrides default and forces user to be at the center of the map
+    self._vendorsMapView.userTrackingMode = MKUserTrackingModeFollow;
+    
     [self.view addSubview:self._vendorsMapView];
+}
+
+- (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation {
+    MKLocalSearchRequest *request = [MKLocalSearchRequest new];
+    // Update this to use a search field
+    request.naturalLanguageQuery = @"Restaurants";
+    
+    MKCoordinateSpan mapSpan = MKCoordinateSpanMake(0.01,0.01);
+    request.region = MKCoordinateRegionMake(userLocation.location.coordinate, mapSpan);
+    
+    MKLocalSearch *search = [[MKLocalSearch alloc]initWithRequest:request];
+    
+    [search startWithCompletionHandler:^(MKLocalSearchResponse *response, NSError *error) {
+        if (error == nil){
+            for(MKMapItem *item in response.mapItems){
+                float latitude = item.placemark.location.coordinate.latitude;
+                float longitude = item.placemark.location.coordinate.longitude;
+                
+                CLLocationCoordinate2D pin = CLLocationCoordinate2DMake(latitude, longitude);
+                NSString *phoneAndSite = [NSString stringWithFormat:@"Phone: %@, Website: %@",item.phoneNumber, item.url];
+                SDRMapAnnotation *annotation = [[SDRMapAnnotation alloc]initWithCoordinates:pin title:item.name subtitle:phoneAndSite];
+                
+                annotation.pinColor = MKPinAnnotationColorPurple;
+                
+                [self._vendorsMapView addAnnotation:annotation];
+            }
+        } else if (error != nil){
+            NSString *errorMessage = [NSString stringWithFormat:@"An error occured with the search: %@", error];
+            [self errorAlert:errorMessage];
+        }
+    }];
+
+}
+
+- (void)mapView:(MKMapView *)mapView didFailToLocateUserWithError:(NSError *)error {
+    [self errorAlert:@"Could not get your location"];
+}
+
+- (void)errorAlert:(NSString *)errorMessage{
+    UIAlertView *alertView = [[UIAlertView alloc]
+                              initWithTitle:@"Failed"
+                              message:errorMessage
+                              delegate:nil cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil];
+    [alertView show];
 }
 
 - (void)findOrRequestLocation {
