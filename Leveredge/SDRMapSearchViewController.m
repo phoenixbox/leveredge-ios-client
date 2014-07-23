@@ -20,7 +20,10 @@
 
 @property (nonatomic, strong) MKMapView *_vendorsMapView;
 @property (nonatomic, strong) CLLocationManager *_myLocationManager;
+@property (nonatomic, strong) NSString *_home;
+@property (nonatomic, strong) NSString *_destination;
 @property (nonatomic, strong) CLGeocoder *_geocoder;
+
 @property (nonatomic) CGSize _searchViewSize;
 
 @end
@@ -32,6 +35,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self._home = @"1303 Alpine Ave, Boulder, CO 80304, USA";
+        self._destination = @"Pearl street mall, Boulder, Colorado";
     }
     return self;
 }
@@ -48,6 +53,7 @@
     
     [self addMapAnnotations];
     [self geoCodeHome];
+    [self geoCodeDirections];
 }
 
 - (void)initAppearance
@@ -168,10 +174,9 @@
 }
 
 - (void)geoCodeHome{
-    NSString *home = @"1303 Alpine Ave, Boulder, CO 80304, USA";
     self._geocoder = [CLGeocoder new];
     
-    [self._geocoder geocodeAddressString:home completionHandler:^(NSArray *placemarks, NSError *error){
+    [self._geocoder geocodeAddressString:self._home completionHandler:^(NSArray *placemarks, NSError *error){
         NSLog(@"Found %lu placemarks", (unsigned long)[placemarks count]);
         // 3 scenarios - found placemarks - no placemarks - error
         if([placemarks count]>0 && error == nil){
@@ -191,6 +196,34 @@
             NSLog(@"An error has occurred: %@", error);
         }
     }];
+}
+
+- (void)geoCodeDirections {
+    [self._geocoder geocodeAddressString:self._destination
+                       completionHandler:^(NSArray *placemarks, NSError *error) {
+//       if (error == nil){
+           MKDirectionsRequest *request = [MKDirectionsRequest new];
+           request.source = [MKMapItem mapItemForCurrentLocation];
+           
+           // Convert the core location placemark to a map kit placemark
+           CLPlacemark *destination = placemarks[0];
+           CLLocationCoordinate2D destinationCoordinate = destination.location.coordinate;
+           MKPlacemark *destinationPlacemark = [[MKPlacemark alloc]initWithCoordinate:destinationCoordinate addressDictionary:nil];
+           request.destination = [[MKMapItem alloc]initWithPlacemark:destinationPlacemark];
+           
+           // Interface for transport setting
+           request.transportType = MKDirectionsTransportTypeWalking;
+           
+           MKDirections *directions = [[MKDirections alloc]initWithRequest:request];
+           [directions calculateDirectionsWithCompletionHandler:^(MKDirectionsResponse *response, NSError *error) {
+               [MKMapItem openMapsWithItems:@[response.source, response.destination] launchOptions:@{MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeWalking}];
+           }];
+           
+//       } else if(error != nil){
+//           NSString *errorMessage = [NSString stringWithFormat:@"Geocode error: %@", error];
+//           [self errorAlert:errorMessage];
+//       };
+     }];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {

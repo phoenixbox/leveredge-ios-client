@@ -497,7 +497,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf8a552514a7bb941^e96554514a7bb941^---0#1#1#--18"Check dependencies36"B62536CE-FE31-4399-84F4-344B7C50590C-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies8603f193577bb941^2311f293577bb941^---0#1#1#--18"Check dependencies36"B55EEFB0-4BA3-450E-9C04-76FF4D5F9C5A-
 
 CCompileC /Users/shanerogers/projects/ios/Leveredge/ios_client/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JSONModel.build/Objects-normal/arm64/JSONAPI.o /Users/shanerogers/projects/ios/Leveredge/ios_client/Pods/JSONModel/JSONModel/JSONModelNetworking/JSONAPI.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s426963834.202940
